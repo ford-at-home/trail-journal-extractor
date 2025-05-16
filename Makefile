@@ -8,13 +8,22 @@ VENV = venv
 PYTHON = $(VENV)/bin/python
 PIP = $(VENV)/bin/pip
 
+# Directory setup
+TMP_DIR = tmp
+TEST_DATA_DIR = $(TMP_DIR)/test_data
+
 # File paths
 JOURNAL_FILE = journal_$(JOURNAL_ID).txt
 ENHANCED_FILE = journal_$(JOURNAL_ID)_enhanced.txt
 FACTS_FILE = journal_$(JOURNAL_ID)_facts.txt
-TEST_FILE = test_journal.txt
-TEST_ENHANCED = test_journal_enhanced.txt
-TEST_FACTS = test_journal_facts.txt
+TEST_FILE = $(TEST_DATA_DIR)/test_journal.txt
+TEST_ENHANCED = $(TEST_DATA_DIR)/test_journal_enhanced.txt
+TEST_FACTS = $(TEST_DATA_DIR)/test_journal_facts.txt
+PROGRESS_FILE = $(TEST_DATA_DIR)/journal_$(JOURNAL_ID).progress.json
+
+# Ensure directories exist
+$(TEST_DATA_DIR):
+	mkdir -p $(TEST_DATA_DIR)
 
 # Ensure virtual environment exists
 $(VENV)/bin/activate: requirements.txt
@@ -31,7 +40,7 @@ enhance: $(VENV)/bin/activate
 		echo "Error: $(JOURNAL_FILE) not found. Run 'make journal' first."; \
 		exit 1; \
 	fi
-	$(PYTHON) scripts/enhance_entries.py $(JOURNAL_FILE) --mode both
+	$(PYTHON) scripts/enhance_entries.py $(JOURNAL_FILE) --mode both --cache $(PROGRESS_FILE)
 
 # Enhance journal with trail facts
 facts: $(VENV)/bin/activate
@@ -42,11 +51,11 @@ facts: $(VENV)/bin/activate
 	$(PYTHON) scripts/enhance_entries.py $(JOURNAL_FILE) --mode facts
 
 # Test enhancement on a small sample file
-test-enhance: $(VENV)/bin/activate
+test-enhance: $(VENV)/bin/activate $(TEST_DATA_DIR)
 	@echo "Creating test journal file..."
 	@echo "# Thursday, February 07, 2010 — Hawk Mountain Shelter\n**Start Location:** Hike Inn\n**Miles Today:** 9\n**Trip Miles:** 9\n\nWe parted ways at 10:00am. My father and sister walked out the door like I've seen them do so many times this past month, but this time I wouldn't see them return that evening. This was different. It was hard saying goodbye at what I knew was an exit from their lives for the next six months...\n\n---\n\n# Friday, February 08, 2010 — Gooch Mountain Shelter\n**Start Location:** Hawk Mountain Shelter\n**Miles Today:** 14\n**Trip Miles:** 23\n\nI woke up at 8:30 and saw a huge red woodpecker which made me smile. By 9:15, I was on the trail strong and fast to my destination 20 miles away..." > $(TEST_FILE)
 	@echo "Running enhancement..."
-	$(PYTHON) scripts/enhance_entries.py $(TEST_FILE) --mode both --output $(TEST_ENHANCED)
+	$(PYTHON) scripts/enhance_entries.py $(TEST_FILE) --mode both --output $(TEST_ENHANCED) --cache $(TEST_DATA_DIR)/test.progress.json
 	@echo "\nEnhanced content:"
 	@cat $(TEST_ENHANCED)
 
@@ -74,8 +83,9 @@ test-integration: $(VENV)/bin/activate
 
 # Clean up generated files
 clean:
-	rm -f $(JOURNAL_FILE) $(ENHANCED_FILE) $(FACTS_FILE) $(TEST_FILE) $(TEST_ENHANCED) $(TEST_FACTS)
-	rm -f *.json  # Remove any cache files
+	rm -f $(JOURNAL_FILE) $(ENHANCED_FILE) $(FACTS_FILE)
+	rm -rf $(TMP_DIR)/*  # Remove all temporary and test files
+	@echo "Cleaned up all temporary and test files"
 
 # Help target
 help:

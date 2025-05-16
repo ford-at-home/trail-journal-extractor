@@ -172,3 +172,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+tmp/
+*.progress.json
+journal_*.txt
+journal_*_enhanced.txt
+journal_*_facts.txt
