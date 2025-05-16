@@ -22,60 +22,58 @@ This project was created to extract trail journals from TrailJournals.com, speci
    cd trail-journal-extractor
    ```
 
-2. Set up the virtual environment:
+2. Set up the virtual environment and install dependencies:
    ```bash
-   ./venv_up
+   make
    ```
+   This will create a virtual environment and install all required packages.
 
 ## Usage
 
-To extract a journal, run:
-```bash
-python scripts/extract_entries.py <journal_id>
-```
+The project includes a Makefile for common tasks. Run `make help` to see all available commands.
 
-For example:
-```bash
-python scripts/extract_entries.py 10467
-```
+### Basic Workflow
 
-The script will:
-1. Fetch all entries for the specified journal
-2. Extract the content and metadata
-3. Create a formatted text file named `journal_<id>.txt`
+1. Extract a journal:
+   ```bash
+   make journal JOURNAL_ID=10467
+   ```
+   This creates `journal_10467.txt` with the extracted entries.
 
-### Enhancing Journal Entries
+2. Enhance the journal with AI context:
+   ```bash
+   export AWS_REGION=us-east-1  # Required for Bedrock
+   make enhance
+   ```
+   This creates `journal_10467_enhanced.txt` with AI-generated trail context.
 
-To enhance a journal with AI-generated trail context, run:
-```bash
-python scripts/enhance_entries.py journal_<id>.txt
-```
+### Testing
 
-This will:
-1. Read the extracted journal
-2. For each entry, generate a brief description of the trail section using Claude via AWS Bedrock
-3. Add the context to each entry
-4. Create a new file named `journal_<id>_enhanced.txt`
+The project includes both unit tests and integration tests:
 
-Options:
-- `--output <file>`: Specify a custom output file
-- `--cache <file>`: Use a cache file to store API responses (recommended for large journals)
+- Run unit tests:
+  ```bash
+  make test
+  ```
 
-Note: You must have AWS credentials configured and access to Bedrock. The enhancement script will use the region and model ID specified in your environment, or default to `us-east-1` and Claude 3 Haiku.
+- Run integration tests (requires AWS credentials):
+  ```bash
+  export AWS_REGION=us-east-1
+  make test-integration
+  ```
 
-### Running Tests
+### AWS Setup
 
-To run the automated tests (including for the enhancement feature):
+To use the enhancement feature, you need:
 
-```bash
-pytest
-```
+1. AWS credentials configured (via environment variables or `~/.aws/credentials`):
+   ```bash
+   export AWS_REGION=us-east-1
+   export AWS_ACCESS_KEY_ID=your_access_key
+   export AWS_SECRET_ACCESS_KEY=your_secret_key
+   ```
 
-Or to run only the enhancement tests:
-
-```bash
-pytest tests/test_enhance_entries.py -v
-```
+2. Access to AWS Bedrock and the Claude model in your AWS account.
 
 ### Output Format
 
@@ -99,19 +97,6 @@ The project requires:
 - pytest (for testing)
 
 These are automatically installed when setting up the virtual environment.
-
-## AWS Setup & Environment Variables
-
-To use the enhancement feature, you must have:
-- An AWS account with access to Bedrock and the Claude model
-- AWS credentials configured (via environment variables, `~/.aws/credentials`, or IAM roles)
-
-You can set the AWS region and model ID (optional):
-
-```bash
-export AWS_REGION=us-east-1
-export BEDROCK_MODEL_ID=anthropic.claude-3-haiku-20240307-v1:0
-```
 
 ## Future Plans
 

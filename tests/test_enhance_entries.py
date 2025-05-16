@@ -5,17 +5,16 @@ import os
 
 def test_parse_entry_metadata():
     # Test parsing metadata from a journal entry
-    entry_text = """Date: 2024-03-15
-Destination: Springer Mountain
-Start Location: Amicalola Falls
-Miles Hiked: 8.8
-Total Trip Miles: 8.8
+    entry_text = """# Thursday, January 21, 2010 — Springer Mountain
+**Start Location:** Amicalola Falls
+**Miles Today:** 8.8
+**Trip Miles:** 8.8
 
 This was a great day on the trail..."""
     
     metadata = parse_entry_metadata(entry_text)
     assert metadata == {
-        'date': '2024-03-15',
+        'date': '2010-01-21',
         'destination': 'Springer Mountain',
         'start_location': 'Amicalola Falls',
         'miles_hiked': 8.8,
@@ -28,21 +27,19 @@ def test_enhance_journal_bedrock(tmp_path):
     output_file = tmp_path / "enhanced_journal.txt"
     
     # Create a sample journal entry
-    input_file.write_text("""Date: 2024-03-15
-Destination: Springer Mountain
-Start Location: Amicalola Falls
-Miles Hiked: 8.8
-Total Trip Miles: 8.8
+    input_file.write_text("""# Thursday, January 21, 2010 — Springer Mountain
+**Start Location:** Amicalola Falls
+**Miles Today:** 8.8
+**Trip Miles:** 8.8
 
 This was a great day on the trail...
 
 ---
 
-Date: 2024-03-16
-Destination: Hawk Mountain
-Start Location: Springer Mountain
-Miles Hiked: 7.6
-Total Trip Miles: 16.4
+# Friday, January 22, 2010 — Hawk Mountain
+**Start Location:** Springer Mountain
+**Miles Today:** 7.6
+**Trip Miles:** 16.4
 
 Another beautiful day...""")
     
@@ -65,11 +62,10 @@ def test_enhance_journal_handles_bedrock_errors(tmp_path):
     input_file = tmp_path / "test_journal.txt"
     output_file = tmp_path / "enhanced_journal.txt"
     
-    input_file.write_text("""Date: 2024-03-15
-Destination: Springer Mountain
-Start Location: Amicalola Falls
-Miles Hiked: 8.8
-Total Trip Miles: 8.8
+    input_file.write_text("""# Thursday, January 21, 2010 — Springer Mountain
+**Start Location:** Amicalola Falls
+**Miles Today:** 8.8
+**Trip Miles:** 8.8
 
 This was a great day on the trail...""")
     
@@ -82,7 +78,7 @@ This was a great day on the trail...""")
     # Should still have the original content
     enhanced_content = output_file.read_text()
     assert "This was a great day on the trail" in enhanced_content
-    assert "Bedrock API Error" not in enhanced_content 
+    assert "Bedrock API Error" not in enhanced_content
 
 @pytest.mark.integration
 @pytest.mark.skipif(
@@ -95,11 +91,10 @@ def test_enhance_journal_bedrock_integration(tmp_path):
     input_file = tmp_path / "test_journal.txt"
     output_file = tmp_path / "enhanced_journal.txt"
 
-    input_file.write_text("""Date: 2024-03-15
-Destination: Springer Mountain
-Start Location: Amicalola Falls
-Miles Hiked: 8.8
-Total Trip Miles: 8.8
+    input_file.write_text("""# Thursday, January 21, 2010 — Springer Mountain
+**Start Location:** Amicalola Falls
+**Miles Today:** 8.8
+**Trip Miles:** 8.8
 
 This was a great day on the trail...""")
 

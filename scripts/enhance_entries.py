@@ -10,22 +10,27 @@ def parse_entry_metadata(entry_text: str) -> Dict:
     """Extract metadata from a journal entry."""
     metadata = {}
     
-    # Extract date
-    date_match = re.search(r'Date: (\d{4}-\d{2}-\d{2})', entry_text)
-    if date_match:
-        metadata['date'] = date_match.group(1)
+    # Extract date and destination from header
+    header_match = re.search(r'# (.*?) — (.*?)$', entry_text, re.MULTILINE)
+    if header_match:
+        date_str = header_match.group(1).strip()
+        metadata['destination'] = header_match.group(2).strip()
+        # Convert date from "Thursday, January 21, 2010" to "2010-01-21"
+        try:
+            from datetime import datetime
+            date_obj = datetime.strptime(date_str, "%A, %B %d, %Y")
+            metadata['date'] = date_obj.strftime("%Y-%m-%d")
+        except ValueError:
+            print(f"Warning: Could not parse date '{date_str}'")
     
-    # Extract destination and start location
-    dest_match = re.search(r'Destination: (.*?)$', entry_text, re.MULTILINE)
-    start_match = re.search(r'Start Location: (.*?)$', entry_text, re.MULTILINE)
-    if dest_match:
-        metadata['destination'] = dest_match.group(1).strip()
+    # Extract start location
+    start_match = re.search(r'\*\*Start Location:\*\* (.*?)$', entry_text, re.MULTILINE)
     if start_match:
         metadata['start_location'] = start_match.group(1).strip()
     
     # Extract miles
-    miles_match = re.search(r'Miles Hiked: ([\d.]+)', entry_text)
-    total_match = re.search(r'Total Trip Miles: ([\d.]+)', entry_text)
+    miles_match = re.search(r'\*\*Miles Today:\*\* ([\d.]+)', entry_text)
+    total_match = re.search(r'\*\*Trip Miles:\*\* ([\d.]+)', entry_text)
     if miles_match:
         metadata['miles_hiked'] = float(miles_match.group(1))
     if total_match:
@@ -35,19 +40,21 @@ def parse_entry_metadata(entry_text: str) -> Dict:
 
 def get_trail_context_bedrock(metadata: Dict, client, model_id: str) -> str:
     """Get AI-generated context about the trail section using AWS Bedrock."""
-    prompt = f"""Given the following hiking information, provide a brief paragraph (2-3 sentences) describing what this section of the Appalachian Trail might have been like on {metadata['date']}:
+    prompt = f"""
+    
+You are an experienced and opinionated Appalachian Trail guru.
+Given the following hiking information, provide a brief paragraph (2-3 sentences) describing what this section of the Appalachian Trail might have been like on {metadata['date']}:
 
 Start Location: {metadata['start_location']}
 Destination: {metadata['destination']}
 Miles Hiked: {metadata['miles_hiked']}
 Total Trip Miles: {metadata['total_miles']}
 
-Focus on:
-1. Typical terrain and features of this section
-2. What the weather and conditions might have been like at this time of year
-3. Any notable landmarks or challenges in this section
+Focus on what would a northbound AT thru-huker have seen, smelled, heard, felt, experienced?
 
-Keep the response concise and factual."""
+2. Otherwise, what's interesting/memorable about this hiking trail section?
+
+Keep the response concise & factual with a touch of poetry."""
     
     conversation = [
         {
