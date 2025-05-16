@@ -1,43 +1,106 @@
-# trail-journal-extractor
-Extract trail journals from TrailJournals.com.
+# Trail Journal Extractor
 
-My end goal is to produce some kind of hardcover book containing some of these memories, but for now I'm just trying to pull them all out in narrative form. The backstory on this is an AT thru-hike I completed in 2010. I'd like to someone be able to read these to my children, spruce them up, find art to go with the entries, or otherwise bring them into a format that's more digestable than this website. 
+A Python tool for extracting and formatting trail journals from TrailJournals.com into a single, readable text file.
 
-Technical specs:
-* journals are all on easy to fetch URL's that appear hardcoded on my profile, making for easy bs4 slurping
-* with that, I just have a simple data rendering problem and this project should be done in a few minutes.
-* once I get my journals in Python object, it's time for me to render them into 1 big block with headers, maybe break it up into chapters.
-* I'm thinking about getting LLM's involved somehow, but we'll leave that out for now also.
-* ideally, I could somehow output these into a project file format used by a book publisher of some kind.
-* I'm also going to go in and edit some of these to add details I may have left out, which will require me to just do a little memory lane walking.
+## Project Overview
 
-Side note: huge shout out to the maintainers of TrailJournals.com for holding onto all of these journal entries for me!
+This project was created to extract trail journals from TrailJournals.com, specifically focusing on an AT (Appalachian Trail) thru-hike from 2010. The goal is to transform these online journal entries into a format suitable for creating a hardcover book, making the memories more accessible and presentable.
 
----
-## Setting up the Virtual Environment
+### Features
 
-This project uses a Python virtual environment to manage dependencies.
+- Extracts journal entries from TrailJournals.com
+- Preserves entry metadata (date, location, miles)
+- Formats entries into a clean, readable text file
+- Handles rate limiting to be respectful to the server
+- Includes error handling for failed requests
 
-**To set up and activate the virtual environment:**
+## Installation
 
-1.  Run the command: `venv_up`
-2.  This script will:
-    * Create a virtual environment named `venv` if it doesn't exist.
-    * Activate the virtual environment.
-    * Create an empty `requirements.txt` file if it doesn't exist.
-    * Install dependencies listed in `requirements.txt` using `pip3 install -r requirements.txt`.
-    * Ensure the `venv` directory is excluded from Git tracking by adding it to `.gitignore`.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/ford-at-home/trail-journal-extractor.git
+   cd trail-journal-extractor
+   ```
 
-**Managing Dependencies:**
+2. Set up the virtual environment:
+   ```bash
+   ./venv_up
+   ```
 
-* List your project dependencies in the `requirements.txt` file (one package per line).
-* Install dependencies using: `pip install -r requirements.txt` (this is automatically run by `venv_up` after activation if the file is not empty).
-* To add new dependencies, install them with pip while the virtual environment is active and then update `requirements.txt` using: `pip freeze > requirements.txt`
+## Usage
 
-**Deactivating the Virtual Environment:**
+To extract a journal, run:
+```bash
+python scripts/extract_entries.py <journal_id>
+```
 
-* To exit the virtual environment, run the command: `deactivate`
+For example:
+```bash
+python scripts/extract_entries.py 10467
+```
 
-**Excluding from Git:**
+The script will:
+1. Fetch all entries for the specified journal
+2. Extract the content and metadata
+3. Create a formatted text file named `journal_<id>.txt`
 
-* The `venv` directory is automatically added to `.gitignore` to prevent committing environment-specific files.
+### Enhancing Journal Entries
+
+To enhance a journal with AI-generated trail context, run:
+```bash
+python scripts/enhance_entries.py journal_<id>.txt
+```
+
+This will:
+1. Read the extracted journal
+2. For each entry, generate a brief description of the trail section using Claude AI
+3. Add the context to each entry
+4. Create a new file named `journal_<id>_enhanced.txt`
+
+Options:
+- `--output <file>`: Specify a custom output file
+- `--cache <file>`: Use a cache file to store API responses (recommended for large journals)
+
+Note: You'll need to set the `ANTHROPIC_API_KEY` environment variable with your Claude API key.
+
+### Output Format
+
+Each entry in the output file includes:
+- Date and destination as a header
+- Start location
+- Miles hiked that day
+- Total trip miles
+- The full entry text
+- A separator line between entries
+
+## Dependencies
+
+The project requires:
+- Python 3.x
+- requests
+- beautifulsoup4
+- mutagen
+
+These are automatically installed when setting up the virtual environment.
+
+## Future Plans
+
+- [ ] Add support for image extraction
+- [ ] Implement different output formats (e.g., PDF, EPUB)
+- [ ] Add progress saving/resume capability
+- [ ] Integrate with LLMs for content enhancement
+- [ ] Create a book publisher-compatible output format
+- [ ] Add support for manual entry editing
+- [ ] Implement automated testing
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the terms of the included LICENSE file.
+
+## Acknowledgments
+
+Special thanks to the maintainers of TrailJournals.com for preserving these valuable memories and making them accessible through their platform.
