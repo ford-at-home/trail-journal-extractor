@@ -53,7 +53,7 @@ python scripts/enhance_entries.py journal_<id>.txt
 
 This will:
 1. Read the extracted journal
-2. For each entry, generate a brief description of the trail section using Claude AI
+2. For each entry, generate a brief description of the trail section using Claude via AWS Bedrock
 3. Add the context to each entry
 4. Create a new file named `journal_<id>_enhanced.txt`
 
@@ -61,7 +61,21 @@ Options:
 - `--output <file>`: Specify a custom output file
 - `--cache <file>`: Use a cache file to store API responses (recommended for large journals)
 
-Note: You'll need to set the `ANTHROPIC_API_KEY` environment variable with your Claude API key.
+Note: You must have AWS credentials configured and access to Bedrock. The enhancement script will use the region and model ID specified in your environment, or default to `us-east-1` and Claude 3 Haiku.
+
+### Running Tests
+
+To run the automated tests (including for the enhancement feature):
+
+```bash
+pytest
+```
+
+Or to run only the enhancement tests:
+
+```bash
+pytest tests/test_enhance_entries.py -v
+```
 
 ### Output Format
 
@@ -80,8 +94,24 @@ The project requires:
 - requests
 - beautifulsoup4
 - mutagen
+- boto3 (for AWS Bedrock)
+- botocore (for AWS Bedrock)
+- pytest (for testing)
 
 These are automatically installed when setting up the virtual environment.
+
+## AWS Setup & Environment Variables
+
+To use the enhancement feature, you must have:
+- An AWS account with access to Bedrock and the Claude model
+- AWS credentials configured (via environment variables, `~/.aws/credentials`, or IAM roles)
+
+You can set the AWS region and model ID (optional):
+
+```bash
+export AWS_REGION=us-east-1
+export BEDROCK_MODEL_ID=anthropic.claude-3-haiku-20240307-v1:0
+```
 
 ## Future Plans
 

@@ -1,10 +1,10 @@
 import re
 from pathlib import Path
 from typing import Dict, Callable, Optional
-import anthropic
-from datetime import datetime
 import json
 import time
+import boto3
+from botocore.exceptions import ClientError
 
 def parse_entry_metadata(entry_text: str) -> Dict:
     """Extract metadata from a journal entry."""
@@ -33,8 +33,8 @@ def parse_entry_metadata(entry_text: str) -> Dict:
     
     return metadata
 
-def get_trail_context(metadata: Dict, client: anthropic.Client) -> str:
-    """Get AI-generated context about the trail section."""
+def get_trail_context_bedrock(metadata: Dict, client, model_id: str) -> str:
+    """Get AI-generated context about the trail section using AWS Bedrock."""
     prompt = f"""Given the following hiking information, provide a brief paragraph (2-3 sentences) describing what this section of the Appalachian Trail might have been like on {metadata['date']}:
 
 Start Location: {metadata['start_location']}
@@ -49,33 +49,37 @@ Focus on:
 
 Keep the response concise and factual."""
     
+    conversation = [
+        {
+            "role": "user",
+            "content": [{"text": prompt}],
+        }
+    ]
     try:
-        response = client.messages.create(
-            model="claude-3-sonnet-20240229",
-            max_tokens=150,
-            temperature=0.7,
-            system="You are a helpful assistant that provides factual information about the Appalachian Trail.",
-            messages=[{"role": "user", "content": prompt}]
+        response = client.converse(
+            modelId=model_id,
+            messages=conversation,
+            inferenceConfig={"maxTokens": 150, "temperature": 0.7, "topP": 0.9},
         )
-        return response.content[0].text
-    except Exception as e:
-        print(f"Error getting trail context: {e}")
+        return response["output"]["message"]["content"][0]["text"]
+    except (ClientError, Exception) as e:
+        print(f"ERROR: Can't invoke '{model_id}'. Reason: {e}")
         return ""
 
 def enhance_journal(
     input_file: Path,
     output_file: Path,
-    claude_client: Optional[Callable] = None,
+    bedrock_client: Optional[Callable] = None,
     cache_file: Optional[Path] = None
 ) -> None:
-    """Enhance a journal with AI-generated trail context."""
-    # Initialize Claude client if not provided
-    if claude_client is None:
-        api_key = os.getenv('ANTHROPIC_API_KEY')
-        if not api_key:
-            raise ValueError("ANTHROPIC_API_KEY environment variable not set")
-        client = anthropic.Client(api_key=api_key)
-        claude_client = lambda metadata: get_trail_context(metadata, client)
+    """Enhance a journal with AI-generated trail context using AWS Bedrock."""
+    # Initialize Bedrock client if not provided
+    if bedrock_client is None:
+        import os
+        region = os.getenv("AWS_REGION", "us-east-1")
+        model_id = os.getenv("BEDROCK_MODEL_ID", "anthropic.claude-3-haiku-20240307-v1:0")
+        client = boto3.client("bedrock-runtime", region_name=region)
+        bedrock_client = lambda metadata: get_trail_context_bedrock(metadata, client, model_id)
     
     # Load cache if provided
     cache = {}
@@ -106,11 +110,15 @@ def enhance_journal(
         if cache_key in cache:
             context = cache[cache_key]
         else:
-            context = claude_client(metadata)
-            if context:
-                cache[cache_key] = context
-                if cache_file:
-                    cache_file.write_text(json.dumps(cache, indent=2))
+            try:
+                context = bedrock_client(metadata)
+                if context:
+                    cache[cache_key] = context
+                    if cache_file:
+                        cache_file.write_text(json.dumps(cache, indent=2))
+            except Exception as e:
+                print(f"Error getting trail context: {e}")
+                context = ""
             time.sleep(1)  # Rate limiting
         
         # Add context to entry
@@ -125,10 +133,9 @@ def enhance_journal(
     output_file.write_text('\n---\n'.join(enhanced_entries))
 
 if __name__ == '__main__':
-    import os
     import argparse
     
-    parser = argparse.ArgumentParser(description='Enhance a trail journal with AI-generated context')
+    parser = argparse.ArgumentParser(description='Enhance a trail journal with AI-generated context using AWS Bedrock')
     parser.add_argument('input_file', type=Path, help='Path to the input journal file')
     parser.add_argument('--output', type=Path, help='Path to the output file (default: input_file_enhanced.txt)')
     parser.add_argument('--cache', type=Path, help='Path to cache file for API responses')
