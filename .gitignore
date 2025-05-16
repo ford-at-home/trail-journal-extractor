@@ -180,8 +180,11 @@ cython_debug/
 *.swo
 
 # Project specific
-tmp/
-*.progress.json
+# Ignore generated test files but keep test scripts
+tests/*.txt
+tests/*.json
+tests/*.progress.json
+# Ignore journal files
 journal_*.txt
 journal_*_enhanced.txt
 journal_*_facts.txt
