@@ -20,12 +20,18 @@ destination: Hawk Mountain Shelter
 miles_today: 9.0
 trip_miles: 9.0
 facts:
-  weather: High 40°F, low 23°F. Slight snow.
-  trail_section: Northern Georgia approach to Springer...
-  town_events: null
+  segment: Smokies exit to Hot Springs
+  at_mile_start: 263.3
+  at_mile_end: 274.8
+  region: Tennessee / North Carolina
+  weather: High 44°F, low 23°F. Overcast.
+  trail_section: >
+    Smokies exit to Hot Springs (AT miles 263–275): Northbound hikers leave
+    the Smokies at Davenport Gap and cross into balds-and-river country.
+    Post-Smokies fatigue is common; Max Patch bald offers huge views.
   confidence: high
   sources:
-    - AT location database
+    - AT segment guide
     - Open-Meteo archive
 ---
 ```
