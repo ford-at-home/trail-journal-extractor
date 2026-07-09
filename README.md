@@ -100,6 +100,7 @@ These are automatically installed when setting up the virtual environment.
 
 ## Future Plans
 
+- [x] Add support for YAML frontmatter facts enrichment (see `examples/uncle-frank/`)
 - [ ] Add support for image extraction
 - [ ] Implement different output formats (e.g., PDF, EPUB)
 - [ ] Add progress saving/resume capability

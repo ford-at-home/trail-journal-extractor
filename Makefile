@@ -1,4 +1,4 @@
-.PHONY: journal enhance test test-integration clean test-enhance facts test-facts enrich-facts
+.PHONY: journal enhance test test-integration clean test-enhance facts test-facts enrich-facts uncle-frank uncle-frank-facts
 
 # Default journal ID - can be overridden: make journal JOURNAL_ID=12345
 JOURNAL_ID ?= 10467
@@ -7,6 +7,12 @@ JOURNAL_ID ?= 10467
 VENV = venv
 PYTHON = $(VENV)/bin/python
 PIP = $(VENV)/bin/pip
+
+# Uncle Frank example (journal 10467)
+UNCLE_FRANK_DIR = examples/uncle-frank
+UNCLE_FRANK_JOURNAL = $(UNCLE_FRANK_DIR)/journal.txt
+UNCLE_FRANK_FACTS = $(UNCLE_FRANK_DIR)/journal_facts.txt
+UNCLE_FRANK_CACHE = $(UNCLE_FRANK_DIR)/cache/facts
 
 # File paths
 JOURNAL_FILE = journal_$(JOURNAL_ID).txt
@@ -66,6 +72,21 @@ enrich-facts: $(VENV)/bin/activate
 		exit 1; \
 	fi
 	$(PYTHON) scripts/enrich_facts.py $(JOURNAL_FILE) --output journal_$(JOURNAL_ID)_facts.txt --cache cache/facts --limit 10
+
+# Extract and enrich the Uncle Frank example journal (full run)
+uncle-frank:
+	@mkdir -p $(UNCLE_FRANK_DIR)
+	PYTHONPATH=. python3 scripts/extract_journal_firecrawl.py 10467 -o $(UNCLE_FRANK_JOURNAL) --workers 8
+
+uncle-frank-facts:
+	@if [ ! -f "$(UNCLE_FRANK_JOURNAL)" ]; then \
+		echo "Error: $(UNCLE_FRANK_JOURNAL) not found. Run 'make uncle-frank' first."; \
+		exit 1; \
+	fi
+	PYTHONPATH=. python3 scripts/enrich_facts.py $(UNCLE_FRANK_JOURNAL) \
+		--output $(UNCLE_FRANK_FACTS) \
+		--cache $(UNCLE_FRANK_CACHE) \
+		--use-firecrawl
 
 # Run all tests except integration
 test: $(VENV)/bin/activate

@@ -17,7 +17,9 @@ def _load_locations() -> list:
 
 
 def normalize_name(name: str) -> str:
-    """Lowercase, strip parentheticals, and collapse whitespace."""
+    """Lowercase, strip markdown/asterisks, parentheticals, and collapse whitespace."""
+    name = re.sub(r"^\*+\s*", "", name)
+    name = re.sub(r"\s*\*+$", "", name)
     # Remove parenthetical suffixes like "(Helen, GA)"
     name = re.sub(r"\s*\(.*?\)", "", name)
     return name.lower().strip()

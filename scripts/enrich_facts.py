@@ -46,10 +46,14 @@ def main() -> int:
         help="1-based entry index to start from (default: 1).",
     )
     parser.add_argument(
+        "--use-firecrawl",
+        action="store_true",
+        help="Enable firecrawl for town event searches on town days",
+    )
+    parser.add_argument(
         "--skip-firecrawl",
         action="store_true",
-        default=True,
-        help="Skip optional firecrawl validation (default: True for pilot).",
+        help="Deprecated: firecrawl is off by default; use --use-firecrawl to enable",
     )
 
     args = parser.parse_args()
@@ -76,6 +80,7 @@ def main() -> int:
             cache_dir=args.cache,
             limit=args.limit,
             start=args.start,
+            use_firecrawl=args.use_firecrawl,
         )
     except Exception as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

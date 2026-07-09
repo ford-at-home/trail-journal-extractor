@@ -212,6 +212,7 @@ def enrich_journal(
     cache_dir,
     limit: Optional[int] = None,
     start: int = 1,
+    use_firecrawl: bool = False,
 ) -> None:
     """Enrich all entries in a journal file with YAML frontmatter.
 
@@ -255,7 +256,9 @@ def enrich_journal(
             continue
 
         try:
-            result = enrich_entry(metadata, entry_stripped, cache_dir)
+            result = enrich_entry(
+                metadata, entry_stripped, cache_dir, skip_firecrawl=not use_firecrawl
+            )
             enriched.append(result)
         except Exception as exc:
             # Never drop an entry on error; preserve original text
