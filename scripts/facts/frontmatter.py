@@ -97,20 +97,57 @@ def _frontmatter_data_to_dict(fm: FrontmatterData) -> dict:
     return result
 
 
+def _confidence_label(score: float) -> str:
+    if score >= 0.8:
+        return "high"
+    if score >= 0.5:
+        return "medium"
+    return "low"
+
+
+def _trail_section_text(compiled: CompiledFacts) -> Optional[str]:
+    ts = compiled.trail_section
+    if not ts:
+        return None
+    if ts.claims:
+        return " ".join(c.text for c in ts.claims)
+    return ts.trail_section_summary or None
+
+
 def build_frontmatter(metadata, compiled: CompiledFacts) -> str:
     """Return a YAML frontmatter block (including --- delimiters) for an entry."""
     import yaml
 
-    fm_data = _to_frontmatter_data(metadata, compiled)
-    data_dict = _frontmatter_data_to_dict(fm_data)
+    date = _get_attr(metadata, "date") or ""
+    start_location = _get_attr(metadata, "start_location") or ""
+    destination = _get_attr(metadata, "destination") or ""
+    miles_hiked = float(_get_attr(metadata, "miles_hiked") or 0.0)
+    total_miles = float(_get_attr(metadata, "total_miles") or 0.0)
 
-    # Also include the formatted weather string for human readability
-    weather_str = format_weather_str(compiled.weather)
-    if weather_str:
-        data_dict["weather_summary"] = weather_str
+    weather_summary = format_weather_str(compiled.weather) or None
+    trail_section = _trail_section_text(compiled)
+    town_events = None
+    if compiled.town_events and compiled.town_events.event:
+        town_events = compiled.town_events.event
 
-    # Include confidence score
-    data_dict["facts_confidence"] = round(compiled.confidence, 2)
+    data_dict = {
+        "date": date,
+        "start": start_location,
+        "destination": destination,
+        "miles_today": miles_hiked,
+        "trip_miles": total_miles,
+        "facts": {
+            "weather": weather_summary,
+            "trail_section": trail_section,
+            "town_events": town_events,
+            "confidence": _confidence_label(compiled.confidence),
+            "sources": compiled.sources or None,
+        },
+    }
+
+    # Drop empty facts keys
+    facts = data_dict["facts"]
+    data_dict["facts"] = {k: v for k, v in facts.items() if v is not None}
 
     yaml_str = yaml.safe_dump(
         data_dict,

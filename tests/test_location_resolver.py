@@ -100,19 +100,19 @@ class TestIsTownDay:
         meta = self._make_metadata(destination="EconoLodge Motel (Helen, GA)")
         assert is_town_day(meta) is True
 
-    def test_hostel_in_destination(self):
+    def test_hostel_trail_lodge_not_town(self):
         meta = self._make_metadata(destination="Neel Gap Hostel")
-        assert is_town_day(meta) is True
+        assert is_town_day(meta) is False
 
-    def test_inn_in_destination(self):
+    def test_inn_trail_lodge_not_town(self):
         meta = self._make_metadata(destination="Hike Inn")
-        assert is_town_day(meta) is True
+        assert is_town_day(meta) is False
 
     def test_hotel_in_destination(self):
         meta = self._make_metadata(destination="Holiday Hotel (Franklin, NC)")
         assert is_town_day(meta) is True
 
-    def test_lodge_in_start(self):
+    def test_lodge_with_town_in_start(self):
         meta = self._make_metadata(start_location="Mountain Lodge (Hiawassee, GA)")
         assert is_town_day(meta) is True
 
@@ -120,9 +120,9 @@ class TestIsTownDay:
         meta = self._make_metadata(destination="Some Place (Franklin, NC)")
         assert is_town_day(meta) is True
 
-    def test_zero_miles(self):
+    def test_zero_miles_shelter_not_town(self):
         meta = self._make_metadata(destination="Hawk Mountain Shelter", miles_hiked=0)
-        assert is_town_day(meta) is True
+        assert is_town_day(meta) is False
 
     def test_trail_shelter_not_town(self):
         meta = self._make_metadata(

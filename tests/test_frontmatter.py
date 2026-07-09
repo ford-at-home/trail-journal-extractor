@@ -138,15 +138,13 @@ class TestBuildFrontmatter:
 
     def test_confidence_present(self):
         fm = build_frontmatter(_metadata(), _compiled())
-        assert "facts_confidence" in fm
+        assert "confidence:" in fm
+        assert "facts:" in fm
 
-    def test_state_included_when_present(self):
+    def test_trail_section_in_facts(self):
         fm = build_frontmatter(_metadata(), _compiled(with_draft=True))
-        assert "Georgia" in fm
-
-    def test_at_mile_end_included(self):
-        fm = build_frontmatter(_metadata(), _compiled(with_draft=True))
-        assert "8.1" in fm or "8" in fm
+        assert "trail_section:" in fm
+        assert "Georgia" in fm or "hardwood" in fm.lower()
 
 
 # ---------------------------------------------------------------------------
@@ -209,5 +207,5 @@ class TestRoundtrip:
         fm = build_frontmatter(_metadata(), _compiled())
         inner = fm.strip().lstrip("-").split("---")[0].strip()
         parsed = yaml.safe_load(inner)
-        for key in ("date", "destination", "start_location", "miles_hiked"):
+        for key in ("date", "destination", "start", "miles_today", "facts"):
             assert key in parsed, f"Missing key: {key}"

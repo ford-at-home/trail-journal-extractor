@@ -187,7 +187,7 @@ def enrich_entry(
     if cached_town:
         town_events = _deserialise_town_events(cached_town)
     else:
-        town_events = fetch_town_events(em)
+        town_events = fetch_town_events(em, skip_firecrawl=skip_firecrawl)
         cache.save_pass("town_events", town_events)
 
     # --- Pass 5: compile + frontmatter ---

@@ -1,3 +1,13 @@
+---
+date: '2010-01-21'
+start: Gear List
+destination: Pre-Hike Planning
+miles_today: 0.0
+trip_miles: 0.0
+facts:
+  trail_section: Trail section from Gear List to Pre-Hike Planning.
+  confidence: low
+---
 # Thursday, January 21, 2010 — Pre-Hike Planning
 **Start Location:** Gear List
 **Miles Today:** 0
@@ -86,9 +96,30 @@ Beanie (normal): 2.8 oz.
 Liner socks (1 pair, Merino wool):
 
 It's a long list, indeed. Yet amazingly, it only comes out to only 13.8 lbs! I've still got a couple pounds to add...but still! Technology these days.
-
 ---
-
+---
+date: '2010-02-06'
+start: Amicalola Falls State Park
+destination: Hike Inn
+miles_today: 0.0
+trip_miles: 0.0
+facts:
+  weather: High 39°F, low 34°F. Slight snow.
+  trail_section: Amicalola Falls State Park is the traditional starting gateway for
+    northbound AT thru-hikers. The 8.5-mile Approach Trail from Amicalola Falls gains
+    substantial elevation to reach Springer Mountain. Amicalola Falls at 729 feet
+    is one of the tallest cascading waterfalls in the eastern United States. The Hike
+    Inn is a backcountry eco-lodge accessible only on foot via a 5-mile trail near
+    Amicalola Falls. The Hike Inn sits within sight of the AT approach corridor through
+    classic Blue Ridge hardwood forest. The Georgia AT traverses the southern Blue
+    Ridge Mountains, crossing several 4,000-foot summits in ~76 miles. Georgia's AT
+    features rocky ridgelines alternating with dense hardwood forest typical of the
+    southern Appalachians.
+  confidence: high
+  sources:
+  - AT location database
+  - Open-Meteo archive
+---
 # Saturday, February 06, 2010 — Hike Inn
 **Start Location:** Amicalola Falls State Park
 **Miles Today:** 0
@@ -101,9 +132,28 @@ I expected a damp and dismal shelter that night, but we stumbled across a glowin
 Let's go back to where it all begins, to my weeping mother by the car in front of the house. I forget sometimes, how much I mean to people. I forget that I have the power to bring great joy and great sadness, that me going actually matters to someone. So when I put my arms around my mother and she started to cry, I was filled with this incredible sense that I was home, the only place in the world where I really mean something. There I was crucial. I guess it all comes back to love, something I've never really been able to put into words. All I can do is point to my mother and father, my two best friends in the whole world, without whom I would just be a scared little boy. They've brought me here. They've made me a man. and although I didn't think any of this at the time, it was painted so perfectly as I held my weeping mother by the car.
 
 That night we drove to South Carolina and stayed at a hotel. I stayed up late that night reading Thoreau out of my sister's Lit book. He rambles alot, but I liked the marrow part: "When I would recreate myself, I seek the darkest wood and most interminable swamp, and enter it as a sacred place, a sanctum sanctorum. Three is strength, the marrow of nature." I'm about to enter a dark season on an interminable trail, I said to myself, so the suffering is all to shine on that marrow. there is the heart of God. We ate at Cracker Barrel at 6:30 the next morning and then drove to Springer Mountain, "Southern Terminus to the Applachian Trail". I fell asleep in the backseat and awoke to the Amicalola State Park HQ, gateway to the Springer Mountain trail. I registered, weighed my pack, and hit the blue-blazed approach trail to the Springer's summit. 8.8 miles. It was 3:45pm. the trail led into ice, night fell, and we ended up in The Hikers Inn warm log-cabin lobby. We met Stanley, the innkeeper and former A.T. thru-hiker himself, who started up the wood stove and offered me advice for my own hike. I was so fortunate to be there with my father and sister, really enjoying our time together. That was the only thing on my mind that night before I began my 2,000 mile trek to Maine.
-
 ---
-
+---
+date: '2010-02-07'
+start: Hike Inn
+destination: Hawk Mountain Shelter
+miles_today: 9.0
+trip_miles: 9.0
+facts:
+  weather: High 40°F, low 23°F. Slight snow.
+  trail_section: The Hike Inn is a backcountry eco-lodge accessible only on foot via
+    a 5-mile trail near Amicalola Falls. The Hike Inn sits within sight of the AT
+    approach corridor through classic Blue Ridge hardwood forest. Hawk Mountain Shelter
+    sits at roughly AT mile 8 from Springer Mountain in the Georgia Blue Ridge. The
+    trail between Springer Mountain and Hawk Mountain traverses rocky ridgeline sections
+    through hardwood forest. The Georgia AT traverses the southern Blue Ridge Mountains,
+    crossing several 4,000-foot summits in ~76 miles. Georgia's AT features rocky
+    ridgelines alternating with dense hardwood forest typical of the southern Appalachians.
+  confidence: high
+  sources:
+  - AT location database
+  - Open-Meteo archive
+---
 # Sunday, February 07, 2010 — Hawk Mountain Shelter
 **Start Location:** Hike Inn
 **Miles Today:** 9
@@ -118,28 +168,29 @@ At a shelter, I took a nap and ate. It was only 3:00 by then, so I decided to ho
 Walking through those holy trees was the highlight of my day. I reached Hawk Mountain shelter before sundown, totaling 9 miles that day. I ran down to the stream to get water, cooked, strung up a bear bag, and wrote for an hour by candlelight. I drifted off and had a strange demon dream where Satan was in my head and barking at me so I couldn’t think, and then I flooded him out by begging God to intervene and jerked awake. After that I was spooked and couldn’t drift off. The mice, in their audacious fashion, ran all over me and all over my stuff, flatly ignoring both my yells and the beams of my flashlight. I slept well that night.
 
 [First](https://www.trailjournals.com/journal/entry/301865) [Previous](https://www.trailjournals.com/journal/entry/301866) [Next](https://www.trailjournals.com/journal/entry/301868) [Last](https://www.trailjournals.com/journal/entry/318948)
-
 ---
 ---
 date: '2010-02-08'
-title: Gooch Mountain Shelter
-start_location: Hawk Mountain Shelter
+start: Hawk Mountain Shelter
 destination: Gooch Mountain Shelter
-miles_hiked: 14.0
-total_miles: 23.0
-state: Georgia
-at_mile_start: 8.1
-at_mile_end: 15.8
-weather_high_f: 44.2
-weather_low_f: 27.2
-weather_precip_in: 0.0
-weather_conditions: Overcast
-weather_source: Open-Meteo archive
-trail_section_summary: Hawk Mountain Shelter (AT mile ~8) is an early overnight stop
-  in Georgia's Blue Ridge. Gooch Mountain Shelter (AT mile ~16) is a popular early
-  multi-day destination for northbound hikers.
-weather_summary: High 44°F, low 27°F. Overcast.
-facts_confidence: 0.9
+miles_today: 14.0
+trip_miles: 23.0
+facts:
+  weather: High 44°F, low 27°F. Overcast.
+  trail_section: Hawk Mountain Shelter sits at roughly AT mile 8 from Springer Mountain
+    in the Georgia Blue Ridge. The trail between Springer Mountain and Hawk Mountain
+    traverses rocky ridgeline sections through hardwood forest. Gooch Mountain Shelter
+    near AT mile 16 is a popular first multi-night destination for northbound thru-hikers.
+    The trail from Hawk Mountain to Gooch Mountain crosses Justus Creek and climbs
+    through mixed hardwood forest. The Gooch Mountain area receives heavy hiker traffic
+    in early spring during thru-hiking season. The Georgia AT traverses the southern
+    Blue Ridge Mountains, crossing several 4,000-foot summits in ~76 miles. Georgia's
+    AT features rocky ridgelines alternating with dense hardwood forest typical of
+    the southern Appalachians.
+  confidence: high
+  sources:
+  - AT location database
+  - Open-Meteo archive
 ---
 # Monday, February 08, 2010 — Gooch Mountain Shelter
 **Start Location:** Hawk Mountain Shelter
@@ -154,7 +205,26 @@ Still, the mountain was white out – all white in snow, fog, and sky – and th
 
 At dusk, at the shelter, I finished dinner and let the fire die down to dull embers. In his classic hiker’s manual, The Walker’s Handbook, Colin Fletcher let it die from time to time, to let the darkness surround you. There’s nothing as pure and powerful he said, as darkness deep in the woods. So I stood on the porch of the shelter and let everything go black around me. The wind blew in the trees and it was eerily quiet. “Say something” I said to God. I didn’t know whether to expect something good to happen or something bad, because I’ve found that he’s speaking all the time in the strangest ways, and he’s found in both the happy and the hard. I stood there for a long time, dreaming not thinking about all the blackness. It was addicting. It cozied the mind and numbed it over, like the way you cease when you finally arrive home. I was at home, in the wooded blackness. After half an hour, I retired to my sleeping bag and fell asleep.
 ---
-
+---
+date: '2010-02-09'
+start: Gooch Mountain Shelter
+destination: Neel Gap Hostel
+miles_today: 15.5
+trip_miles: 38.5
+facts:
+  weather: High 40°F, low 34°F. Slight rain.
+  trail_section: Gooch Mountain Shelter near AT mile 16 is a popular first multi-night
+    destination for northbound thru-hikers. The trail from Hawk Mountain to Gooch
+    Mountain crosses Justus Creek and climbs through mixed hardwood forest. The Gooch
+    Mountain area receives heavy hiker traffic in early spring during thru-hiking
+    season. The Georgia AT traverses the southern Blue Ridge Mountains, crossing several
+    4,000-foot summits in ~76 miles. Georgia's AT features rocky ridgelines alternating
+    with dense hardwood forest typical of the southern Appalachians.
+  confidence: high
+  sources:
+  - AT location database
+  - Open-Meteo archive
+---
 # Tuesday, February 09, 2010 — Neel Gap Hostel
 **Start Location:** Gooch Mountain Shelter
 **Miles Today:** 15.50
@@ -171,9 +241,20 @@ Blood Mountain wasn’t too difficult. It climbed up and over several false summ
 I reached Neels Gap outfitter by 5 o’clock, closing time, but fortunately the Hiker Hostel was open. There were several men milling about, all with foot-long gray beards and long hair. A long beard means one thing in the mountains - experience- so, naturally, I was excited to spend a night with the experts. The price was only $15, said one bearded man, with the possibility of working it off. I sat down inside and wrote while another bearded man prepared tacos and rambled on about how “everything was going to shit” thanks to an enforcement of state ordinances. Two more bearded men walked in the door and dissappeared out the back. “Can you shoot a cougar?” I asked. “Sure, I don’t see why not. But if they catch you they’ll throw you in jail”, said one of the gnarliest of the bunch. Then he let out a long calm laugh and started talking to the cats. “Come get dinner,” he said after awhile, “or the cats’ll get to it. Actually, they already have.” He laughed at that.
 
 After dinner I boiled some tea and sat by the heater to write in my journal. In ten minutes I was curled up in the chair asleep. It was so nice being warm.
-
 ---
-
+---
+date: '2010-02-10'
+start: Neel Gap Hostel
+destination: Low Gap Shelter
+miles_today: 11.0
+trip_miles: 49.5
+facts:
+  weather: High 38°F, low 20°F. Light drizzle.
+  trail_section: Trail section from Neel Gap Hostel to Low Gap Shelter.
+  confidence: medium
+  sources:
+  - Open-Meteo archive
+---
 # Wednesday, February 10, 2010 — Low Gap Shelter
 **Start Location:** Neel Gap Hostel
 **Miles Today:** 11
@@ -184,24 +265,19 @@ In the morning I got up at 6:15 to get a hot shower before the others did, then 
 That day was divided sharply between great and God-awful. The first half, the great part, flew past as I hoofed without stopping through the wind and rain. 6 miles over to Tesnatee Gap. I went hard and strong and felt like a champ. But after a short stop at Tesnatee, things fell apart. During the stop, I’d quickly lost all doby and hand heart and became a numb-fingered, shivering - and , not to mention, dripping wet – mess. My hands lost the benign feeling of numbness and began to hurt like someone was bending them back. Groaning aloud and cursing, I began to march. I won’t go into details because the next 4 hours was a drama of the most boring kind. I’ll just say it really sucked and skip to the moment with God, which occurred near the end of the ordeal. I was mouthing off at him again (aloud, mind you), not really making a case but just pissed at the day’s suffering. I had to yell at someone. I told h im to make it okay, or at least give me the big picture so I could at least calm down. All of the sudden, I said it aloud, “This is all part of it”. This is part of the Good, the adventure, the chase after an elusive Spirit. This very moment of numb hands, wet clothes and stabbing blisters was the very reason I set off. Because this is Thoreau’s “marrow of life”, and in it I will find my God.
 
 I went to sleep that night with no idea what to do about my blisters for the next day. The wind picked up and a fog rolled in and the night was all dense blackness and I thought to myself about the old proverb “When I saw I stumbled.”
-
 ---
 ---
 date: '2010-02-11'
-title: EconoLodge Motel (Helen, GA)
-start_location: Low Gap Shelter
+start: Low Gap Shelter
 destination: EconoLodge Motel (Helen, GA)
-miles_hiked: 13.5
-total_miles: 63.0
-weather_high_f: 42.5
-weather_low_f: 24.5
-weather_precip_in: 0.0
-weather_conditions: Overcast
-weather_source: Open-Meteo archive
-trail_section_summary: Trail section from Low Gap Shelter to EconoLodge Motel (Helen,
-  GA).
-weather_summary: High 42°F, low 24°F. Overcast.
-facts_confidence: 0.5
+miles_today: 13.5
+trip_miles: 63.0
+facts:
+  weather: High 42°F, low 24°F. Overcast.
+  trail_section: Trail section from Low Gap Shelter to EconoLodge Motel (Helen, GA).
+  confidence: medium
+  sources:
+  - Open-Meteo archive
 ---
 # Thursday, February 11, 2010 — EconoLodge Motel (Helen, GA)
 **Start Location:** Low Gap Shelter
@@ -214,7 +290,17 @@ To my surprise, the down booties did an excellent job. By the time I reached the
 
 I gave Kevin some cheese, warmed my hands up by the fire, and marched on down to Unicoi Gap to hitch into town. Dry gear and a warm motel were in high demand. After a minute of thumbing a black car pulled over. Alex, a gay artist on his way to see his boyfriend, was glad to drive me around town to check various motel prices. He was “paying back a favor, or paying it forward, whichever one” He said in his hometown, Hayesville, NC, alcohol had just become legal last month. He had been a vocal advocate. His father, a Baptist minister, had led the opposition. I laughed. Alex said goodbye at the EconoLodge, and I fell asleep on my $30/night bed. I woke up, took a shower, called home, and ate some shrimp ramen with tuna and olive oil. Everyone seemed fine at home, like they’d moved on without me as I’m accustomed to them doing. When you’re away, all you can really say is “I love you” or “I miss you” but those words don’t mean much. It still kinda sucks. I thought about that while I ate my ramen. That night I watched a cheesy movie about aliens. I just didn’t feel like writing.
 ---
-
+---
+date: '2010-02-12'
+start: EconoLodge Motel (Helen, GA)
+destination: Mull's Motel (Hiawasee, GA)
+miles_today: 15.0
+trip_miles: 78.0
+facts:
+  trail_section: Trail section from EconoLodge Motel (Helen, GA) to Mull's Motel (Hiawasee,
+    GA).
+  confidence: low
+---
 # Friday, February 12, 2010 — Mull's Motel (Hiawasee, GA)
 **Start Location:** EconoLodge Motel (Helen, GA)
 **Miles Today:** 15
@@ -231,9 +317,18 @@ That day on the trail was great. I passed one hiker after another, meeting and g
 After a long nap at the top of Tray, I passed two thru-hikers, Fauma and Second Stage, on the way down the mountain (when I say “down the mountain”, I’m referring t the many ups and downs between a summit and a gap. Rarely is there black-and-white ascent and descent on the AT). All day, I’d been tracking their prints through the snow and around the debris. Catching up to them was the climax of the day. “You hear about these hikers ahead of you and you read all their entries in the shelter journals. You start to paint a mental picture of them,” I told Fauma when I caught him. “It’s kinda like online dating.” He laughed, “Wow, guy”.
 
 My eyes were set on Dicks Creek Gap, still 5.5 miles away by dusk. I flicked on my headlamp, chugged some orange juice and kept trucking. My legs were tired and my feet sore from walking in my booties for 8 miles already. I made it by 7:30 and hitched a ride into Hiawasee by 8pm. I got a motel room for $50 despite efforts at bargaining. I walked across the street to Hardee’s for dinner. I wrote, took a hot shower, and fell asleep by 11:00 with the lights on.
-
 ---
-
+---
+date: '2010-02-13'
+start: Mull's Motel (Hiawasee, GA)
+destination: Mull's Motel (Hiawasee, GA)
+miles_today: 0.0
+trip_miles: 78.0
+facts:
+  trail_section: Trail section from Mull's Motel (Hiawasee, GA) to Mull's Motel (Hiawasee,
+    GA).
+  confidence: low
+---
 # Saturday, February 13, 2010 — Mull's Motel (Hiawasee, GA)
 **Start Location:** Mull's Motel (Hiawasee, GA)
 **Miles Today:** 0
@@ -250,9 +345,18 @@ I had only 60 some dollars left, so another night at the motel was out of the qu
 The kind folks who gave me a ride (out of their way) to Blueberry Patch Hostel dropped me off at a church at the junction where they returned to their route to Atlanta to see their sick mother. I’ve always wanted to test out the church as a place of unconditional refuge, so I walked up to the office and knocked on the door. No answer. Just before walking back out to the road to thumb to another church, I noticed a small house on the corner of the church property. A pick-up was out front. I walked up and knocked, and to my surprise a younger man opened the door. He was hip-looking, sharp, kinda like a Young Life leader. “Let me see what I can do. Come on in.” I knelt down to pet the lab. “You know, I’m a thru-hiker back in 1996”. I couldn’t believe it. But the magic didn’t stop there. He said, “Follow me” and we walked over to the church. He flicked on the light in a room, “Wait in there and I’m gonna try to pull some strings,” he said, then disappeared. I read a bible for about five minutes, when a gleaming middle-aged woman walked in. “I’m Lynn”, she said. “I’m Gary’s wife, at the Blueberry Patch. We’re gonna get you a room in town.” I couldn’t believe it. Lynn, the gleaming secretary at the church, at which I fortuitously knocked, was the wife of the woner of the hostel where I’d just stopped, wife of a man who’s Christian kindness spread his name all the way to Richmond. And this connection was dropped in my lap by a sympathetic thru-hiking pastor. “We’re going to get you a room at Mull’s Motel”, she said. My stomach dropped. The burned carpet. That’s where I left the burned carpet. “Let me drive you to Mull’s” said the young pastor. We pulled in and I prepared for impact upon entering the cramped motel office. Fortunately, the 86 year old lady was still there in her nightgown, just like I’d seen her the evening before. And, (thanks to her age, perhaps) she didn’t remember me. I couldn’t believe it. I was redeemed. “I really don’t know how to thank you, man,” I said. “It just works out, doesn’t it”, he said. I think from time to time God has fun and wires things. Redemption of unbelievable cause-and-effect complexity. Even miracles. No, it’s not in his nature. It’s not all like that. Jesus spent but a sliver of his hours dropping jaws with these unbelievable occurances. Most of his days were spent walking around in the dust, telling people that, yeah..reality can be really boring but it’s okay. The miracles almost never happen around town but it doesn’t matter because the real miracle is deep within. The real wonder is the heart and soul of man. So, I won’t walk to Maine looking for him to wink at me again. I’ll keep looking within.
 
 Snow fell that night in Hiawasee, about 2 inches. I ate my trail mix and wrote oa letter to the Potteats from the warmth of my motel room. After two nights of comfort, I was ready to hit the trail again.
-
 ---
-
+---
+date: '2010-02-14'
+start: Mull's Motel (Hiawasee, GA)
+destination: Blueberry Patch Hostel
+miles_today: 0.0
+trip_miles: 78.0
+facts:
+  trail_section: Trail section from Mull's Motel (Hiawasee, GA) to Blueberry Patch
+    Hostel.
+  confidence: low
+---
 # Sunday, February 14, 2010 — Blueberry Patch Hostel
 **Start Location:** Mull's Motel (Hiawasee, GA)
 **Miles Today:** 0
@@ -267,5 +371,4 @@ We chatted as he lit the wood stove in the bunkhouse. Gary was a talker, and tol
 The telephone rang and he walked over an answered it. Another hiker was on his way. Soon, a familiar face appeared at the door. Keven, the Canadian I'd met on Blue Mountain, walked in the door. He was thrilled to see me. I was glad to see him.
 
 That night we went into Hiawasee. We bought food for the next stretch to Fontana Dam, a tedious process of diving out calories on price. Keven convinced me to share food together over the next two weeks--breakfast, lunch, and dinner. Sounded like a good idea. I mean, why not? We also got some steaks and asparagus to take back to cook. I bought a crispy Fuji apple. Back at the hostel, we ate heartily and stayed up until 1:00 dividing ten days of food weight.
-
 ---

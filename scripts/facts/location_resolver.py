@@ -40,33 +40,58 @@ def extract_town_from_location(location: str) -> Optional[str]:
     return None
 
 
-_TOWN_KEYWORDS = frozenset(
-    ["motel", "hostel", "inn", "lodge", "hotel", "b&b", "bed and breakfast"]
+_TRAIL_LODGES = frozenset(
+    [
+        "hike inn",
+        "neel gap hostel",
+        "blueberry patch hostel",
+        "standing bear farm hostel",
+        "mountain harbour hostel",
+        "the place",
+        "woods hole hostel",
+        "bear's den hostel",
+        "harper's ferry hostel",
+        "hikers welcome hostel",
+        "shaw's boarding house",
+    ]
 )
+
+_TOWN_LODGING_KEYWORDS = frozenset(["motel", "hotel", "econolodge", "travelodge", "holiday inn"])
+
+
+def _metadata_field(metadata, field: str) -> str:
+    if isinstance(metadata, dict):
+        return str(metadata.get(field) or "")
+    return str(getattr(metadata, field, "") or "")
 
 
 def is_town_day(metadata) -> bool:
     """
-    Heuristic: return True if the entry likely represents a town stay rather
-    than a trail camp. Checks:
-      - destination or start_location contains a lodging keyword
-      - destination or start_location has a parenthetical town suffix
-      - miles_hiked == 0 (zero-mile rest/zero day)
+    Heuristic: return True when the entry is a town stop worth researching.
+
+    Trail shelters and backcountry inns are excluded. Town days are entries with
+    an explicit town in parentheses, a known town location, or commercial lodging.
     """
     fields = [
-        getattr(metadata, "destination", "") or "",
-        getattr(metadata, "start_location", "") or "",
+        _metadata_field(metadata, "destination"),
+        _metadata_field(metadata, "start_location"),
     ]
+
     for field_val in fields:
-        lowered = field_val.lower()
-        if any(kw in lowered for kw in _TOWN_KEYWORDS):
-            return True
-        if re.search(r"\([^)]+,\s*[A-Z]{2}\)", field_val):
+        if extract_town_from_location(field_val):
             return True
 
-    miles = getattr(metadata, "miles_hiked", None)
-    if miles is not None and miles == 0:
-        return True
+        normalized = normalize_name(field_val)
+        if normalized in _TRAIL_LODGES:
+            continue
+
+        loc = lookup(field_val)
+        if loc and loc.get("is_town"):
+            return True
+
+        lowered = field_val.lower()
+        if any(kw in lowered for kw in _TOWN_LODGING_KEYWORDS):
+            return True
 
     return False
 
