@@ -188,3 +188,7 @@ tests/*.progress.json
 journal_*.txt
 journal_*_enhanced.txt
 journal_*_facts.txt
+# Frontmatter facts cache
+cache/facts/
+# Firecrawl CLI data
+.firecrawl/
