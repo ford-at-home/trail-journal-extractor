@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Amicalola Falls State Park",
+    "lat": 34.5583,
+    "lon": -84.2285,
+    "state": "GA",
+    "at_mile": -8.8,
+    "is_town": false
+  },
+  {
+    "name": "Hike Inn",
+    "lat": 34.5759,
+    "lon": -84.2178,
+    "state": "GA",
+    "at_mile": -5.0,
+    "is_town": false
+  },
+  {
+    "name": "Springer Mountain",
+    "lat": 34.6272,
+    "lon": -84.1930,
+    "state": "GA",
+    "at_mile": 0.0,
+    "is_town": false
+  },
+  {
+    "name": "Springer Mountain Shelter",
+    "lat": 34.6278,
+    "lon": -84.1955,
+    "state": "GA",
+    "at_mile": 0.2,
+    "is_town": false
+  },
+  {
+    "name": "Stover Creek Shelter",
+    "lat": 34.6556,
+    "lon": -84.1797,
+    "state": "GA",
+    "at_mile": 2.9,
+    "is_town": false
+  },
+  {
+    "name": "Three Forks",
+    "lat": 34.6500,
+    "lon": -84.1772,
+    "state": "GA",
+    "at_mile": 2.6,
+    "is_town": false
+  },
+  {
+    "name": "Hawk Mountain Shelter",
+    "lat": 34.6899,
+    "lon": -84.1540,
+    "state": "GA",
+    "at_mile": 8.1,
+    "is_town": false
+  },
+  {
+    "name": "Cooper Gap",
+    "lat": 34.7088,
+    "lon": -84.1586,
+    "state": "GA",
+    "at_mile": 11.5,
+    "is_town": false
+  },
+  {
+    "name": "Gooch Mountain Shelter",
+    "lat": 34.7399,
+    "lon": -84.1547,
+    "state": "GA",
+    "at_mile": 15.8,
+    "is_town": false
+  },
+  {
+    "name": "Woody Gap",
+    "lat": 34.7572,
+    "lon": -84.1048,
+    "state": "GA",
+    "at_mile": 19.7,
+    "is_town": false
+  },
+  {
+    "name": "Lance Creek Campsite",
+    "lat": 34.7693,
+    "lon": -84.0640,
+    "state": "GA",
+    "at_mile": 23.5,
+    "is_town": false
+  },
+  {
+    "name": "Blood Mountain Shelter",
+    "lat": 34.7983,
+    "lon": -84.0007,
+    "state": "GA",
+    "at_mile": 30.7,
+    "is_town": false
+  },
+  {
+    "name": "Neel Gap",
+    "lat": 34.7416,
+    "lon": -83.9297,
+    "state": "GA",
+    "at_mile": 31.7,
+    "is_town": false
+  },
+  {
+    "name": "Neel Gap Hostel",
+    "lat": 34.7416,
+    "lon": -83.9297,
+    "state": "GA",
+    "at_mile": 31.7,
+    "is_town": false
+  },
+  {
+    "name": "Walasi-Yi Center",
+    "lat": 34.7416,
+    "lon": -83.9297,
+    "state": "GA",
+    "at_mile": 31.7,
+    "is_town": false
+  },
+  {
+    "name": "Whitley Gap Shelter",
+    "lat": 34.7960,
+    "lon": -83.9296,
+    "state": "GA",
+    "at_mile": 35.4,
+    "is_town": false
+  },
+  {
+    "name": "Low Gap Shelter",
+    "lat": 34.8345,
+    "lon": -83.9050,
+    "state": "GA",
+    "at_mile": 38.5,
+    "is_town": false
+  },
+  {
+    "name": "Unicoi Gap",
+    "lat": 34.8401,
+    "lon": -83.7430,
+    "state": "GA",
+    "at_mile": 46.4,
+    "is_town": false
+  },
+  {
+    "name": "Blue Mountain Shelter",
+    "lat": 34.8501,
+    "lon": -83.6985,
+    "state": "GA",
+    "at_mile": 49.1,
+    "is_town": false
+  },
+  {
+    "name": "Tray Mountain Shelter",
+    "lat": 34.8618,
+    "lon": -83.6551,
+    "state": "GA",
+    "at_mile": 54.5,
+    "is_town": false
+  },
+  {
+    "name": "Dicks Creek Gap",
+    "lat": 34.8879,
+    "lon": -83.5906,
+    "state": "GA",
+    "at_mile": 59.5,
+    "is_town": false
+  },
+  {
+    "name": "Helen GA",
+    "lat": 34.7005,
+    "lon": -83.7300,
+    "state": "GA",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Hiawassee GA",
+    "lat": 34.9510,
+    "lon": -83.7565,
+    "state": "GA",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Deep Gap Shelter",
+    "lat": 34.9333,
+    "lon": -83.5547,
+    "state": "GA",
+    "at_mile": 61.8,
+    "is_town": false
+  },
+  {
+    "name": "Bly Gap",
+    "lat": 34.9771,
+    "lon": -83.5050,
+    "state": "GA",
+    "at_mile": 68.1,
+    "is_town": false
+  },
+  {
+    "name": "Standing Indian Shelter",
+    "lat": 35.0370,
+    "lon": -83.5279,
+    "state": "NC",
+    "at_mile": 70.2,
+    "is_town": false
+  },
+  {
+    "name": "Carter Gap Shelter",
+    "lat": 35.0683,
+    "lon": -83.5104,
+    "state": "NC",
+    "at_mile": 75.2,
+    "is_town": false
+  },
+  {
+    "name": "Rock Gap Shelter",
+    "lat": 35.0836,
+    "lon": -83.5065,
+    "state": "NC",
+    "at_mile": 79.5,
+    "is_town": false
+  },
+  {
+    "name": "Winding Stair Gap",
+    "lat": 35.1562,
+    "lon": -83.3812,
+    "state": "NC",
+    "at_mile": 84.1,
+    "is_town": false
+  },
+  {
+    "name": "Franklin NC",
+    "lat": 35.1832,
+    "lon": -83.3813,
+    "state": "NC",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Cold Spring Shelter",
+    "lat": 35.2112,
+    "lon": -83.3237,
+    "state": "NC",
+    "at_mile": 88.4,
+    "is_town": false
+  },
+  {
+    "name": "Wayah Bald Shelter",
+    "lat": 35.1919,
+    "lon": -83.2882,
+    "state": "NC",
+    "at_mile": 91.6,
+    "is_town": false
+  },
+  {
+    "name": "Siler Bald Shelter",
+    "lat": 35.2225,
+    "lon": -83.2387,
+    "state": "NC",
+    "at_mile": 98.6,
+    "is_town": false
+  },
+  {
+    "name": "Wesser NOC",
+    "lat": 35.3152,
+    "lon": -83.5768,
+    "state": "NC",
+    "at_mile": 137.1,
+    "is_town": false
+  },
+  {
+    "name": "Nantahala Outdoor Center",
+    "lat": 35.3152,
+    "lon": -83.5768,
+    "state": "NC",
+    "at_mile": 137.1,
+    "is_town": false
+  }
+]
