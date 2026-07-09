@@ -107,20 +107,23 @@ miles_today: 0.0
 trip_miles: 0.0
 facts:
   weather: High 39°F, low 34°F. Slight snow.
-  trail_section: Amicalola Falls State Park is the traditional starting gateway for
-    northbound AT thru-hikers. The 8.5-mile Approach Trail from Amicalola Falls gains
-    substantial elevation to reach Springer Mountain. Amicalola Falls at 729 feet
-    is one of the tallest cascading waterfalls in the eastern United States. The Hike
-    Inn is a backcountry eco-lodge accessible only on foot via a 5-mile trail near
-    Amicalola Falls. The Hike Inn sits within sight of the AT approach corridor through
-    classic Blue Ridge hardwood forest. The Georgia AT traverses the southern Blue
-    Ridge Mountains, crossing several 4,000-foot summits in ~76 miles. Georgia's AT
-    features rocky ridgelines alternating with dense hardwood forest typical of the
-    southern Appalachians.
+  trail_section: 'Springer Mountain approach (AT miles -9–-5): The southernmost AT
+    miles climb from Amicalola Falls through the Approach Trail to Springer Mountain,
+    often in late-winter snow and ice. Steep approach-trail climbing, icy hardwood
+    forest, and the emotional start of a northbound thru-hike. Notable points along
+    this leg include Amicalola Falls State Park, Hike Inn. Amicalola Falls State Park
+    is the traditional gateway to Springer Mountain for northbound thru-hikers. The
+    Hike Inn is a backcountry eco-lodge accessible only by a 5-mile trail near Amicalola
+    Falls.'
   confidence: high
   sources:
+  - AT segment guide
   - AT location database
   - Open-Meteo archive
+  segment: Springer Mountain approach
+  at_mile_start: -8.8
+  at_mile_end: -5.0
+  region: Georgia
 ---
 # Saturday, February 06, 2010 — Hike Inn
 **Start Location:** Amicalola Falls State Park
@@ -143,18 +146,23 @@ miles_today: 9.0
 trip_miles: 9.0
 facts:
   weather: High 40°F, low 23°F. Slight snow.
-  trail_section: The Hike Inn is a backcountry eco-lodge accessible only on foot via
-    a 5-mile trail near Amicalola Falls. The Hike Inn sits within sight of the AT
-    approach corridor through classic Blue Ridge hardwood forest. Hawk Mountain Shelter
-    sits at roughly AT mile 8 from Springer Mountain in the Georgia Blue Ridge. The
-    trail between Springer Mountain and Hawk Mountain traverses rocky ridgeline sections
-    through hardwood forest. The Georgia AT traverses the southern Blue Ridge Mountains,
-    crossing several 4,000-foot summits in ~76 miles. Georgia's AT features rocky
-    ridgelines alternating with dense hardwood forest typical of the southern Appalachians.
+  trail_section: 'Springer Mountain approach (AT miles -5–8): The southernmost AT
+    miles climb from Amicalola Falls through the Approach Trail to Springer Mountain,
+    often in late-winter snow and ice. Steep approach-trail climbing, icy hardwood
+    forest, and the emotional start of a northbound thru-hike. Notable points along
+    this leg include Hike Inn, Springer Mountain, Springer Mountain Shelter, Three
+    Forks. The Hike Inn is a backcountry eco-lodge accessible only by a 5-mile trail
+    near Amicalola Falls. Hawk Mountain Shelter (AT mile ~8) is an early overnight
+    stop in Georgia''s Blue Ridge.'
   confidence: high
   sources:
+  - AT segment guide
   - AT location database
   - Open-Meteo archive
+  segment: Springer Mountain approach
+  at_mile_start: -5.0
+  at_mile_end: 8.1
+  region: Georgia
 ---
 # Sunday, February 07, 2010 — Hawk Mountain Shelter
 **Start Location:** Hike Inn
@@ -177,20 +185,23 @@ miles_today: 14.0
 trip_miles: 23.0
 facts:
   weather: High 44°F, low 27°F. Overcast.
-  trail_section: Hawk Mountain Shelter sits at roughly AT mile 8 from Springer Mountain
-    in the Georgia Blue Ridge. The trail between Springer Mountain and Hawk Mountain
-    traverses rocky ridgeline sections through hardwood forest. Gooch Mountain Shelter
-    near AT mile 16 is a popular first multi-night destination for northbound thru-hikers.
-    The trail from Hawk Mountain to Gooch Mountain crosses Justus Creek and climbs
-    through mixed hardwood forest. The Gooch Mountain area receives heavy hiker traffic
-    in early spring during thru-hiking season. The Georgia AT traverses the southern
-    Blue Ridge Mountains, crossing several 4,000-foot summits in ~76 miles. Georgia's
-    AT features rocky ridgelines alternating with dense hardwood forest typical of
-    the southern Appalachians.
+  trail_section: 'Georgia Blue Ridge — early ridges (AT miles 8–16): Rolling Blue
+    Ridge ridgelines with frequent shelters, creek crossings, and the first sustained
+    mountain walking of the hike. Rocky tread, rhododendron tunnels, and climbs toward
+    Blood Mountain — Georgia''s highest AT peak. Notable points along this leg include
+    Hawk Mountain Shelter, Cooper Gap, Gooch Mountain Shelter. Hawk Mountain Shelter
+    (AT mile ~8) is an early overnight stop in Georgia''s Blue Ridge. Gooch Mountain
+    Shelter (AT mile ~16) is a popular early multi-day destination for northbound
+    hikers.'
   confidence: high
   sources:
+  - AT segment guide
   - AT location database
   - Open-Meteo archive
+  segment: Georgia Blue Ridge — early ridges
+  at_mile_start: 8.1
+  at_mile_end: 15.8
+  region: Georgia
 ---
 # Monday, February 08, 2010 — Gooch Mountain Shelter
 **Start Location:** Hawk Mountain Shelter
@@ -213,17 +224,22 @@ miles_today: 15.5
 trip_miles: 38.5
 facts:
   weather: High 40°F, low 34°F. Slight rain.
-  trail_section: Gooch Mountain Shelter near AT mile 16 is a popular first multi-night
-    destination for northbound thru-hikers. The trail from Hawk Mountain to Gooch
-    Mountain crosses Justus Creek and climbs through mixed hardwood forest. The Gooch
-    Mountain area receives heavy hiker traffic in early spring during thru-hiking
-    season. The Georgia AT traverses the southern Blue Ridge Mountains, crossing several
-    4,000-foot summits in ~76 miles. Georgia's AT features rocky ridgelines alternating
-    with dense hardwood forest typical of the southern Appalachians.
+  trail_section: 'Georgia Blue Ridge — early ridges (AT miles 16–32): Rolling Blue
+    Ridge ridgelines with frequent shelters, creek crossings, and the first sustained
+    mountain walking of the hike. Rocky tread, rhododendron tunnels, and climbs toward
+    Blood Mountain — Georgia''s highest AT peak. Notable points along this leg include
+    Gooch Mountain Shelter, Woody Gap, Lance Creek Campsite, Blood Mountain Shelter.
+    Gooch Mountain Shelter (AT mile ~16) is a popular early multi-day destination
+    for northbound hikers.'
   confidence: high
   sources:
+  - AT segment guide
   - AT location database
   - Open-Meteo archive
+  segment: Georgia Blue Ridge — early ridges
+  at_mile_start: 15.8
+  at_mile_end: 31.7
+  region: Georgia
 ---
 # Tuesday, February 09, 2010 — Neel Gap Hostel
 **Start Location:** Gooch Mountain Shelter
@@ -250,10 +266,20 @@ miles_today: 11.0
 trip_miles: 49.5
 facts:
   weather: High 38°F, low 20°F. Light drizzle.
-  trail_section: Trail section from Neel Gap Hostel to Low Gap Shelter.
-  confidence: medium
+  trail_section: 'Georgia Blue Ridge — early ridges (AT miles 32–38): Rolling Blue
+    Ridge ridgelines with frequent shelters, creek crossings, and the first sustained
+    mountain walking of the hike. Rocky tread, rhododendron tunnels, and climbs toward
+    Blood Mountain — Georgia''s highest AT peak. Notable points along this leg include
+    Neel Gap, Neel Gap Hostel, Walasi-Yi Center, Whitley Gap Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Georgia Blue Ridge — early ridges
+  at_mile_start: 31.7
+  at_mile_end: 38.5
+  region: Georgia
 ---
 # Wednesday, February 10, 2010 — Low Gap Shelter
 **Start Location:** Neel Gap Hostel
@@ -274,12 +300,22 @@ miles_today: 13.5
 trip_miles: 63.0
 facts:
   weather: High 42°F, low 24°F. Overcast.
-  trail_section: Trail section from Low Gap Shelter to EconoLodge Motel (Helen, GA).
+  trail_section: 'Georgia — Blood Mountain to Bly Gap (AT miles 38–63): Classic Georgia
+    AT: long climbs, mountain laurel, and trail-town access near Helen and Hiawassee
+    before the NC border. Sustained ups and downs along the Blue Ridge; often muddy
+    in spring; famous steep pitches leaving NOC later. Notable points along this leg
+    include Low Gap Shelter, Unicoi Gap, Blue Mountain Shelter, Tray Mountain Shelter.'
   town_events: Franklin named first Appalachian Trail Community in 2010 - Facebook
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/159729421133853/posts/877502402689881/
+  segment: Georgia — Blood Mountain to Bly Gap
+  at_mile_start: 38.5
+  at_mile_end: 63.0
+  region: Georgia
 ---
 # Thursday, February 11, 2010 — EconoLodge Motel (Helen, GA)
 **Start Location:** Low Gap Shelter
@@ -299,12 +335,21 @@ destination: Mull's Motel (Hiawasee, GA)
 miles_today: 15.0
 trip_miles: 78.0
 facts:
-  trail_section: Trail section from EconoLodge Motel (Helen, GA) to Mull's Motel (Hiawasee,
-    GA).
+  trail_section: 'Georgia — Blood Mountain to Bly Gap (AT miles 63–78): Classic Georgia
+    AT: long climbs, mountain laurel, and trail-town access near Helen and Hiawassee
+    before the NC border. Sustained ups and downs along the Blue Ridge; often muddy
+    in spring; famous steep pitches leaving NOC later. Notable points along this leg
+    include Bly Gap, Standing Indian Shelter, Carter Gap Shelter.'
   town_events: Hiawassee/Towns County, GA
   confidence: low
   sources:
+  - AT segment guide
+  - firecrawl web search
   - https://appalachiantrail.org/protect/conservation/at-community-program/hiawassee-towns-county-ga/
+  segment: Georgia — Blood Mountain to Bly Gap
+  at_mile_start: 63.0
+  at_mile_end: 78.0
+  region: Georgia
 ---
 # Friday, February 12, 2010 — Mull's Motel (Hiawasee, GA)
 **Start Location:** EconoLodge Motel (Helen, GA)
@@ -330,12 +375,21 @@ destination: Mull's Motel (Hiawasee, GA)
 miles_today: 0.0
 trip_miles: 78.0
 facts:
-  trail_section: Trail section from Mull's Motel (Hiawasee, GA) to Mull's Motel (Hiawasee,
-    GA).
+  trail_section: 'Georgia — Blood Mountain to Bly Gap (AT miles 77–78): Classic Georgia
+    AT: long climbs, mountain laurel, and trail-town access near Helen and Hiawassee
+    before the NC border. Sustained ups and downs along the Blue Ridge; often muddy
+    in spring; famous steep pitches leaving NOC later. Landmarks in this corridor
+    include Neels Gap, Unicoi Gap, Tray Mountain, Bly Gap.'
   town_events: 2013 Appalachian Trail Events
   confidence: low
   sources:
+  - AT segment guide
+  - firecrawl web search
   - https://appalachiantrail.com/2013-appalachian-trail-events/
+  segment: Georgia — Blood Mountain to Bly Gap
+  at_mile_start: 77.0
+  at_mile_end: 78.0
+  region: Georgia
 ---
 # Saturday, February 13, 2010 — Mull's Motel (Hiawasee, GA)
 **Start Location:** Mull's Motel (Hiawasee, GA)
@@ -361,12 +415,21 @@ destination: Blueberry Patch Hostel
 miles_today: 0.0
 trip_miles: 78.0
 facts:
-  trail_section: Trail section from Mull's Motel (Hiawasee, GA) to Blueberry Patch
-    Hostel.
+  trail_section: 'Georgia — Blood Mountain to Bly Gap (AT miles 77–78): Classic Georgia
+    AT: long climbs, mountain laurel, and trail-town access near Helen and Hiawassee
+    before the NC border. Sustained ups and downs along the Blue Ridge; often muddy
+    in spring; famous steep pitches leaving NOC later. Landmarks in this corridor
+    include Neels Gap, Unicoi Gap, Tray Mountain, Bly Gap.'
   town_events: Hiawassee/Towns County, GA - Appalachian Trail Conservancy
   confidence: low
   sources:
+  - AT segment guide
+  - firecrawl web search
   - https://appalachiantrail.org/protect/conservation/at-community-program/hiawassee-towns-county-ga/
+  segment: Georgia — Blood Mountain to Bly Gap
+  at_mile_start: 77.0
+  at_mile_end: 78.0
+  region: Georgia
 ---
 # Sunday, February 14, 2010 — Blueberry Patch Hostel
 **Start Location:** Mull's Motel (Hiawasee, GA)
@@ -391,10 +454,20 @@ miles_today: 15.0
 trip_miles: 93.0
 facts:
   weather: High 27°F, low 19°F. Heavy snow.
-  trail_section: Trail section from Blueberry Patch Hostel to Muskrat Creek Shelter.
-  confidence: medium
+  trail_section: 'Southern North Carolina high country (AT miles 78–93): High southern
+    Appalachians with Standing Indian, Franklin resupply, and the long climb toward
+    the Nantahala gorge. Big elevation change, open balds, and remote ridge walking
+    south of the Smokies. Notable points along this leg include Rock Gap Shelter,
+    Winding Stair Gap, Cold Spring Shelter, Wayah Bald Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Southern North Carolina high country
+  at_mile_start: 78.0
+  at_mile_end: 93.0
+  region: North Carolina
 ---
 # Monday, February 15, 2010 — Muskrat Creek Shelter
 **Start Location:** Blueberry Patch Hostel
@@ -415,14 +488,21 @@ miles_today: 5.3
 trip_miles: 98.3
 facts:
   weather: High 24°F, low 12°F. Overcast.
-  trail_section: Standing Indian Mountain at 5,498 feet is the highest peak south
-    of the Great Smokies on the AT. The Standing Indian area is known for its high
-    balds and sweeping views of the southern Appalachians. The North Carolina AT includes
-    some of the highest peaks east of the Mississippi outside the Rockies.
+  trail_section: 'Georgia — Blood Mountain to Bly Gap (AT miles 65–70): Classic Georgia
+    AT: long climbs, mountain laurel, and trail-town access near Helen and Hiawassee
+    before the NC border. Sustained ups and downs along the Blue Ridge; often muddy
+    in spring; famous steep pitches leaving NOC later. Notable points along this leg
+    include Bly Gap, Standing Indian Shelter. Standing Indian Mountain (5,498 ft)
+    is the highest peak south of the Smokies on the AT.'
   confidence: high
   sources:
+  - AT segment guide
   - AT location database
   - Open-Meteo archive
+  segment: Georgia — Blood Mountain to Bly Gap
+  at_mile_start: 64.9
+  at_mile_end: 70.2
+  region: Georgia
 ---
 # Tuesday, February 16, 2010 — Standing Indian Shelter
 **Start Location:** Muskrat Creek Shelter
@@ -443,14 +523,21 @@ miles_today: 7.6
 trip_miles: 105.9
 facts:
   weather: High 28°F, low 8°F. Overcast.
-  trail_section: Standing Indian Mountain at 5,498 feet is the highest peak south
-    of the Great Smokies on the AT. The Standing Indian area is known for its high
-    balds and sweeping views of the southern Appalachians. The North Carolina AT includes
-    some of the highest peaks east of the Mississippi outside the Rockies.
+  trail_section: 'Georgia — Blood Mountain to Bly Gap (AT miles 70–75): Classic Georgia
+    AT: long climbs, mountain laurel, and trail-town access near Helen and Hiawassee
+    before the NC border. Sustained ups and downs along the Blue Ridge; often muddy
+    in spring; famous steep pitches leaving NOC later. Notable points along this leg
+    include Standing Indian Shelter, Carter Gap Shelter. Standing Indian Mountain
+    (5,498 ft) is the highest peak south of the Smokies on the AT.'
   confidence: high
   sources:
+  - AT segment guide
   - AT location database
   - Open-Meteo archive
+  segment: Georgia — Blood Mountain to Bly Gap
+  at_mile_start: 70.2
+  at_mile_end: 75.2
+  region: Georgia
 ---
 # Wednesday, February 17, 2010 — Carter Gap Shelter
 **Start Location:** Standing Indian Shelter
@@ -471,13 +558,22 @@ miles_today: 15.9
 trip_miles: 121.8
 facts:
   weather: High 38°F, low 27°F. Slight snow.
-  trail_section: Trail section from Carter Gap Shelter to Sapphire Inn (Franklin,
-    NC).
+  trail_section: 'Southern North Carolina high country (AT miles 75–122): High southern
+    Appalachians with Standing Indian, Franklin resupply, and the long climb toward
+    the Nantahala gorge. Big elevation change, open balds, and remote ridge walking
+    south of the Smokies. Notable points along this leg include Carter Gap Shelter,
+    Rock Gap Shelter, Winding Stair Gap, Cold Spring Shelter.'
   town_events: Franklin named first Appalachian Trail Community in 2010 - Facebook
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/159729421133853/posts/877502402689881/
+  segment: Southern North Carolina high country
+  at_mile_start: 75.2
+  at_mile_end: 121.8
+  region: North Carolina
 ---
 # Thursday, February 18, 2010 — Sapphire Inn (Franklin, NC)
 **Start Location:** Carter Gap Shelter
@@ -506,12 +602,21 @@ miles_today: 6.0
 trip_miles: 127.8
 facts:
   weather: High 39°F, low 29°F. Overcast.
-  trail_section: Trail section from Sapphire Inn (Franklin, NC) to Siler Bald Shelter.
+  trail_section: 'Southern North Carolina high country (AT miles 93–99): High southern
+    Appalachians with Standing Indian, Franklin resupply, and the long climb toward
+    the Nantahala gorge. Big elevation change, open balds, and remote ridge walking
+    south of the Smokies. Notable points along this leg include Siler Bald Shelter.'
   town_events: Franklin named first Appalachian Trail Community in 2010
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/159729421133853/posts/877502402689881/
+  segment: Southern North Carolina high country
+  at_mile_start: 92.6
+  at_mile_end: 98.6
+  region: North Carolina
 ---
 # Friday, February 19, 2010 — Siler Bald Shelter
 **Start Location:** Sapphire Inn (Franklin, NC)
@@ -530,10 +635,20 @@ miles_today: 12.6
 trip_miles: 140.4
 facts:
   weather: High 45°F, low 23°F. Mainly clear.
-  trail_section: Trail section from Siler Bald Shelter to Cold Spring Shelter.
-  confidence: medium
+  trail_section: 'Southern North Carolina high country (AT miles 99–88): High southern
+    Appalachians with Standing Indian, Franklin resupply, and the long climb toward
+    the Nantahala gorge. Big elevation change, open balds, and remote ridge walking
+    south of the Smokies. Notable points along this leg include Cold Spring Shelter,
+    Wayah Bald Shelter, Siler Bald Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Southern North Carolina high country
+  at_mile_start: 98.6
+  at_mile_end: 88.4
+  region: North Carolina
 ---
 # Saturday, February 20, 2010 — Cold Spring Shelter
 **Start Location:** Siler Bald Shelter
@@ -552,12 +667,22 @@ miles_today: 12.0
 trip_miles: 152.4
 facts:
   weather: High 44°F, low 23°F. Overcast.
-  trail_section: Trail section from Cold Spring Shelter to A cabin (NOC).
+  trail_section: 'Southern North Carolina high country (AT miles 88–152): High southern
+    Appalachians with Standing Indian, Franklin resupply, and the long climb toward
+    the Nantahala gorge. Big elevation change, open balds, and remote ridge walking
+    south of the Smokies. Notable points along this leg include Cold Spring Shelter,
+    Wayah Bald Shelter, Siler Bald Shelter, Wesser NOC.'
   town_events: Events
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/events/
+  segment: Southern North Carolina high country
+  at_mile_start: 88.4
+  at_mile_end: 152.4
+  region: North Carolina
 ---
 # Sunday, February 21, 2010 — A cabin (NOC)
 **Start Location:** Cold Spring Shelter
@@ -580,12 +705,22 @@ miles_today: 7.5
 trip_miles: 159.9
 facts:
   weather: High 53°F, low 38°F. Slight rain.
-  trail_section: Trail section from A cabin (NOC) to Sassafras Gap Shelter.
+  trail_section: 'Nantahala gorge to Fontana Dam (AT miles 152–160): One of the steepest
+    climbs on the entire trail leaves the NOC river gorge; hikers then traverse the
+    Smokies approach to Fontana. Brutal climb out of the gorge (3,000+ ft), then ridge
+    walking toward the ''Fontana Hilton'' shelter at the dam. Landmarks in this corridor
+    include NOC, Fontana Dam, Fontana Dam Shelter.'
   town_events: Franklin named first Appalachian Trail Community in 2010 - Facebook
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/159729421133853/posts/877502402689881/
+  segment: Nantahala gorge to Fontana Dam
+  at_mile_start: 152.4
+  at_mile_end: 159.9
+  region: North Carolina
 ---
 # Monday, February 22, 2010 — Sassafras Gap Shelter
 **Start Location:** A cabin (NOC)
@@ -606,10 +741,20 @@ miles_today: 9.1
 trip_miles: 169.0
 facts:
   weather: High 41°F, low 31°F. Light drizzle.
-  trail_section: Trail section from Sassafras Gap Shelter to Brown Fork Gap Shelter.
-  confidence: medium
+  trail_section: 'Nantahala gorge to Fontana Dam (AT miles 160–169): One of the steepest
+    climbs on the entire trail leaves the NOC river gorge; hikers then traverse the
+    Smokies approach to Fontana. Brutal climb out of the gorge (3,000+ ft), then ridge
+    walking toward the ''Fontana Hilton'' shelter at the dam. Landmarks in this corridor
+    include NOC, Fontana Dam, Fontana Dam Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Nantahala gorge to Fontana Dam
+  at_mile_start: 159.9
+  at_mile_end: 169.0
+  region: North Carolina
 ---
 # Tuesday, February 23, 2010 — Brown Fork Gap Shelter
 **Start Location:** Sassafras Gap Shelter
@@ -636,13 +781,22 @@ miles_today: 12.0
 trip_miles: 181.0
 facts:
   weather: High 32°F, low 24°F. Slight snow.
-  trail_section: Trail section from Brown Fork Gap Shelter to Fontana Lodge (Fontana
-    Village).
+  trail_section: 'Great Smoky Mountains National Park (south) (AT miles 169–181):
+    Inside GSMNP: sustained climbing, crowded shelters, bear cables, and mandatory
+    backcountry permits define this iconic section. Dense spruce-fir near treeline,
+    icy spring conditions, and some of the highest elevations on the entire AT. Landmarks
+    in this corridor include Clingmans Dome, Mollies Ridge, Icewater Spring.'
   town_events: Appalachian Trail thru-hikers enjoy trail magic at Fontana Village
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/1070154271134761/posts/1533014594848724/
+  segment: Great Smoky Mountains National Park (south)
+  at_mile_start: 169.0
+  at_mile_end: 181.0
+  region: Tennessee / Great Smoky Mountains
 ---
 # Wednesday, February 24, 2010 — Fontana Lodge (Fontana Village)
 **Start Location:** Brown Fork Gap Shelter
@@ -663,14 +817,22 @@ miles_today: 1.0
 trip_miles: 182.0
 facts:
   weather: High 34°F, low 24°F. Moderate snow.
-  trail_section: Fontana Dam at 480 feet is the tallest dam east of the Mississippi
-    River; the AT crosses it entering GSMNP. Fontana Dam Shelter is nicknamed the
-    'Fontana Hilton' for its spacious shower and laundry facilities. The North Carolina
-    AT includes some of the highest peaks east of the Mississippi outside the Rockies.
+  trail_section: 'Great Smoky Mountains National Park (south) (AT miles 181–182):
+    Inside GSMNP: sustained climbing, crowded shelters, bear cables, and mandatory
+    backcountry permits define this iconic section. Dense spruce-fir near treeline,
+    icy spring conditions, and some of the highest elevations on the entire AT. Landmarks
+    in this corridor include Clingmans Dome, Mollies Ridge, Icewater Spring. Fontana
+    Dam (480 ft tall) is crossed by the AT entering Great Smoky Mountains National
+    Park.'
   confidence: high
   sources:
+  - AT segment guide
   - AT location database
   - Open-Meteo archive
+  segment: Great Smoky Mountains National Park (south)
+  at_mile_start: 181.0
+  at_mile_end: 182.0
+  region: Tennessee / Great Smoky Mountains
 ---
 # Thursday, February 25, 2010 — Fontana Dam Shelter
 **Start Location:** Fontana Lodge (Fontana Village)
@@ -687,14 +849,22 @@ miles_today: 11.3
 trip_miles: 193.3
 facts:
   weather: High 39°F, low 21°F. Mainly clear.
-  trail_section: Fontana Dam at 480 feet is the tallest dam east of the Mississippi
-    River; the AT crosses it entering GSMNP. Fontana Dam Shelter is nicknamed the
-    'Fontana Hilton' for its spacious shower and laundry facilities. The North Carolina
-    AT includes some of the highest peaks east of the Mississippi outside the Rockies.
+  trail_section: 'Great Smoky Mountains National Park (south) (AT miles 182–193):
+    Inside GSMNP: sustained climbing, crowded shelters, bear cables, and mandatory
+    backcountry permits define this iconic section. Dense spruce-fir near treeline,
+    icy spring conditions, and some of the highest elevations on the entire AT. Landmarks
+    in this corridor include Clingmans Dome, Mollies Ridge, Icewater Spring. Fontana
+    Dam (480 ft tall) is crossed by the AT entering Great Smoky Mountains National
+    Park.'
   confidence: high
   sources:
+  - AT segment guide
   - AT location database
   - Open-Meteo archive
+  segment: Great Smoky Mountains National Park (south)
+  at_mile_start: 182.0
+  at_mile_end: 193.3
+  region: Tennessee / Great Smoky Mountains
 ---
 # Friday, February 26, 2010 — Mollie's Ridge Shelter
 **Start Location:** Fontana Dam Shelter
@@ -711,10 +881,20 @@ miles_today: 12.0
 trip_miles: 205.3
 facts:
   weather: High 30°F, low 11°F. Overcast.
-  trail_section: Trail section from Mollie's Ridge Shelter to Derrick Knob Shelter.
-  confidence: medium
+  trail_section: 'Great Smoky Mountains National Park (south) (AT miles 193–205):
+    Inside GSMNP: sustained climbing, crowded shelters, bear cables, and mandatory
+    backcountry permits define this iconic section. Dense spruce-fir near treeline,
+    icy spring conditions, and some of the highest elevations on the entire AT. Landmarks
+    in this corridor include Clingmans Dome, Mollies Ridge, Icewater Spring.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Great Smoky Mountains National Park (south)
+  at_mile_start: 193.3
+  at_mile_end: 205.3
+  region: Tennessee / Great Smoky Mountains
 ---
 # Saturday, February 27, 2010 — Derrick Knob Shelter
 **Start Location:** Mollie's Ridge Shelter
@@ -733,13 +913,22 @@ miles_today: 15.0
 trip_miles: 220.3
 facts:
   weather: High 57°F, low 35°F. Partly cloudy.
-  trail_section: Trail section from Derrick Knob Shelter to On the side of the road
-    (U.S. 442).
+  trail_section: 'Great Smoky Mountains National Park (south) (AT miles 205–220):
+    Inside GSMNP: sustained climbing, crowded shelters, bear cables, and mandatory
+    backcountry permits define this iconic section. Dense spruce-fir near treeline,
+    icy spring conditions, and some of the highest elevations on the entire AT. Landmarks
+    in this corridor include Clingmans Dome, Mollies Ridge, Icewater Spring.'
   town_events: Franklin named first Appalachian Trail Community in 2010
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/159729421133853/posts/877502402689881/
+  segment: Great Smoky Mountains National Park (south)
+  at_mile_start: 205.3
+  at_mile_end: 220.3
+  region: Tennessee / Great Smoky Mountains
 ---
 # Sunday, February 28, 2010 — On the side of the road (U.S. 442)
 **Start Location:** Derrick Knob Shelter
@@ -758,13 +947,22 @@ miles_today: 0.0
 trip_miles: 220.3
 facts:
   weather: High 51°F, low 40°F. Moderate drizzle.
-  trail_section: Trail section from On the side of the road (U.S. 442) to A cabin
-    (Gatlinburg, TN).
+  trail_section: 'Smokies exit to Hot Springs (AT miles 219–220): Northbound hikers
+    leave the Smokies at Davenport Gap and cross into the balds-and-river country
+    around Hot Springs. Post-Smokies fatigue is common; Max Patch bald offers huge
+    views; trail softens into pastoral TN/NC border country. Landmarks in this corridor
+    include Davenport Gap, Max Patch, Hot Springs.'
   town_events: The Appalachian Trail | Great Smoky Mountains National Park
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.gatlinburg.com/great-smoky-mountains/hiking-trails/appalachian-trail/
+  segment: Smokies exit to Hot Springs
+  at_mile_start: 219.3
+  at_mile_end: 220.3
+  region: Tennessee / North Carolina
 ---
 # Monday, March 01, 2010 — A cabin (Gatlinburg, TN)
 **Start Location:** On the side of the road (U.S. 442)
@@ -787,12 +985,22 @@ miles_today: 3.0
 trip_miles: 223.3
 facts:
   weather: High 40°F, low 33°F. Moderate snow.
-  trail_section: Trail section from A cabin (Gatlinburg, TN) to Icewater Spring Shelter.
+  trail_section: 'Smokies exit to Hot Springs (AT miles 220–223): Northbound hikers
+    leave the Smokies at Davenport Gap and cross into the balds-and-river country
+    around Hot Springs. Post-Smokies fatigue is common; Max Patch bald offers huge
+    views; trail softens into pastoral TN/NC border country. Landmarks in this corridor
+    include Davenport Gap, Max Patch, Hot Springs.'
   town_events: Franklin named first Appalachian Trail Community in 2010
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/159729421133853/posts/877502402689881/
+  segment: Smokies exit to Hot Springs
+  at_mile_start: 220.3
+  at_mile_end: 223.3
+  region: Tennessee / North Carolina
 ---
 # Tuesday, March 02, 2010 — Icewater Spring Shelter
 **Start Location:** A cabin (Gatlinburg, TN)
@@ -809,10 +1017,20 @@ miles_today: 8.0
 trip_miles: 231.3
 facts:
   weather: High 22°F, low 16°F. Moderate snow.
-  trail_section: Trail section from Icewater Spring Shelter to Pecks Corner Shelter.
-  confidence: medium
+  trail_section: 'Smokies exit to Hot Springs (AT miles 223–231): Northbound hikers
+    leave the Smokies at Davenport Gap and cross into the balds-and-river country
+    around Hot Springs. Post-Smokies fatigue is common; Max Patch bald offers huge
+    views; trail softens into pastoral TN/NC border country. Landmarks in this corridor
+    include Davenport Gap, Max Patch, Hot Springs.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Smokies exit to Hot Springs
+  at_mile_start: 223.3
+  at_mile_end: 231.3
+  region: Tennessee / North Carolina
 ---
 # Wednesday, March 03, 2010 — Pecks Corner Shelter
 **Start Location:** Icewater Spring Shelter
@@ -829,10 +1047,20 @@ miles_today: 14.0
 trip_miles: 245.3
 facts:
   weather: High 29°F, low 18°F. Slight snow.
-  trail_section: Trail section from Pecks Corner Shelter to Cosby Knob Shelter.
-  confidence: medium
+  trail_section: 'Smokies exit to Hot Springs (AT miles 231–245): Northbound hikers
+    leave the Smokies at Davenport Gap and cross into the balds-and-river country
+    around Hot Springs. Post-Smokies fatigue is common; Max Patch bald offers huge
+    views; trail softens into pastoral TN/NC border country. Landmarks in this corridor
+    include Davenport Gap, Max Patch, Hot Springs.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Smokies exit to Hot Springs
+  at_mile_start: 231.3
+  at_mile_end: 245.3
+  region: Tennessee / North Carolina
 ---
 # Thursday, March 04, 2010 — Cosby Knob Shelter
 **Start Location:** Pecks Corner Shelter
@@ -849,10 +1077,20 @@ miles_today: 10.0
 trip_miles: 255.3
 facts:
   weather: High 30°F, low 18°F. Clear sky.
-  trail_section: Trail section from Cosby Knob Shelter to Standing Bear Farm Hostel.
-  confidence: medium
+  trail_section: 'Smokies exit to Hot Springs (AT miles 245–255): Northbound hikers
+    leave the Smokies at Davenport Gap and cross into the balds-and-river country
+    around Hot Springs. Post-Smokies fatigue is common; Max Patch bald offers huge
+    views; trail softens into pastoral TN/NC border country. Landmarks in this corridor
+    include Davenport Gap, Max Patch, Hot Springs.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Smokies exit to Hot Springs
+  at_mile_start: 245.3
+  at_mile_end: 255.3
+  region: Tennessee / North Carolina
 ---
 # Friday, March 05, 2010 — Standing Bear Farm Hostel
 **Start Location:** Cosby Knob Shelter
@@ -878,8 +1116,18 @@ destination: Groundhog Creek Shelter
 miles_today: 8.0
 trip_miles: 263.3
 facts:
-  trail_section: Trail section from Standing Bear Farm Hostel to Groundhog Creek Shelter.
+  trail_section: 'Smokies exit to Hot Springs (AT miles 255–263): Northbound hikers
+    leave the Smokies at Davenport Gap and cross into the balds-and-river country
+    around Hot Springs. Post-Smokies fatigue is common; Max Patch bald offers huge
+    views; trail softens into pastoral TN/NC border country. Landmarks in this corridor
+    include Davenport Gap, Max Patch, Hot Springs.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: Smokies exit to Hot Springs
+  at_mile_start: 255.3
+  at_mile_end: 263.3
+  region: Tennessee / North Carolina
 ---
 # Saturday, March 06, 2010 — Groundhog Creek Shelter
 **Start Location:** Standing Bear Farm Hostel
@@ -908,10 +1156,20 @@ miles_today: 11.5
 trip_miles: 274.8
 facts:
   weather: High 44°F, low 23°F. Overcast.
-  trail_section: Trail section from Groundhog Creek Shelter to Roaring Fork Shelter.
-  confidence: medium
+  trail_section: 'Smokies exit to Hot Springs (AT miles 263–275): Northbound hikers
+    leave the Smokies at Davenport Gap and cross into the balds-and-river country
+    around Hot Springs. Post-Smokies fatigue is common; Max Patch bald offers huge
+    views; trail softens into pastoral TN/NC border country. Landmarks in this corridor
+    include Davenport Gap, Max Patch, Hot Springs.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Smokies exit to Hot Springs
+  at_mile_start: 263.3
+  at_mile_end: 274.8
+  region: Tennessee / North Carolina
 ---
 # Sunday, March 07, 2010 — Roaring Fork Shelter
 **Start Location:** Groundhog Creek Shelter
@@ -934,10 +1192,20 @@ miles_today: 15.0
 trip_miles: 289.8
 facts:
   weather: High 48°F, low 25°F. Overcast.
-  trail_section: Trail section from Roaring Fork Shelter to Deer Park Shelter.
-  confidence: medium
+  trail_section: 'Cherokee National Forest balds (AT miles 275–290): Ridge walking
+    through grassy balds and forested gaps between Hot Springs and the Roan Highlands
+    approach. Exposed ridges, spring snow squalls, and increasing trail community
+    as hikers settle into mileage. Landmarks in this corridor include Roaring Fork,
+    Groundhog Creek, Big Bald.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Cherokee National Forest balds
+  at_mile_start: 274.8
+  at_mile_end: 289.8
+  region: North Carolina / Tennessee
 ---
 # Monday, March 08, 2010 — Deer Park Shelter
 **Start Location:** Roaring Fork Shelter
@@ -954,12 +1222,22 @@ miles_today: 3.2
 trip_miles: 293.0
 facts:
   weather: High 67°F, low 34°F. Overcast.
-  trail_section: Trail section from Deer Park Shelter to A cabin (Hot Springs, NC).
+  trail_section: 'Cherokee National Forest balds (AT miles 290–293): Ridge walking
+    through grassy balds and forested gaps between Hot Springs and the Roan Highlands
+    approach. Exposed ridges, spring snow squalls, and increasing trail community
+    as hikers settle into mileage. Landmarks in this corridor include Roaring Fork,
+    Groundhog Creek, Big Bald.'
   town_events: Hot Springs Town & Trail Festival
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/event/hot-springs-town-trail-2026/
+  segment: Cherokee National Forest balds
+  at_mile_start: 289.8
+  at_mile_end: 293.0
+  region: North Carolina / Tennessee
 ---
 # Tuesday, March 09, 2010 — A cabin (Hot Springs, NC)
 **Start Location:** Deer Park Shelter
@@ -984,12 +1262,22 @@ miles_today: 11.0
 trip_miles: 304.0
 facts:
   weather: High 55°F, low 42°F. Dense drizzle.
-  trail_section: Trail section from A cabin (Hot Springs, NC) to Spring Mountain Shelter.
+  trail_section: 'Cherokee National Forest balds (AT miles 293–304): Ridge walking
+    through grassy balds and forested gaps between Hot Springs and the Roan Highlands
+    approach. Exposed ridges, spring snow squalls, and increasing trail community
+    as hikers settle into mileage. Landmarks in this corridor include Roaring Fork,
+    Groundhog Creek, Big Bald.'
   town_events: Hot Springs Town & Trail Festival - Appalachian Trail Conservancy
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/event/hot-springs-town-trail-2026/
+  segment: Cherokee National Forest balds
+  at_mile_start: 293.0
+  at_mile_end: 304.0
+  region: North Carolina / Tennessee
 ---
 # Thursday, March 11, 2010 — Spring Mountain Shelter
 **Start Location:** A cabin (Hot Springs, NC)
@@ -1012,10 +1300,20 @@ miles_today: 15.4
 trip_miles: 319.4
 facts:
   weather: High 60°F, low 43°F. Slight rain.
-  trail_section: Trail section from Spring Mountain Shelter to Jerry Cabin Shelter.
-  confidence: medium
+  trail_section: 'Cherokee National Forest balds (AT miles 304–319): Ridge walking
+    through grassy balds and forested gaps between Hot Springs and the Roan Highlands
+    approach. Exposed ridges, spring snow squalls, and increasing trail community
+    as hikers settle into mileage. Landmarks in this corridor include Roaring Fork,
+    Groundhog Creek, Big Bald.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Cherokee National Forest balds
+  at_mile_start: 304.0
+  at_mile_end: 319.4
+  region: North Carolina / Tennessee
 ---
 # Friday, March 12, 2010 — Jerry Cabin Shelter
 **Start Location:** Spring Mountain Shelter
@@ -1036,10 +1334,20 @@ miles_today: 14.7
 trip_miles: 334.1
 facts:
   weather: High 47°F, low 36°F. Moderate rain.
-  trail_section: Trail section from Jerry Cabin Shelter to Hogback Ridge Shelter.
-  confidence: medium
+  trail_section: 'Cherokee National Forest balds (AT miles 319–334): Ridge walking
+    through grassy balds and forested gaps between Hot Springs and the Roan Highlands
+    approach. Exposed ridges, spring snow squalls, and increasing trail community
+    as hikers settle into mileage. Landmarks in this corridor include Roaring Fork,
+    Groundhog Creek, Big Bald.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Cherokee National Forest balds
+  at_mile_start: 319.4
+  at_mile_end: 334.1
+  region: North Carolina / Tennessee
 ---
 # Saturday, March 13, 2010 — Hogback Ridge Shelter
 **Start Location:** Jerry Cabin Shelter
@@ -1056,10 +1364,20 @@ miles_today: 20.7
 trip_miles: 354.8
 facts:
   weather: High 43°F, low 32°F. Moderate drizzle.
-  trail_section: Trail section from Hogback Ridge Shelter to No Business Knob Shelter.
-  confidence: medium
+  trail_section: 'Cherokee National Forest balds (AT miles 334–355): Ridge walking
+    through grassy balds and forested gaps between Hot Springs and the Roan Highlands
+    approach. Exposed ridges, spring snow squalls, and increasing trail community
+    as hikers settle into mileage. Landmarks in this corridor include Roaring Fork,
+    Groundhog Creek, Big Bald.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Cherokee National Forest balds
+  at_mile_start: 334.1
+  at_mile_end: 354.8
+  region: North Carolina / Tennessee
 ---
 # Sunday, March 14, 2010 — No Business Knob Shelter
 **Start Location:** Hogback Ridge Shelter
@@ -1076,10 +1394,20 @@ miles_today: 10.5
 trip_miles: 365.3
 facts:
   weather: High 44°F, low 37°F. Moderate drizzle.
-  trail_section: Trail section from No Business Knob Shelter to Curley Maple Gap Shelter.
-  confidence: medium
+  trail_section: 'Roan Highlands (AT miles 355–365): The Roan Highlands feature treeless
+    6,000-foot balds, rhododendron gardens, and some of the most scenic ridge walking
+    on the AT. Wide-open balds with punishing winds; spectacular views when clouds
+    lift; very exposed in storms. Landmarks in this corridor include Roan High Knob,
+    Carvers Gap, Overmountain Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Roan Highlands
+  at_mile_start: 354.8
+  at_mile_end: 365.3
+  region: Tennessee / North Carolina
 ---
 # Monday, March 15, 2010 — Curley Maple Gap Shelter
 **Start Location:** No Business Knob Shelter
@@ -1096,10 +1424,20 @@ miles_today: 22.0
 trip_miles: 387.3
 facts:
   weather: High 42°F, low 30°F. Light drizzle.
-  trail_section: Trail section from Curley Maple Gap Shelter to Clyde Smith Shelter.
-  confidence: medium
+  trail_section: 'Roan Highlands (AT miles 365–387): The Roan Highlands feature treeless
+    6,000-foot balds, rhododendron gardens, and some of the most scenic ridge walking
+    on the AT. Wide-open balds with punishing winds; spectacular views when clouds
+    lift; very exposed in storms. Landmarks in this corridor include Roan High Knob,
+    Carvers Gap, Overmountain Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Roan Highlands
+  at_mile_start: 365.3
+  at_mile_end: 387.3
+  region: Tennessee / North Carolina
 ---
 # Tuesday, March 16, 2010 — Clyde Smith Shelter
 **Start Location:** Curley Maple Gap Shelter
@@ -1116,11 +1454,20 @@ miles_today: 13.1
 trip_miles: 400.4
 facts:
   weather: High 49°F, low 37°F. Light drizzle.
-  trail_section: Trail section from Clyde Smith Shelter to A cabin (near Overmountain
-    Shelter?).
-  confidence: medium
+  trail_section: 'Roan Highlands (AT miles 387–400): The Roan Highlands feature treeless
+    6,000-foot balds, rhododendron gardens, and some of the most scenic ridge walking
+    on the AT. Wide-open balds with punishing winds; spectacular views when clouds
+    lift; very exposed in storms. Landmarks in this corridor include Roan High Knob,
+    Carvers Gap, Overmountain Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Roan Highlands
+  at_mile_start: 387.3
+  at_mile_end: 400.4
+  region: Tennessee / North Carolina
 ---
 # Wednesday, March 17, 2010 — A cabin (near Overmountain Shelter?)
 **Start Location:** Clyde Smith Shelter
@@ -1145,13 +1492,22 @@ miles_today: 9.0
 trip_miles: 409.4
 facts:
   weather: High 60°F, low 40°F. Overcast.
-  trail_section: Trail section from A cabin (near Overmountain Shelter?) to Mountain
-    Harbour Hostel (Elk Park, TN).
+  trail_section: 'Roan Highlands (AT miles 400–409): The Roan Highlands feature treeless
+    6,000-foot balds, rhododendron gardens, and some of the most scenic ridge walking
+    on the AT. Wide-open balds with punishing winds; spectacular views when clouds
+    lift; very exposed in storms. Landmarks in this corridor include Roan High Knob,
+    Carvers Gap, Overmountain Shelter.'
   town_events: 'Appalachian Trail Conservancy: Home'
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/
+  segment: Roan Highlands
+  at_mile_start: 400.4
+  at_mile_end: 409.4
+  region: Tennessee / North Carolina
 ---
 # Thursday, March 18, 2010 — Mountain Harbour Hostel (Elk Park, TN)
 **Start Location:** A cabin (near Overmountain Shelter?)
@@ -1168,13 +1524,22 @@ miles_today: 16.7
 trip_miles: 426.1
 facts:
   weather: High 57°F, low 34°F. Mainly clear.
-  trail_section: Trail section from Mountain Harbour Hostel (Elk Park, TN) to Moreland
-    Gap Shelter.
+  trail_section: 'TN–VA high country to Damascus (AT miles 409–426): Crossing into
+    Virginia, hikers descend toward the Holston River and the legendary trail town
+    of Damascus. Long ridge traverses giving way to river valleys; spring green tunnels
+    and increasing horse/equestrian trail overlap in places. Landmarks in this corridor
+    include Damascus, The Place, Kincora Hostel.'
   town_events: 'Erwin, TN to US 19 E. at Elk Park, NC : r/AppalachianTrail - Reddit'
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.reddit.com/r/AppalachianTrail/comments/1plxo5/the_appalachian_trail_in_30_days_530_erwin_tn_to/
+  segment: TN–VA high country to Damascus
+  at_mile_start: 409.4
+  at_mile_end: 426.1
+  region: Tennessee / Virginia
 ---
 # Friday, March 19, 2010 — Moreland Gap Shelter
 **Start Location:** Mountain Harbour Hostel (Elk Park, TN)
@@ -1194,12 +1559,20 @@ destination: Kincora (Dennis Cove, TN)
 miles_today: 6.0
 trip_miles: 432.1
 facts:
-  trail_section: Trail section from Holiday Inn Express (Abingdon, VA) to Kincora
-    (Dennis Cove, TN).
+  trail_section: 'TN–VA high country to Damascus (AT miles 426–432): Crossing into
+    Virginia, hikers descend toward the Holston River and the legendary trail town
+    of Damascus. Long ridge traverses giving way to river valleys; spring green tunnels
+    and increasing horse/equestrian trail overlap in places. Landmarks in this corridor
+    include Damascus, The Place, Kincora Hostel.'
   town_events: Hiking Laurel Falls from Hampton trailhead - Facebook
   confidence: low
   sources:
+  - AT segment guide
   - https://www.facebook.com/groups/tennesseehiking/posts/783378817687401/
+  segment: TN–VA high country to Damascus
+  at_mile_start: 426.1
+  at_mile_end: 432.1
+  region: Tennessee / Virginia
 ---
 # Saturday, March 20, 2010 — Kincora (Dennis Cove, TN)
 **Start Location:** Holiday Inn Express (Abingdon, VA)
@@ -1221,12 +1594,21 @@ destination: Kincora (Dennis Cove, TN)
 miles_today: 0.0
 trip_miles: 432.1
 facts:
-  trail_section: Trail section from Kincora (Dennis Cove, TN) to Kincora (Dennis Cove,
-    TN).
+  trail_section: 'TN–VA high country to Damascus (AT miles 431–432): Crossing into
+    Virginia, hikers descend toward the Holston River and the legendary trail town
+    of Damascus. Long ridge traverses giving way to river valleys; spring green tunnels
+    and increasing horse/equestrian trail overlap in places. Landmarks in this corridor
+    include Damascus, The Place, Kincora Hostel.'
   town_events: 10.1 mile Appalachian Trail hike from Dennis Cove to ...
   confidence: low
   sources:
+  - AT segment guide
+  - firecrawl web search
   - https://www.facebook.com/groups/theweekendadventurer/posts/1389047798518663/
+  segment: TN–VA high country to Damascus
+  at_mile_start: 431.1
+  at_mile_end: 432.1
+  region: Tennessee / Virginia
 ---
 # Sunday, March 21, 2010 — Kincora (Dennis Cove, TN)
 **Start Location:** Kincora (Dennis Cove, TN)
@@ -1243,11 +1625,20 @@ miles_today: 18.0
 trip_miles: 450.1
 facts:
   weather: High 65°F, low 36°F. Overcast.
-  trail_section: Trail section from Double Spring Shelter to The Place (Damascus,
-    VA).
-  confidence: medium
+  trail_section: 'TN–VA high country to Damascus (AT miles 432–450): Crossing into
+    Virginia, hikers descend toward the Holston River and the legendary trail town
+    of Damascus. Long ridge traverses giving way to river valleys; spring green tunnels
+    and increasing horse/equestrian trail overlap in places. Landmarks in this corridor
+    include Damascus, The Place, Kincora Hostel.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: TN–VA high country to Damascus
+  at_mile_start: 432.1
+  at_mile_end: 450.1
+  region: Tennessee / Virginia
 ---
 # Wednesday, March 24, 2010 — The Place (Damascus, VA)
 **Start Location:** Double Spring Shelter
@@ -1268,13 +1659,22 @@ miles_today: 0.0
 trip_miles: 450.1
 facts:
   weather: High 62°F, low 42°F. Moderate drizzle.
-  trail_section: Trail section from The Place (Damascus, VA) to The Place (Damascus,
-    VA).
+  trail_section: 'TN–VA high country to Damascus (AT miles 449–450): Crossing into
+    Virginia, hikers descend toward the Holston River and the legendary trail town
+    of Damascus. Long ridge traverses giving way to river valleys; spring green tunnels
+    and increasing horse/equestrian trail overlap in places. Landmarks in this corridor
+    include Damascus, The Place, Kincora Hostel.'
   town_events: Appalachian Trail Days Festival - Visit Damascus
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://visitdamascus.org/traildays/
+  segment: TN–VA high country to Damascus
+  at_mile_start: 449.1
+  at_mile_end: 450.1
+  region: Tennessee / Virginia
 ---
 # Thursday, March 25, 2010 — The Place (Damascus, VA)
 **Start Location:** The Place (Damascus, VA)
@@ -1291,13 +1691,22 @@ miles_today: 18.0
 trip_miles: 468.1
 facts:
   weather: High 52°F, low 42°F. Dense drizzle.
-  trail_section: Trail section from The Place (Damascus, VA) to Augusta's Appalachian
-    Inn (Damascus, VA).
+  trail_section: 'TN–VA high country to Damascus (AT miles 450–468): Crossing into
+    Virginia, hikers descend toward the Holston River and the legendary trail town
+    of Damascus. Long ridge traverses giving way to river valleys; spring green tunnels
+    and increasing horse/equestrian trail overlap in places. Landmarks in this corridor
+    include Damascus, The Place, Kincora Hostel.'
   town_events: Appalachian Trail Days Festival
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://visitdamascus.org/traildays/
+  segment: TN–VA high country to Damascus
+  at_mile_start: 450.1
+  at_mile_end: 468.1
+  region: Tennessee / Virginia
 ---
 # Friday, March 26, 2010 — Augusta's Appalachian Inn (Damascus, VA)
 **Start Location:** The Place (Damascus, VA)
@@ -1329,13 +1738,22 @@ miles_today: 0.0
 trip_miles: 468.1
 facts:
   weather: High 58°F, low 31°F. Partly cloudy.
-  trail_section: Trail section from Augusta's Appalachian Inn (Damascus, VA) to Holiday
-    Inn Express (Abingdon, VA).
+  trail_section: 'TN–VA high country to Damascus (AT miles 467–468): Crossing into
+    Virginia, hikers descend toward the Holston River and the legendary trail town
+    of Damascus. Long ridge traverses giving way to river valleys; spring green tunnels
+    and increasing horse/equestrian trail overlap in places. Landmarks in this corridor
+    include Damascus, The Place, Kincora Hostel.'
   town_events: Abingdon, VA - Appalachian Trail Conservancy
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/abingdon-va/
+  segment: TN–VA high country to Damascus
+  at_mile_start: 467.1
+  at_mile_end: 468.1
+  region: Tennessee / Virginia
 ---
 # Saturday, March 27, 2010 — Holiday Inn Express (Abingdon, VA)
 **Start Location:** Augusta's Appalachian Inn (Damascus, VA)
@@ -1354,10 +1772,20 @@ miles_today: 20.0
 trip_miles: 488.1
 facts:
   weather: High 52°F, low 36°F. Slight rain.
-  trail_section: Trail section from U.S. 58 to Wise Shelter.
-  confidence: medium
+  trail_section: 'Southwest Virginia — Grayson Highlands (AT miles 468–488): Virginia''s
+    high country: wild ponies at Grayson Highlands, open balds, and the rhythm of
+    20-mile days many hikers adopt. Frequent 4,000-foot knobs, meadow walking, and
+    reliable spring water; notorious spring mud in gaps. Landmarks in this corridor
+    include Grayson Highlands, Mount Rogers, Partnership Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Southwest Virginia — Grayson Highlands
+  at_mile_start: 468.1
+  at_mile_end: 488.1
+  region: Virginia
 ---
 # Sunday, March 28, 2010 — Wise Shelter
 **Start Location:** U.S. 58
@@ -1380,10 +1808,20 @@ miles_today: 20.0
 trip_miles: 508.1
 facts:
   weather: High 48°F, low 37°F. Slight rain.
-  trail_section: Trail section from Wise Shelter to Trimpi Shelter.
-  confidence: medium
+  trail_section: 'Southwest Virginia — Grayson Highlands (AT miles 488–508): Virginia''s
+    high country: wild ponies at Grayson Highlands, open balds, and the rhythm of
+    20-mile days many hikers adopt. Frequent 4,000-foot knobs, meadow walking, and
+    reliable spring water; notorious spring mud in gaps. Landmarks in this corridor
+    include Grayson Highlands, Mount Rogers, Partnership Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Southwest Virginia — Grayson Highlands
+  at_mile_start: 488.1
+  at_mile_end: 508.1
+  region: Virginia
 ---
 # Monday, March 29, 2010 — Trimpi Shelter
 **Start Location:** Wise Shelter
@@ -1401,8 +1839,19 @@ destination: north of Atkins
 miles_today: 27.0
 trip_miles: 535.1
 facts:
-  trail_section: Trail section from Trimpi Shelter to north of Atkins.
+  trail_section: 'Southwest Virginia — Grayson Highlands (AT miles 508–535): Virginia''s
+    high country: wild ponies at Grayson Highlands, open balds, and the rhythm of
+    20-mile days many hikers adopt. Frequent 4,000-foot knobs, meadow walking, and
+    reliable spring water; notorious spring mud in gaps. Landmarks in this corridor
+    include Grayson Highlands, Mount Rogers, Partnership Shelter.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Southwest Virginia — Grayson Highlands
+  at_mile_start: 508.1
+  at_mile_end: 535.1
+  region: Virginia
 ---
 # Tuesday, March 30, 2010 — north of Atkins
 **Start Location:** Trimpi Shelter
@@ -1423,10 +1872,20 @@ miles_today: 30.0
 trip_miles: 565.1
 facts:
   weather: High 66°F, low 37°F. Overcast.
-  trail_section: Trail section from north of Atkins to Jenkins Shelter.
-  confidence: medium
+  trail_section: 'Southwest Virginia — Grayson Highlands (AT miles 535–565): Virginia''s
+    high country: wild ponies at Grayson Highlands, open balds, and the rhythm of
+    20-mile days many hikers adopt. Frequent 4,000-foot knobs, meadow walking, and
+    reliable spring water; notorious spring mud in gaps. Landmarks in this corridor
+    include Grayson Highlands, Mount Rogers, Partnership Shelter.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Southwest Virginia — Grayson Highlands
+  at_mile_start: 535.1
+  at_mile_end: 565.1
+  region: Virginia
 ---
 # Wednesday, March 31, 2010 — Jenkins Shelter
 **Start Location:** north of Atkins
@@ -1445,10 +1904,20 @@ miles_today: 23.8
 trip_miles: 588.9
 facts:
   weather: High 78°F, low 42°F. Overcast.
-  trail_section: Trail section from Jenkins Shelter to Jenny's Knob Shelter.
-  confidence: medium
+  trail_section: 'Central Virginia Blue Ridge (AT miles 565–589): The long Virginia
+    grind begins in earnest — hundreds of miles of Blue Ridge walking with road crossings
+    and small towns. Pine forest, PUDs (pointless ups and downs), and creek valleys;
+    psychologically challenging monotony. Landmarks in this corridor include Pearisburg,
+    Dragon''s Tooth, McAfee Knob.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Central Virginia Blue Ridge
+  at_mile_start: 565.1
+  at_mile_end: 588.9
+  region: Virginia
 ---
 # Thursday, April 01, 2010 — Jenny's Knob Shelter
 **Start Location:** Jenkins Shelter
@@ -1466,8 +1935,19 @@ destination: Woods Hole Hostel
 miles_today: 21.0
 trip_miles: 609.9
 facts:
-  trail_section: Trail section from Jenny's Knob Shelter to Woods Hole Hostel.
+  trail_section: 'Central Virginia Blue Ridge (AT miles 589–610): The long Virginia
+    grind begins in earnest — hundreds of miles of Blue Ridge walking with road crossings
+    and small towns. Pine forest, PUDs (pointless ups and downs), and creek valleys;
+    psychologically challenging monotony. Landmarks in this corridor include Pearisburg,
+    Dragon''s Tooth, McAfee Knob.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Central Virginia Blue Ridge
+  at_mile_start: 588.9
+  at_mile_end: 609.9
+  region: Virginia
 ---
 # Friday, April 02, 2010 — Woods Hole Hostel
 **Start Location:** Jenny's Knob Shelter
@@ -1487,12 +1967,22 @@ miles_today: 10.0
 trip_miles: 619.9
 facts:
   weather: High 77°F, low 57°F. Overcast.
-  trail_section: Trail section from Woods Hole Hostel to A cabin (Pearisburg, VA).
+  trail_section: 'Central Virginia Blue Ridge (AT miles 610–620): The long Virginia
+    grind begins in earnest — hundreds of miles of Blue Ridge walking with road crossings
+    and small towns. Pine forest, PUDs (pointless ups and downs), and creek valleys;
+    psychologically challenging monotony. Landmarks in this corridor include Pearisburg,
+    Dragon''s Tooth, McAfee Knob.'
   town_events: Pearisburg, VA - Appalachian Trail Conservancy
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/pearisburg-va/
+  segment: Central Virginia Blue Ridge
+  at_mile_start: 609.9
+  at_mile_end: 619.9
+  region: Virginia
 ---
 # Saturday, April 03, 2010 — A cabin (Pearisburg, VA)
 **Start Location:** Woods Hole Hostel
@@ -1513,13 +2003,22 @@ miles_today: 0.0
 trip_miles: 619.9
 facts:
   weather: High 73°F, low 49°F. Overcast.
-  trail_section: Trail section from A cabin (Pearisburg, VA) to Rendezevous Motel
-    (Pearisburg, VA).
+  trail_section: 'Central Virginia Blue Ridge (AT miles 619–620): The long Virginia
+    grind begins in earnest — hundreds of miles of Blue Ridge walking with road crossings
+    and small towns. Pine forest, PUDs (pointless ups and downs), and creek valleys;
+    psychologically challenging monotony. Landmarks in this corridor include Pearisburg,
+    Dragon''s Tooth, McAfee Knob.'
   town_events: Pearisburg, VA - Appalachian Trail Conservancy
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/pearisburg-va/
+  segment: Central Virginia Blue Ridge
+  at_mile_start: 618.9
+  at_mile_end: 619.9
+  region: Virginia
 ---
 # Sunday, April 04, 2010 — Rendezevous Motel (Pearisburg, VA)
 **Start Location:** A cabin (Pearisburg, VA)
@@ -1538,13 +2037,22 @@ miles_today: 23.2
 trip_miles: 643.1
 facts:
   weather: High 77°F, low 50°F. Light drizzle.
-  trail_section: Trail section from Rendezevous Motel (Pearisburg, VA) to Bailey Gap
-    Shelter.
+  trail_section: 'Central Virginia Blue Ridge (AT miles 620–643): The long Virginia
+    grind begins in earnest — hundreds of miles of Blue Ridge walking with road crossings
+    and small towns. Pine forest, PUDs (pointless ups and downs), and creek valleys;
+    psychologically challenging monotony. Landmarks in this corridor include Pearisburg,
+    Dragon''s Tooth, McAfee Knob.'
   town_events: Pearisburg, VA
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/pearisburg-va/
+  segment: Central Virginia Blue Ridge
+  at_mile_start: 619.9
+  at_mile_end: 643.1
+  region: Virginia
 ---
 # Monday, April 05, 2010 — Bailey Gap Shelter
 **Start Location:** Rendezevous Motel (Pearisburg, VA)
@@ -1563,10 +2071,20 @@ miles_today: 26.2
 trip_miles: 669.3
 facts:
   weather: High 83°F, low 55°F. Overcast.
-  trail_section: Trail section from Bailey Gap Shelter to Niday Shelter.
-  confidence: medium
+  trail_section: 'Central Virginia — McAfee Knob and Tye River (AT miles 643–669):
+    Home to McAfee Knob and Dragon''s Tooth — two of the most iconic photo ops on
+    the entire trail. Rocky scrambles, knife-edge overlooks, and steep descents into
+    the James River gorge. Landmarks in this corridor include McAfee Knob, Dragon''s
+    Tooth, James River Foot Bridge.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Central Virginia — McAfee Knob and Tye River
+  at_mile_start: 643.1
+  at_mile_end: 669.3
+  region: Virginia
 ---
 # Tuesday, April 06, 2010 — Niday Shelter
 **Start Location:** Bailey Gap Shelter
@@ -1765,10 +2283,20 @@ miles_today: 27.1
 trip_miles: 696.4
 facts:
   weather: High 82°F, low 54°F. Overcast.
-  trail_section: Trail section from Niday Shelter to Campbell Shelter.
-  confidence: medium
+  trail_section: 'Central Virginia — McAfee Knob and Tye River (AT miles 669–696):
+    Home to McAfee Knob and Dragon''s Tooth — two of the most iconic photo ops on
+    the entire trail. Rocky scrambles, knife-edge overlooks, and steep descents into
+    the James River gorge. Landmarks in this corridor include McAfee Knob, Dragon''s
+    Tooth, James River Foot Bridge.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Central Virginia — McAfee Knob and Tye River
+  at_mile_start: 669.3
+  at_mile_end: 696.4
+  region: Virginia
 ---
 # Wednesday, April 07, 2010 — Campbell Shelter
 **Start Location:** Niday Shelter
@@ -1787,13 +2315,22 @@ miles_today: 17.0
 trip_miles: 713.4
 facts:
   weather: High 73°F, low 57°F. Slight rain.
-  trail_section: Trail section from Campbell Shelter to Travelodge Motel (Daleville,
-    VA).
+  trail_section: 'Central Virginia — McAfee Knob and Tye River (AT miles 696–713):
+    Home to McAfee Knob and Dragon''s Tooth — two of the most iconic photo ops on
+    the entire trail. Rocky scrambles, knife-edge overlooks, and steep descents into
+    the James River gorge. Landmarks in this corridor include McAfee Knob, Dragon''s
+    Tooth, James River Foot Bridge.'
   town_events: 'Day 48: Arriving in Daleville, Redux'
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://thetrek.co/appalachian-trail/daleville-va/
+  segment: Central Virginia — McAfee Knob and Tye River
+  at_mile_start: 696.4
+  at_mile_end: 713.4
+  region: Virginia
 ---
 # Thursday, April 08, 2010 — Travelodge Motel (Daleville, VA)
 **Start Location:** Campbell Shelter
@@ -1812,13 +2349,22 @@ miles_today: 4.9
 trip_miles: 718.3
 facts:
   weather: High 58°F, low 43°F. Moderate rain.
-  trail_section: Trail section from Travelodge Motel (Daleville, VA) to Fullhardt
-    Knob Shelter.
+  trail_section: 'Central Virginia — McAfee Knob and Tye River (AT miles 713–718):
+    Home to McAfee Knob and Dragon''s Tooth — two of the most iconic photo ops on
+    the entire trail. Rocky scrambles, knife-edge overlooks, and steep descents into
+    the James River gorge. Landmarks in this corridor include McAfee Knob, Dragon''s
+    Tooth, James River Foot Bridge.'
   town_events: 'Day 48: Arriving in Daleville, Redux - The Trek'
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://thetrek.co/appalachian-trail/daleville-va/
+  segment: Central Virginia — McAfee Knob and Tye River
+  at_mile_start: 713.4
+  at_mile_end: 718.3
+  region: Virginia
 ---
 # Friday, April 09, 2010 — Fullhardt Knob Shelter
 **Start Location:** Travelodge Motel (Daleville, VA)
@@ -1837,10 +2383,20 @@ miles_today: 20.0
 trip_miles: 738.3
 facts:
   weather: High 66°F, low 38°F. Clear sky.
-  trail_section: Trail section from Fullhardt Knob Shelter to Cove Mountain Shelter.
-  confidence: medium
+  trail_section: 'Central Virginia — McAfee Knob and Tye River (AT miles 718–738):
+    Home to McAfee Knob and Dragon''s Tooth — two of the most iconic photo ops on
+    the entire trail. Rocky scrambles, knife-edge overlooks, and steep descents into
+    the James River gorge. Landmarks in this corridor include McAfee Knob, Dragon''s
+    Tooth, James River Foot Bridge.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Central Virginia — McAfee Knob and Tye River
+  at_mile_start: 718.3
+  at_mile_end: 738.3
+  region: Virginia
 ---
 # Saturday, April 10, 2010 — Cove Mountain Shelter
 **Start Location:** Fullhardt Knob Shelter
@@ -1861,10 +2417,20 @@ miles_today: 17.2
 trip_miles: 755.5
 facts:
   weather: High 71°F, low 38°F. Clear sky.
-  trail_section: Trail section from Cove Mountain Shelter to Thunder Hill Shelter.
-  confidence: medium
+  trail_section: 'Central Virginia — McAfee Knob and Tye River (AT miles 738–756):
+    Home to McAfee Knob and Dragon''s Tooth — two of the most iconic photo ops on
+    the entire trail. Rocky scrambles, knife-edge overlooks, and steep descents into
+    the James River gorge. Landmarks in this corridor include McAfee Knob, Dragon''s
+    Tooth, James River Foot Bridge.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Central Virginia — McAfee Knob and Tye River
+  at_mile_start: 738.3
+  at_mile_end: 755.5
+  region: Virginia
 ---
 # Sunday, April 11, 2010 — Thunder Hill Shelter
 **Start Location:** Cove Mountain Shelter
@@ -1880,8 +2446,19 @@ destination: Punchbowl Shelter
 miles_today: 25.1
 trip_miles: 780.6
 facts:
-  trail_section: Trail section from Thunder Hill Shelter to Punchbowl Shelter.
+  trail_section: 'Virginia — Blue Ridge to Shenandoah approach (AT miles 756–781):
+    Approaching Shenandoah National Park through rolling Blue Ridge country and Civil
+    War-era landscape. Gradual climbs, horse trails, and increasing signs of proximity
+    to the DC metro exurbs. Landmarks in this corridor include Blacksburg area, Bluff
+    City, Shenandoah south entrance.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Virginia — Blue Ridge to Shenandoah approach
+  at_mile_start: 755.5
+  at_mile_end: 780.6
+  region: Virginia
 ---
 # Monday, April 12, 2010 — Punchbowl Shelter
 **Start Location:** Thunder Hill Shelter
@@ -1903,8 +2480,19 @@ destination: Seely-Woodworth Shelter
 miles_today: 25.3
 trip_miles: 805.9
 facts:
-  trail_section: Trail section from Punchbowl Shelter to Seely-Woodworth Shelter.
+  trail_section: 'Virginia — Blue Ridge to Shenandoah approach (AT miles 781–806):
+    Approaching Shenandoah National Park through rolling Blue Ridge country and Civil
+    War-era landscape. Gradual climbs, horse trails, and increasing signs of proximity
+    to the DC metro exurbs. Landmarks in this corridor include Blacksburg area, Bluff
+    City, Shenandoah south entrance.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Virginia — Blue Ridge to Shenandoah approach
+  at_mile_start: 780.6
+  at_mile_end: 805.9
+  region: Virginia
 ---
 # Tuesday, April 13, 2010 — Seely-Woodworth Shelter
 **Start Location:** Punchbowl Shelter
@@ -1933,8 +2521,19 @@ destination: Reed's Gap
 miles_today: 22.3
 trip_miles: 828.2
 facts:
-  trail_section: Trail section from Seely-Woodworth Shelter to Reed's Gap.
+  trail_section: 'Virginia — Blue Ridge to Shenandoah approach (AT miles 806–828):
+    Approaching Shenandoah National Park through rolling Blue Ridge country and Civil
+    War-era landscape. Gradual climbs, horse trails, and increasing signs of proximity
+    to the DC metro exurbs. Landmarks in this corridor include Blacksburg area, Bluff
+    City, Shenandoah south entrance.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Virginia — Blue Ridge to Shenandoah approach
+  at_mile_start: 805.9
+  at_mile_end: 828.2
+  region: Virginia
 ---
 # Wednesday, April 14, 2010 — Reed's Gap
 **Start Location:** Seely-Woodworth Shelter
@@ -1956,13 +2555,22 @@ miles_today: 28.0
 trip_miles: 856.2
 facts:
   weather: High 71°F, low 34°F. Mainly clear.
-  trail_section: Trail section from Reed's Gap to Wesley's frat house (Charlottesville,
-    VA).
+  trail_section: 'Virginia — Blue Ridge to Shenandoah approach (AT miles 828–856):
+    Approaching Shenandoah National Park through rolling Blue Ridge country and Civil
+    War-era landscape. Gradual climbs, horse trails, and increasing signs of proximity
+    to the DC metro exurbs. Landmarks in this corridor include Blacksburg area, Bluff
+    City, Shenandoah south entrance.'
   town_events: Events
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/events/
+  segment: Virginia — Blue Ridge to Shenandoah approach
+  at_mile_start: 828.2
+  at_mile_end: 856.2
+  region: Virginia
 ---
 # Thursday, April 15, 2010 — Wesley's frat house (Charlottesville, VA)
 **Start Location:** Reed's Gap
@@ -1981,13 +2589,22 @@ miles_today: 26.2
 trip_miles: 882.4
 facts:
   weather: High 72°F, low 44°F. Overcast.
-  trail_section: Trail section from Wesley's frat house (Charlottesville, VA) to Pinefield
-    Hut.
+  trail_section: 'Shenandoah National Park (AT miles 856–882): Shenandoah offers relatively
+    gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.
+    Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded
+    park traffic. Landmarks in this corridor include Skyline Drive, Big Meadows, Bearfence
+    Mountain.'
   town_events: 'The Virginia Creeper Trail: Then & Now'
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/event/the-virginia-creeper-trail-then-now/
+  segment: Shenandoah National Park
+  at_mile_start: 856.2
+  at_mile_end: 882.4
+  region: Virginia
 ---
 # Friday, April 16, 2010 — Pinefield Hut
 **Start Location:** Wesley's frat house (Charlottesville, VA)
@@ -2185,8 +2802,19 @@ destination: Bearfence Mountain Hut
 miles_today: 20.6
 trip_miles: 903.0
 facts:
-  trail_section: Trail section from Pinefield Hut to Bearfence Mountain Hut.
+  trail_section: 'Shenandoah National Park (AT miles 882–903): Shenandoah offers relatively
+    gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.
+    Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded
+    park traffic. Landmarks in this corridor include Skyline Drive, Big Meadows, Bearfence
+    Mountain.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Shenandoah National Park
+  at_mile_start: 882.4
+  at_mile_end: 903.0
+  region: Virginia
 ---
 # Saturday, April 17, 2010 — Bearfence Mountain Hut
 **Start Location:** Pinefield Hut
@@ -2384,8 +3012,18 @@ destination: Treehaus
 miles_today: 0.0
 trip_miles: 903.0
 facts:
-  trail_section: Trail section from Bearfence Mountain Hut to Treehaus.
+  trail_section: 'Shenandoah National Park (AT miles 902–903): Shenandoah offers relatively
+    gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.
+    Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded
+    park traffic. Landmarks in this corridor include Skyline Drive, Big Meadows, Bearfence
+    Mountain.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: Shenandoah National Park
+  at_mile_start: 902.0
+  at_mile_end: 903.0
+  region: Virginia
 ---
 # Sunday, April 18, 2010 — Treehaus
 **Start Location:** Bearfence Mountain Hut
@@ -2583,8 +3221,19 @@ destination: 'Byrd''s Nest #3'
 miles_today: 22.4
 trip_miles: 925.4
 facts:
-  trail_section: 'Trail section from Treehaus to Byrd''s Nest #3.'
+  trail_section: 'Shenandoah National Park (AT miles 903–925): Shenandoah offers relatively
+    gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.
+    Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded
+    park traffic. Landmarks in this corridor include Skyline Drive, Big Meadows, Bearfence
+    Mountain.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Shenandoah National Park
+  at_mile_start: 903.0
+  at_mile_end: 925.4
+  region: Virginia
 ---
 # Monday, April 19, 2010 — Byrd's Nest #3
 **Start Location:** Treehaus
@@ -2782,8 +3431,19 @@ destination: Gravel Springs Hut
 miles_today: 17.5
 trip_miles: 942.9
 facts:
-  trail_section: 'Trail section from Byrd''s Nest #3 to Gravel Springs Hut.'
+  trail_section: 'Shenandoah National Park (AT miles 925–943): Shenandoah offers relatively
+    gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.
+    Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded
+    park traffic. Landmarks in this corridor include Skyline Drive, Big Meadows, Bearfence
+    Mountain.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Shenandoah National Park
+  at_mile_start: 925.4
+  at_mile_end: 942.9
+  region: Virginia
 ---
 # Tuesday, April 20, 2010 — Gravel Springs Hut
 **Start Location:** Byrd's Nest #3
@@ -2981,8 +3641,19 @@ destination: Dick's Dome Shelter
 miles_today: 28.6
 trip_miles: 971.5
 facts:
-  trail_section: Trail section from Gravel Springs Hut to Dick's Dome Shelter.
+  trail_section: 'Shenandoah National Park (AT miles 943–972): Shenandoah offers relatively
+    gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.
+    Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded
+    park traffic. Landmarks in this corridor include Skyline Drive, Big Meadows, Bearfence
+    Mountain.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Shenandoah National Park
+  at_mile_start: 942.9
+  at_mile_end: 971.5
+  region: Virginia
 ---
 # Wednesday, April 21, 2010 — Dick's Dome Shelter
 **Start Location:** Gravel Springs Hut
@@ -3180,8 +3851,19 @@ destination: Bear's Den Hostel
 miles_today: 18.3
 trip_miles: 989.8
 facts:
-  trail_section: Trail section from Dick's Dome Shelter to Bear's Den Hostel.
+  trail_section: 'Shenandoah National Park (AT miles 972–990): Shenandoah offers relatively
+    gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.
+    Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded
+    park traffic. Landmarks in this corridor include Skyline Drive, Big Meadows, Bearfence
+    Mountain.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Shenandoah National Park
+  at_mile_start: 971.5
+  at_mile_end: 989.8
+  region: Virginia
 ---
 # Friday, April 23, 2010 — Bear's Den Hostel
 **Start Location:** Dick's Dome Shelter
@@ -3380,10 +4062,20 @@ miles_today: 8.0
 trip_miles: 997.8
 facts:
   weather: High 58°F, low 47°F. Dense drizzle.
-  trail_section: Trail section from Bear's Den Hostel to Blackburn Trail Center.
-  confidence: medium
+  trail_section: 'Shenandoah National Park (AT miles 990–998): Shenandoah offers relatively
+    gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.
+    Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded
+    park traffic. Landmarks in this corridor include Skyline Drive, Big Meadows, Bearfence
+    Mountain.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Shenandoah National Park
+  at_mile_start: 989.8
+  at_mile_end: 997.8
+  region: Virginia
 ---
 # Saturday, April 24, 2010 — Blackburn Trail Center
 **Start Location:** Bear's Den Hostel
@@ -3404,10 +4096,20 @@ miles_today: 12.5
 trip_miles: 1010.3
 facts:
   weather: High 70°F, low 46°F. Moderate rain.
-  trail_section: Trail section from Blackburn Trail Center to Harper's Ferry Hostel.
-  confidence: medium
+  trail_section: 'Harpers Ferry to Maryland (AT miles 998–1010): The psychological
+    midpoint at Harpers Ferry leads through the historic Potomac and into rocky Maryland.
+    River corridors, towpath connectors, and the first northern rockiness in Maryland''s
+    roller-coaster ridges. Landmarks in this corridor include Harpers Ferry, ATC Headquarters,
+    Annapolis Rocks.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Harpers Ferry to Maryland
+  at_mile_start: 997.8
+  at_mile_end: 1010.3
+  region: Virginia / West Virginia / Maryland
 ---
 # Sunday, April 25, 2010 — Harper's Ferry Hostel
 **Start Location:** Blackburn Trail Center
@@ -3433,8 +4135,18 @@ destination: Pine Knob Shelter
 miles_today: 22.9
 trip_miles: 1033.2
 facts:
-  trail_section: Trail section from Harper's Ferry Hostel to Pine Knob Shelter.
+  trail_section: 'Harpers Ferry to Maryland (AT miles 1010–1033): The psychological
+    midpoint at Harpers Ferry leads through the historic Potomac and into rocky Maryland.
+    River corridors, towpath connectors, and the first northern rockiness in Maryland''s
+    roller-coaster ridges. Landmarks in this corridor include Harpers Ferry, ATC Headquarters,
+    Annapolis Rocks.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: Harpers Ferry to Maryland
+  at_mile_start: 1010.3
+  at_mile_end: 1033.2
+  region: Virginia / West Virginia / Maryland
 ---
 # Monday, April 26, 2010 — Pine Knob Shelter
 **Start Location:** Harper's Ferry Hostel
@@ -3450,8 +4162,19 @@ destination: near Devil's Racecourse Shelter
 miles_today: 13.1
 trip_miles: 1046.3
 facts:
-  trail_section: Trail section from Pine Knob Shelter to near Devil's Racecourse Shelter.
+  trail_section: 'Harpers Ferry to Maryland (AT miles 1033–1046): The psychological
+    midpoint at Harpers Ferry leads through the historic Potomac and into rocky Maryland.
+    River corridors, towpath connectors, and the first northern rockiness in Maryland''s
+    roller-coaster ridges. Landmarks in this corridor include Harpers Ferry, ATC Headquarters,
+    Annapolis Rocks.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Harpers Ferry to Maryland
+  at_mile_start: 1033.2
+  at_mile_end: 1046.3
+  region: Virginia / West Virginia / Maryland
 ---
 # Tuesday, April 27, 2010 — near Devil's Racecourse Shelter
 **Start Location:** Pine Knob Shelter
@@ -3468,11 +4191,20 @@ miles_today: 13.2
 trip_miles: 1059.5
 facts:
   weather: High 53°F, low 36°F. Overcast.
-  trail_section: Trail section from near Devil's Racecourse Shelter to Tumbling Run
-    Shelters.
-  confidence: medium
+  trail_section: 'Harpers Ferry to Maryland (AT miles 1046–1060): The psychological
+    midpoint at Harpers Ferry leads through the historic Potomac and into rocky Maryland.
+    River corridors, towpath connectors, and the first northern rockiness in Maryland''s
+    roller-coaster ridges. Landmarks in this corridor include Harpers Ferry, ATC Headquarters,
+    Annapolis Rocks.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Harpers Ferry to Maryland
+  at_mile_start: 1046.3
+  at_mile_end: 1059.5
+  region: Virginia / West Virginia / Maryland
 ---
 # Wednesday, April 28, 2010 — Tumbling Run Shelters
 **Start Location:** near Devil's Racecourse Shelter
@@ -3491,10 +4223,20 @@ miles_today: 25.8
 trip_miles: 1085.3
 facts:
   weather: High 63°F, low 36°F. Overcast.
-  trail_section: Trail section from Tumbling Run Shelters to Tom's Run Shelters.
-  confidence: medium
+  trail_section: 'Harpers Ferry to Maryland (AT miles 1060–1085): The psychological
+    midpoint at Harpers Ferry leads through the historic Potomac and into rocky Maryland.
+    River corridors, towpath connectors, and the first northern rockiness in Maryland''s
+    roller-coaster ridges. Landmarks in this corridor include Harpers Ferry, ATC Headquarters,
+    Annapolis Rocks.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Harpers Ferry to Maryland
+  at_mile_start: 1059.5
+  at_mile_end: 1085.3
+  region: Virginia / West Virginia / Maryland
 ---
 # Thursday, April 29, 2010 — Tom's Run Shelters
 **Start Location:** Tumbling Run Shelters
@@ -3515,10 +4257,20 @@ miles_today: 27.8
 trip_miles: 1113.1
 facts:
   weather: High 78°F, low 45°F. Overcast.
-  trail_section: Trail section from Tom's Run Shelters to north of Boiling Springs.
-  confidence: medium
+  trail_section: 'Harpers Ferry to Maryland (AT miles 1085–1113): The psychological
+    midpoint at Harpers Ferry leads through the historic Potomac and into rocky Maryland.
+    River corridors, towpath connectors, and the first northern rockiness in Maryland''s
+    roller-coaster ridges. Landmarks in this corridor include Harpers Ferry, ATC Headquarters,
+    Annapolis Rocks.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Harpers Ferry to Maryland
+  at_mile_start: 1085.3
+  at_mile_end: 1113.1
+  region: Virginia / West Virginia / Maryland
 ---
 # Friday, April 30, 2010 — north of Boiling Springs
 **Start Location:** Tom's Run Shelters
@@ -3534,9 +4286,18 @@ destination: Red Roof Inn (Duncannon, PA)
 miles_today: 20.7
 trip_miles: 1133.8
 facts:
-  trail_section: Trail section from north of Boiling Springs to Red Roof Inn (Duncannon,
-    PA).
+  trail_section: 'Maryland and Pennsylvania south (AT miles 1113–1134): Short but
+    rocky Maryland yields to Pennsylvania''s infamous jagged quartzite and long farm-country
+    walking. Ankle-rolling rocks become the dominant story; boots begin failing; town
+    stops every few days. Landmarks in this corridor include Pen Mar Park, Pine Grove
+    Furnace, Appalachian Trail Museum.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: Maryland and Pennsylvania south
+  at_mile_start: 1113.1
+  at_mile_end: 1133.8
+  region: Maryland / Pennsylvania
 ---
 # Saturday, May 01, 2010 — Red Roof Inn (Duncannon, PA)
 **Start Location:** north of Boiling Springs
@@ -3561,11 +4322,20 @@ miles_today: 11.2
 trip_miles: 1145.0
 facts:
   weather: High 82°F, low 62°F. Slight rain.
-  trail_section: Trail section from Red Roof Inn (Duncannon, PA) to Peters Mountain
-    Shelter.
-  confidence: medium
+  trail_section: 'Maryland and Pennsylvania south (AT miles 1134–1145): Short but
+    rocky Maryland yields to Pennsylvania''s infamous jagged quartzite and long farm-country
+    walking. Ankle-rolling rocks become the dominant story; boots begin failing; town
+    stops every few days. Landmarks in this corridor include Pen Mar Park, Pine Grove
+    Furnace, Appalachian Trail Museum.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Maryland and Pennsylvania south
+  at_mile_start: 1133.8
+  at_mile_end: 1145.0
+  region: Maryland / Pennsylvania
 ---
 # Sunday, May 02, 2010 — Peters Mountain Shelter
 **Start Location:** Red Roof Inn (Duncannon, PA)
@@ -3596,10 +4366,20 @@ miles_today: 18.0
 trip_miles: 1163.0
 facts:
   weather: High 77°F, low 66°F. Moderate rain.
-  trail_section: Trail section from Peters Mountain Shelter to Rausch Gap Shelter.
-  confidence: medium
+  trail_section: 'Maryland and Pennsylvania south (AT miles 1145–1163): Short but
+    rocky Maryland yields to Pennsylvania''s infamous jagged quartzite and long farm-country
+    walking. Ankle-rolling rocks become the dominant story; boots begin failing; town
+    stops every few days. Landmarks in this corridor include Pen Mar Park, Pine Grove
+    Furnace, Appalachian Trail Museum.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Maryland and Pennsylvania south
+  at_mile_start: 1145.0
+  at_mile_end: 1163.0
+  region: Maryland / Pennsylvania
 ---
 # Monday, May 03, 2010 — Rausch Gap Shelter
 **Start Location:** Peters Mountain Shelter
@@ -3620,13 +4400,22 @@ miles_today: 42.0
 trip_miles: 1205.0
 facts:
   weather: High 74°F, low 56°F. Light drizzle.
-  trail_section: Trail section from Rausch Gap Shelter to The Pavilion (Port Clinton,
-    PA).
+  trail_section: 'Maryland and Pennsylvania south (AT miles 1163–1205): Short but
+    rocky Maryland yields to Pennsylvania''s infamous jagged quartzite and long farm-country
+    walking. Ankle-rolling rocks become the dominant story; boots begin failing; town
+    stops every few days. Landmarks in this corridor include Pen Mar Park, Pine Grove
+    Furnace, Appalachian Trail Museum.'
   town_events: Day 110 | Port Clinton PA | Appalachian Trail Thru-hike
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.youtube.com/watch?v=cClKiaJlYFg
+  segment: Maryland and Pennsylvania south
+  at_mile_start: 1163.0
+  at_mile_end: 1205.0
+  region: Maryland / Pennsylvania
 ---
 # Tuesday, May 04, 2010 — The Pavilion (Port Clinton, PA)
 **Start Location:** Rausch Gap Shelter
@@ -3652,11 +4441,20 @@ miles_today: 22.6
 trip_miles: 1227.6
 facts:
   weather: High 77°F, low 51°F. Clear sky.
-  trail_section: Trail section from The Pavilion (Port Clinton, PA) to Allentown Hiking
-    Club Shelter.
-  confidence: medium
+  trail_section: 'Pennsylvania rocks — mid state (AT miles 1205–1228): Pennsylvania''s
+    endless talus fields and flat-topped ridges test ankles and patience through the
+    long middle of the state. Sharp rocks, little elevation change but exhausting
+    footing; spring can be very wet. Landmarks in this corridor include Boiling Springs,
+    Duncannon, Palmerton.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Pennsylvania rocks — mid state
+  at_mile_start: 1205.0
+  at_mile_end: 1227.6
+  region: Pennsylvania
 ---
 # Wednesday, May 05, 2010 — Allentown Hiking Club Shelter
 **Start Location:** The Pavilion (Port Clinton, PA)
@@ -3674,12 +4472,20 @@ destination: The Jailhouse Hostel (Palmerton, PA)
 miles_today: 18.0
 trip_miles: 1245.6
 facts:
-  trail_section: Trail section from Allentown Hiking Club Shelter to The Jailhouse
-    Hostel (Palmerton, PA).
+  trail_section: 'Pennsylvania rocks — mid state (AT miles 1228–1246): Pennsylvania''s
+    endless talus fields and flat-topped ridges test ankles and patience through the
+    long middle of the state. Sharp rocks, little elevation change but exhausting
+    footing; spring can be very wet. Landmarks in this corridor include Boiling Springs,
+    Duncannon, Palmerton.'
   town_events: Day 87 | Hiking Into Palmerton, PA | Appalachian Trail Thru Hike 2021
   confidence: low
   sources:
+  - AT segment guide
   - https://www.youtube.com/watch?v=ElpZWqtRryE
+  segment: Pennsylvania rocks — mid state
+  at_mile_start: 1227.6
+  at_mile_end: 1245.6
+  region: Pennsylvania
 ---
 # Thursday, May 06, 2010 — The Jailhouse Hostel (Palmerton, PA)
 **Start Location:** Allentown Hiking Club Shelter
@@ -3699,12 +4505,20 @@ destination: Kirkridge Shelter
 miles_today: 29.8
 trip_miles: 1275.4
 facts:
-  trail_section: Trail section from The Jailhouse Hostel (Palmerton, PA) to Kirkridge
-    Shelter.
+  trail_section: 'Pennsylvania rocks — mid state (AT miles 1246–1275): Pennsylvania''s
+    endless talus fields and flat-topped ridges test ankles and patience through the
+    long middle of the state. Sharp rocks, little elevation change but exhausting
+    footing; spring can be very wet. Landmarks in this corridor include Boiling Springs,
+    Duncannon, Palmerton.'
   town_events: A.T. Community™ Program - Appalachian Trail Conservancy
   confidence: low
   sources:
+  - AT segment guide
   - https://appalachiantrail.org/protect/conservation/at-community-program/
+  segment: Pennsylvania rocks — mid state
+  at_mile_start: 1245.6
+  at_mile_end: 1275.4
+  region: Pennsylvania
 ---
 # Friday, May 07, 2010 — Kirkridge Shelter
 **Start Location:** The Jailhouse Hostel (Palmerton, PA)
@@ -3725,13 +4539,22 @@ miles_today: 6.5
 trip_miles: 1281.9
 facts:
   weather: High 67°F, low 53°F. Light drizzle.
-  trail_section: Trail section from Kirkridge Shelter to Church of the Mountain Hostel
-    (Delaware-Water Gap).
+  trail_section: 'Pennsylvania rocks — mid state (AT miles 1275–1282): Pennsylvania''s
+    endless talus fields and flat-topped ridges test ankles and patience through the
+    long middle of the state. Sharp rocks, little elevation change but exhausting
+    footing; spring can be very wet. Landmarks in this corridor include Boiling Springs,
+    Duncannon, Palmerton.'
   town_events: Pocono Mountains Towns and Villages - Delaware Water Gap
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.youtube.com/watch?v=1LcdZYB3gNE
+  segment: Pennsylvania rocks — mid state
+  at_mile_start: 1275.4
+  at_mile_end: 1281.9
+  region: Pennsylvania
 ---
 # Saturday, May 08, 2010 — Church of the Mountain Hostel (Delaware-Water Gap)
 **Start Location:** Kirkridge Shelter
@@ -3748,13 +4571,22 @@ miles_today: 25.0
 trip_miles: 1306.9
 facts:
   weather: High 51°F, low 38°F. Overcast.
-  trail_section: Trail section from Church of the Mountain Hostel (Delaware-Water
-    Gap) to Brink Rd. Shelter.
+  trail_section: 'Pennsylvania rocks — mid state (AT miles 1282–1307): Pennsylvania''s
+    endless talus fields and flat-topped ridges test ankles and patience through the
+    long middle of the state. Sharp rocks, little elevation change but exhausting
+    footing; spring can be very wet. Landmarks in this corridor include Boiling Springs,
+    Duncannon, Palmerton.'
   town_events: 'Appalachian Trail Community: Delaware Water Gap'
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.com/20140626/appalachian-trail-community-delaware-water-gap/
+  segment: Pennsylvania rocks — mid state
+  at_mile_start: 1281.9
+  at_mile_end: 1306.9
+  region: Pennsylvania
 ---
 # Sunday, May 09, 2010 — Brink Rd. Shelter
 **Start Location:** Church of the Mountain Hostel (Delaware-Water Gap)
@@ -3770,12 +4602,20 @@ destination: The Mayor's House (Unionville, NY)
 miles_today: 27.0
 trip_miles: 1333.9
 facts:
-  trail_section: Trail section from Brink Rd. Shelter to The Mayor's House (Unionville,
-    NY).
+  trail_section: 'PA to Delaware Water Gap (AT miles 1307–1334): Hikers cross into
+    New Jersey''s surprisingly rugged ridges and approach the Delaware Water Gap.
+    Boardwalks, bogs, and sudden steep climbs; increasing proximity to New York City
+    exurbs. Landmarks in this corridor include Delaware Water Gap, Kirkridge, Pochuck
+    Boardwalk.'
   town_events: Into and out of Unionville, NY (MM 1342-1354) - YouTube
   confidence: low
   sources:
+  - AT segment guide
   - https://www.youtube.com/watch?v=46llWpFxWjI
+  segment: PA to Delaware Water Gap
+  at_mile_start: 1306.9
+  at_mile_end: 1333.9
+  region: Pennsylvania / New Jersey / New York
 ---
 # Monday, May 10, 2010 — The Mayor's House (Unionville, NY)
 **Start Location:** Brink Rd. Shelter
@@ -3798,11 +4638,20 @@ miles_today: 26.8
 trip_miles: 1360.7
 facts:
   weather: High 52°F, low 36°F. Overcast.
-  trail_section: Trail section from The Mayor's House (Unionville, NY) to Linden Motel
-    pool house (Greenwood Lake, NY).
-  confidence: medium
+  trail_section: 'PA to Delaware Water Gap (AT miles 1334–1361): Hikers cross into
+    New Jersey''s surprisingly rugged ridges and approach the Delaware Water Gap.
+    Boardwalks, bogs, and sudden steep climbs; increasing proximity to New York City
+    exurbs. Landmarks in this corridor include Delaware Water Gap, Kirkridge, Pochuck
+    Boardwalk.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: PA to Delaware Water Gap
+  at_mile_start: 1333.9
+  at_mile_end: 1360.7
+  region: Pennsylvania / New Jersey / New York
 ---
 # Tuesday, May 11, 2010 — Linden Motel pool house (Greenwood Lake, NY)
 **Start Location:** The Mayor's House (Unionville, NY)
@@ -3822,13 +4671,22 @@ miles_today: 16.4
 trip_miles: 1377.1
 facts:
   weather: High 48°F, low 38°F. Slight snow.
-  trail_section: Trail section from Linden Motel pool house (Greenwood Lake, NY) to
-    Fingerboard Shelter.
+  trail_section: 'PA to Delaware Water Gap (AT miles 1361–1377): Hikers cross into
+    New Jersey''s surprisingly rugged ridges and approach the Delaware Water Gap.
+    Boardwalks, bogs, and sudden steep climbs; increasing proximity to New York City
+    exurbs. Landmarks in this corridor include Delaware Water Gap, Kirkridge, Pochuck
+    Boardwalk.'
   town_events: Appalachian Trail view near Greenwood Lake - Facebook
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/thehudsonvalley/posts/2749626821987910/
+  segment: PA to Delaware Water Gap
+  at_mile_start: 1360.7
+  at_mile_end: 1377.1
+  region: Pennsylvania / New Jersey / New York
 ---
 # Wednesday, May 12, 2010 — Fingerboard Shelter
 **Start Location:** Linden Motel pool house (Greenwood Lake, NY)
@@ -3847,8 +4705,19 @@ destination: Graymore Spriritual Center
 miles_today: 21.0
 trip_miles: 1398.1
 facts:
-  trail_section: Trail section from Fingerboard Shelter to Graymore Spriritual Center.
+  trail_section: 'PA to Delaware Water Gap (AT miles 1377–1398): Hikers cross into
+    New Jersey''s surprisingly rugged ridges and approach the Delaware Water Gap.
+    Boardwalks, bogs, and sudden steep climbs; increasing proximity to New York City
+    exurbs. Landmarks in this corridor include Delaware Water Gap, Kirkridge, Pochuck
+    Boardwalk.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: PA to Delaware Water Gap
+  at_mile_start: 1377.1
+  at_mile_end: 1398.1
+  region: Pennsylvania / New Jersey / New York
 ---
 # Thursday, May 13, 2010 — Graymore Spriritual Center
 **Start Location:** Fingerboard Shelter
@@ -3865,8 +4734,18 @@ destination: Morgan Steward Shelter
 miles_today: 28.0
 trip_miles: 1426.1
 facts:
-  trail_section: Trail section from Graymore Spriritual Center to Morgan Steward Shelter.
+  trail_section: 'Hudson Highlands and southern New England approach (AT miles 1398–1426):
+    Spectacular Hudson River views, steep scrambles, and the transition into New England
+    footpath culture. Steep pinewoods, rock scrambles, and suburban trail crossings;
+    black bears common. Landmarks in this corridor include Bear Mountain, West Point
+    views, Kent CT.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: Hudson Highlands and southern New England approach
+  at_mile_start: 1398.1
+  at_mile_end: 1426.1
+  region: New York / Connecticut
 ---
 # Friday, May 14, 2010 — Morgan Steward Shelter
 **Start Location:** Graymore Spriritual Center
@@ -3883,12 +4762,20 @@ destination: Bill's House (Ridgefield, CT)
 miles_today: 22.0
 trip_miles: 1448.1
 facts:
-  trail_section: Trail section from Morgan Steward Shelter to Bill's House (Ridgefield,
-    CT).
+  trail_section: 'Hudson Highlands and southern New England approach (AT miles 1426–1448):
+    Spectacular Hudson River views, steep scrambles, and the transition into New England
+    footpath culture. Steep pinewoods, rock scrambles, and suburban trail crossings;
+    black bears common. Landmarks in this corridor include Bear Mountain, West Point
+    views, Kent CT.'
   town_events: Events
   confidence: low
   sources:
+  - AT segment guide
   - https://appalachiantrail.org/events/
+  segment: Hudson Highlands and southern New England approach
+  at_mile_start: 1426.1
+  at_mile_end: 1448.1
+  region: New York / Connecticut
 ---
 # Saturday, May 15, 2010 — Bill's House (Ridgefield, CT)
 **Start Location:** Morgan Steward Shelter
@@ -3911,13 +4798,22 @@ miles_today: 14.0
 trip_miles: 1462.1
 facts:
   weather: High 66°F, low 48°F. Overcast.
-  trail_section: Trail section from Bill's House (Ridgefield, CT) to Stewart Hollow
-    Brook Lean-to.
+  trail_section: 'Hudson Highlands and southern New England approach (AT miles 1448–1462):
+    Spectacular Hudson River views, steep scrambles, and the transition into New England
+    footpath culture. Steep pinewoods, rock scrambles, and suburban trail crossings;
+    black bears common. Landmarks in this corridor include Bear Mountain, West Point
+    views, Kent CT.'
   town_events: A.T. Community™ Program - Appalachian Trail Conservancy
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/
+  segment: Hudson Highlands and southern New England approach
+  at_mile_start: 1448.1
+  at_mile_end: 1462.1
+  region: New York / Connecticut
 ---
 # Sunday, May 16, 2010 — Stewart Hollow Brook Lean-to
 **Start Location:** Bill's House (Ridgefield, CT)
@@ -4116,11 +5012,20 @@ miles_today: 26.4
 trip_miles: 1488.5
 facts:
   weather: High 71°F, low 48°F. Overcast.
-  trail_section: Trail section from Stewart Hollow Brook Lean-to to Vanessa's Place
-    (Salibury, CT).
-  confidence: medium
+  trail_section: 'Hudson Highlands and southern New England approach (AT miles 1462–1488):
+    Spectacular Hudson River views, steep scrambles, and the transition into New England
+    footpath culture. Steep pinewoods, rock scrambles, and suburban trail crossings;
+    black bears common. Landmarks in this corridor include Bear Mountain, West Point
+    views, Kent CT.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Hudson Highlands and southern New England approach
+  at_mile_start: 1462.1
+  at_mile_end: 1488.5
+  region: New York / Connecticut
 ---
 # Monday, May 17, 2010 — Vanessa's Place (Salibury, CT)
 **Start Location:** Stewart Hollow Brook Lean-to
@@ -4318,12 +5223,20 @@ destination: Tom Lenoard Lean-to
 miles_today: 27.8
 trip_miles: 1516.3
 facts:
-  trail_section: Trail section from Vanessa's Place (Salibury, CT) to Tom Lenoard
-    Lean-to.
+  trail_section: 'Southern New England (AT miles 1488–1516): Rolling New England ridgelines
+    through Connecticut and the Berkshires of western Massachusetts. Muddy spring
+    tread, stone walls, and frequent town access; trail clubs maintain steep, rocky
+    paths. Landmarks in this corridor include Sages Ravine, Mount Greylock, Dalton
+    MA.'
   town_events: 'Appalachian Trail Hike Day 24: Rest and History in Salisbury, CT'
   confidence: low
   sources:
+  - AT segment guide
   - https://www.facebook.com/groups/338899147027564/posts/1524861051764695/
+  segment: Southern New England
+  at_mile_start: 1488.5
+  at_mile_end: 1516.3
+  region: Connecticut / Massachusetts
 ---
 # Tuesday, May 18, 2010 — Tom Lenoard Lean-to
 **Start Location:** Vanessa's Place (Salibury, CT)
@@ -4522,12 +5435,22 @@ miles_today: 23.0
 trip_miles: 1539.3
 facts:
   weather: High 51°F, low 43°F. Moderate rain.
-  trail_section: Trail section from Tom Lenoard Lean-to to A pavillion (Lee, MA).
+  trail_section: 'Southern New England (AT miles 1516–1539): Rolling New England ridgelines
+    through Connecticut and the Berkshires of western Massachusetts. Muddy spring
+    tread, stone walls, and frequent town access; trail clubs maintain steep, rocky
+    paths. Landmarks in this corridor include Sages Ravine, Mount Greylock, Dalton
+    MA.'
   town_events: Lee, MA
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/lee-ma/
+  segment: Southern New England
+  at_mile_start: 1516.3
+  at_mile_end: 1539.3
+  region: Connecticut / Massachusetts
 ---
 # Wednesday, May 19, 2010 — A pavillion (Lee, MA)
 **Start Location:** Tom Lenoard Lean-to
@@ -4726,11 +5649,20 @@ miles_today: 19.0
 trip_miles: 1558.3
 facts:
   weather: High 73°F, low 45°F. Light drizzle.
-  trail_section: Trail section from A pavillion (Lee, MA) to Tom Levardi's home (Dalton,
-    MA).
-  confidence: medium
+  trail_section: 'Southern New England (AT miles 1539–1558): Rolling New England ridgelines
+    through Connecticut and the Berkshires of western Massachusetts. Muddy spring
+    tread, stone walls, and frequent town access; trail clubs maintain steep, rocky
+    paths. Landmarks in this corridor include Sages Ravine, Mount Greylock, Dalton
+    MA.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Southern New England
+  at_mile_start: 1539.3
+  at_mile_end: 1558.3
+  region: Connecticut / Massachusetts
 ---
 # Thursday, May 20, 2010 — Tom Levardi's home (Dalton, MA)
 **Start Location:** A pavillion (Lee, MA)
@@ -4929,13 +5861,22 @@ miles_today: 24.0
 trip_miles: 1582.3
 facts:
   weather: High 77°F, low 54°F. Overcast.
-  trail_section: Trail section from Tom Levardi's home (Dalton, MA) to Tom Levardi's
-    home (Dalton, MA).
+  trail_section: 'Southern New England (AT miles 1558–1582): Rolling New England ridgelines
+    through Connecticut and the Berkshires of western Massachusetts. Muddy spring
+    tread, stone walls, and frequent town access; trail clubs maintain steep, rocky
+    paths. Landmarks in this corridor include Sages Ravine, Mount Greylock, Dalton
+    MA.'
   town_events: Appalachian Trail, Dalton Massachusetts.
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/127351843985408/posts/6614146828639178/
+  segment: Southern New England
+  at_mile_start: 1558.3
+  at_mile_end: 1582.3
+  region: Connecticut / Massachusetts
 ---
 # Friday, May 21, 2010 — Tom Levardi's home (Dalton, MA)
 **Start Location:** Tom Levardi's home (Dalton, MA)
@@ -4962,12 +5903,22 @@ miles_today: 28.6
 trip_miles: 1610.9
 facts:
   weather: High 74°F, low 54°F. Light drizzle.
-  trail_section: Trail section from Tom Levardi's home (Dalton, MA) to Goddard Shelter.
+  trail_section: 'Southern New England (AT miles 1582–1611): Rolling New England ridgelines
+    through Connecticut and the Berkshires of western Massachusetts. Muddy spring
+    tread, stone walls, and frequent town access; trail clubs maintain steep, rocky
+    paths. Landmarks in this corridor include Sages Ravine, Mount Greylock, Dalton
+    MA.'
   town_events: 'History Day on Trail: Tour of the Berkshires & Dalton, MA - YouTube'
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.youtube.com/watch?v=k2wDss3B32E
+  segment: Southern New England
+  at_mile_start: 1582.3
+  at_mile_end: 1610.9
+  region: Connecticut / Massachusetts
 ---
 # Saturday, May 22, 2010 — Goddard Shelter
 **Start Location:** Tom Levardi's home (Dalton, MA)
@@ -4988,13 +5939,22 @@ miles_today: 30.0
 trip_miles: 1640.9
 facts:
   weather: High 70°F, low 49°F. Overcast.
-  trail_section: Trail section from Goddard Shelter to Next to VT Route 11 (Manchester
-    Center, VT).
+  trail_section: 'Berkshires to southern Vermont (AT miles 1611–1641): The AT crosses
+    Massachusetts into Vermont''s Green Mountains — mud season and maple country.
+    Rooty, muddy tread; long climbs; increasing alpine feel heading toward Killington
+    and beyond. Landmarks in this corridor include Killington Peak, Manchester Center,
+    Stratton Mountain.'
   town_events: Manchester, VT
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/manchester-vt/
+  segment: Berkshires to southern Vermont
+  at_mile_start: 1610.9
+  at_mile_end: 1640.9
+  region: Massachusetts / Vermont
 ---
 # Sunday, May 23, 2010 — Next to VT Route 11 (Manchester Center, VT)
 **Start Location:** Goddard Shelter
@@ -5014,13 +5974,22 @@ miles_today: 30.0
 trip_miles: 1670.9
 facts:
   weather: High 76°F, low 50°F. Overcast.
-  trail_section: Trail section from Next to VT Route 11 (Manchester Center, VT) to
-    Minerva-Hinchey Shelter.
+  trail_section: 'Berkshires to southern Vermont (AT miles 1641–1671): The AT crosses
+    Massachusetts into Vermont''s Green Mountains — mud season and maple country.
+    Rooty, muddy tread; long climbs; increasing alpine feel heading toward Killington
+    and beyond. Landmarks in this corridor include Killington Peak, Manchester Center,
+    Stratton Mountain.'
   town_events: Manchester, VT
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/manchester-vt/
+  segment: Berkshires to southern Vermont
+  at_mile_start: 1640.9
+  at_mile_end: 1670.9
+  region: Massachusetts / Vermont
 ---
 # Monday, May 24, 2010 — Minerva-Hinchey Shelter
 **Start Location:** Next to VT Route 11 (Manchester Center, VT)
@@ -5039,13 +6008,22 @@ miles_today: 20.0
 trip_miles: 1690.9
 facts:
   weather: High 82°F, low 58°F. Overcast.
-  trail_section: Trail section from Minerva-Hinchey Shelter to Back Home Again Hostel
-    (Rutland, VT).
+  trail_section: 'Berkshires to southern Vermont (AT miles 1671–1691): The AT crosses
+    Massachusetts into Vermont''s Green Mountains — mud season and maple country.
+    Rooty, muddy tread; long climbs; increasing alpine feel heading toward Killington
+    and beyond. Landmarks in this corridor include Killington Peak, Manchester Center,
+    Stratton Mountain.'
   town_events: Appalachian trail events during nobo bubble? - Facebook
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/819170279191773/posts/1535211077587686/
+  segment: Berkshires to southern Vermont
+  at_mile_start: 1670.9
+  at_mile_end: 1690.9
+  region: Massachusetts / Vermont
 ---
 # Tuesday, May 25, 2010 — Back Home Again Hostel (Rutland, VT)
 **Start Location:** Minerva-Hinchey Shelter
@@ -5066,13 +6044,22 @@ miles_today: 10.0
 trip_miles: 1700.9
 facts:
   weather: High 85°F, low 61°F. Partly cloudy.
-  trail_section: Trail section from Back Home Again Hostel (Rutland, VT) to Stony
-    Brook Shelter.
+  trail_section: 'Berkshires to southern Vermont (AT miles 1691–1701): The AT crosses
+    Massachusetts into Vermont''s Green Mountains — mud season and maple country.
+    Rooty, muddy tread; long climbs; increasing alpine feel heading toward Killington
+    and beyond. Landmarks in this corridor include Killington Peak, Manchester Center,
+    Stratton Mountain.'
   town_events: Events
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/events/
+  segment: Berkshires to southern Vermont
+  at_mile_start: 1690.9
+  at_mile_end: 1700.9
+  region: Massachusetts / Vermont
 ---
 # Wednesday, May 26, 2010 — Stony Brook Shelter
 **Start Location:** Back Home Again Hostel (Rutland, VT)
@@ -5090,13 +6077,22 @@ miles_today: 16.0
 trip_miles: 1716.9
 facts:
   weather: High 74°F, low 54°F. Light drizzle.
-  trail_section: Trail section from Stony Brook Shelter to Next to a road (Pomfret,
-    VT).
+  trail_section: 'Vermont to White Mountains approach (AT miles 1701–1717): Vermont''s
+    Green Mountains yield to the serious alpine country of the White Mountains in
+    New Hampshire. Mud, moose, and then sudden exposure above treeline; weather becomes
+    a primary hazard. Landmarks in this corridor include Hanover NH, Dartmouth, Mount
+    Moosilauke.'
   town_events: 'Appalachian Trail Conservancy: Home'
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/
+  segment: Vermont to White Mountains approach
+  at_mile_start: 1700.9
+  at_mile_end: 1716.9
+  region: Vermont / New Hampshire
 ---
 # Thursday, May 27, 2010 — Next to a road (Pomfret, VT)
 **Start Location:** Stony Brook Shelter
@@ -5113,10 +6109,20 @@ miles_today: 21.0
 trip_miles: 1737.9
 facts:
   weather: High 76°F, low 50°F. Overcast.
-  trail_section: Trail section from Next to a road (Pomfret, VT) to Bob Boon's Home.
-  confidence: medium
+  trail_section: 'Vermont to White Mountains approach (AT miles 1717–1738): Vermont''s
+    Green Mountains yield to the serious alpine country of the White Mountains in
+    New Hampshire. Mud, moose, and then sudden exposure above treeline; weather becomes
+    a primary hazard. Landmarks in this corridor include Hanover NH, Dartmouth, Mount
+    Moosilauke.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Vermont to White Mountains approach
+  at_mile_start: 1716.9
+  at_mile_end: 1737.9
+  region: Vermont / New Hampshire
 ---
 # Friday, May 28, 2010 — Bob Boon's Home
 **Start Location:** Next to a road (Pomfret, VT)
@@ -5137,12 +6143,22 @@ miles_today: 18.0
 trip_miles: 1755.9
 facts:
   weather: High 75°F, low 54°F. Light drizzle.
-  trail_section: Trail section from Bob Boon's Home to Bob Boon's Home (Hanover, NH).
+  trail_section: 'Vermont to White Mountains approach (AT miles 1738–1756): Vermont''s
+    Green Mountains yield to the serious alpine country of the White Mountains in
+    New Hampshire. Mud, moose, and then sudden exposure above treeline; weather becomes
+    a primary hazard. Landmarks in this corridor include Hanover NH, Dartmouth, Mount
+    Moosilauke.'
   town_events: Appalachian Trail Hikers Appreciation Day in Hanover, NH - Facebook
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/thruhikers/posts/3766795623639109/
+  segment: Vermont to White Mountains approach
+  at_mile_start: 1737.9
+  at_mile_end: 1755.9
+  region: Vermont / New Hampshire
 ---
 # Saturday, May 29, 2010 — Bob Boon's Home (Hanover, NH)
 **Start Location:** Bob Boon's Home
@@ -5163,13 +6179,22 @@ miles_today: 25.0
 trip_miles: 1780.9
 facts:
   weather: High 72°F, low 56°F. Overcast.
-  trail_section: Trail section from Bob Boon's Home (Hanover, NH) to Hikers Welcome
-    Hostel.
+  trail_section: 'Vermont to White Mountains approach (AT miles 1756–1781): Vermont''s
+    Green Mountains yield to the serious alpine country of the White Mountains in
+    New Hampshire. Mud, moose, and then sudden exposure above treeline; weather becomes
+    a primary hazard. Landmarks in this corridor include Hanover NH, Dartmouth, Mount
+    Moosilauke.'
   town_events: Appalachian Trail Hikers Appreciation Day in Hanover, NH - Facebook
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://www.facebook.com/groups/thruhikers/posts/3766795623639109/
+  segment: Vermont to White Mountains approach
+  at_mile_start: 1755.9
+  at_mile_end: 1780.9
+  region: Vermont / New Hampshire
 ---
 # Sunday, May 30, 2010 — Hikers Welcome Hostel
 **Start Location:** Bob Boon's Home (Hanover, NH)
@@ -5189,8 +6214,18 @@ destination: Lonesome Lakes Hut
 miles_today: 23.0
 trip_miles: 1803.9
 facts:
-  trail_section: Trail section from Hikers Welcome Hostel to Lonesome Lakes Hut.
+  trail_section: 'Vermont to White Mountains approach (AT miles 1781–1804): Vermont''s
+    Green Mountains yield to the serious alpine country of the White Mountains in
+    New Hampshire. Mud, moose, and then sudden exposure above treeline; weather becomes
+    a primary hazard. Landmarks in this corridor include Hanover NH, Dartmouth, Mount
+    Moosilauke.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: Vermont to White Mountains approach
+  at_mile_start: 1780.9
+  at_mile_end: 1803.9
+  region: Vermont / New Hampshire
 ---
 # Monday, May 31, 2010 — Lonesome Lakes Hut
 **Start Location:** Hikers Welcome Hostel
@@ -5214,8 +6249,18 @@ destination: Galehead Hut
 miles_today: 16.0
 trip_miles: 1819.9
 facts:
-  trail_section: Trail section from Lonesome Lakes Hut to Galehead Hut.
+  trail_section: 'White Mountains (AT miles 1804–1820): The White Mountains are the
+    AT''s alpine crucible: above-treeline exposure, hut system, and killer ascents.
+    Boulder scrambles, ferocious winds, and mandatory careful weather timing; falls
+    can be fatal. Landmarks in this corridor include Franconia Ridge, Presidential
+    Range, Lakes of the Clouds Hut.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: White Mountains
+  at_mile_start: 1803.9
+  at_mile_end: 1819.9
+  region: New Hampshire
 ---
 # Tuesday, June 01, 2010 — Galehead Hut
 **Start Location:** Lonesome Lakes Hut
@@ -5231,8 +6276,18 @@ destination: Lakes of the Clouds Hut
 miles_today: 26.0
 trip_miles: 1845.9
 facts:
-  trail_section: Trail section from Galehead Hut to Lakes of the Clouds Hut.
+  trail_section: 'White Mountains (AT miles 1820–1846): The White Mountains are the
+    AT''s alpine crucible: above-treeline exposure, hut system, and killer ascents.
+    Boulder scrambles, ferocious winds, and mandatory careful weather timing; falls
+    can be fatal. Landmarks in this corridor include Franconia Ridge, Presidential
+    Range, Lakes of the Clouds Hut.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: White Mountains
+  at_mile_start: 1819.9
+  at_mile_end: 1845.9
+  region: New Hampshire
 ---
 # Wednesday, June 02, 2010 — Lakes of the Clouds Hut
 **Start Location:** Galehead Hut
@@ -5257,13 +6312,22 @@ miles_today: 13.5
 trip_miles: 1859.4
 facts:
   weather: High 64°F, low 52°F. Slight rain.
-  trail_section: Trail section from Lakes of the Clouds Hut to Hikers Paradise Hostel
-    (Gorham, NH).
+  trail_section: 'White Mountains (AT miles 1846–1859): The White Mountains are the
+    AT''s alpine crucible: above-treeline exposure, hut system, and killer ascents.
+    Boulder scrambles, ferocious winds, and mandatory careful weather timing; falls
+    can be fatal. Landmarks in this corridor include Franconia Ridge, Presidential
+    Range, Lakes of the Clouds Hut.'
   town_events: A.T. Community™ Program - Appalachian Trail Conservancy
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/
+  segment: White Mountains
+  at_mile_start: 1845.9
+  at_mile_end: 1859.4
+  region: New Hampshire
 ---
 # Thursday, June 03, 2010 — Hikers Paradise Hostel (Gorham, NH)
 **Start Location:** Lakes of the Clouds Hut
@@ -5286,11 +6350,20 @@ miles_today: 21.1
 trip_miles: 1880.5
 facts:
   weather: High 67°F, low 53°F. Light drizzle.
-  trail_section: Trail section from Hikers Paradise Hostel (Gorham, NH) to Doc's front
-    porch (Gorham, NH).
-  confidence: medium
+  trail_section: 'White Mountains (AT miles 1859–1880): The White Mountains are the
+    AT''s alpine crucible: above-treeline exposure, hut system, and killer ascents.
+    Boulder scrambles, ferocious winds, and mandatory careful weather timing; falls
+    can be fatal. Landmarks in this corridor include Franconia Ridge, Presidential
+    Range, Lakes of the Clouds Hut.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: White Mountains
+  at_mile_start: 1859.4
+  at_mile_end: 1880.5
+  region: New Hampshire
 ---
 # Friday, June 04, 2010 — Doc's front porch (Gorham, NH)
 **Start Location:** Hikers Paradise Hostel (Gorham, NH)
@@ -5312,12 +6385,22 @@ miles_today: 11.8
 trip_miles: 1892.3
 facts:
   weather: High 69°F, low 52°F. Moderate rain.
-  trail_section: Trail section from Doc's front porch to Gentian Pond Shelter.
+  trail_section: 'White Mountains (AT miles 1880–1892): The White Mountains are the
+    AT''s alpine crucible: above-treeline exposure, hut system, and killer ascents.
+    Boulder scrambles, ferocious winds, and mandatory careful weather timing; falls
+    can be fatal. Landmarks in this corridor include Franconia Ridge, Presidential
+    Range, Lakes of the Clouds Hut.'
   town_events: A.T. Community™ Program - Appalachian Trail Conservancy
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/protect/conservation/at-community-program/
+  segment: White Mountains
+  at_mile_start: 1880.5
+  at_mile_end: 1892.3
+  region: New Hampshire
 ---
 # Saturday, June 05, 2010 — Gentian Pond Shelter
 **Start Location:** Doc's front porch
@@ -5335,8 +6418,19 @@ destination: Carlo Col Shelter
 miles_today: 5.6
 trip_miles: 1897.9
 facts:
-  trail_section: Trail section from Gentian Pond Shelter to Carlo Col Shelter.
+  trail_section: 'White Mountains (AT miles 1892–1898): The White Mountains are the
+    AT''s alpine crucible: above-treeline exposure, hut system, and killer ascents.
+    Boulder scrambles, ferocious winds, and mandatory careful weather timing; falls
+    can be fatal. Landmarks in this corridor include Franconia Ridge, Presidential
+    Range, Lakes of the Clouds Hut.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: White Mountains
+  at_mile_start: 1892.3
+  at_mile_end: 1897.9
+  region: New Hampshire
 ---
 # Sunday, June 06, 2010 — Carlo Col Shelter
 **Start Location:** Gentian Pond Shelter
@@ -5353,12 +6447,22 @@ miles_today: 14.1
 trip_miles: 1912.0
 facts:
   weather: High 57°F, low 45°F. Light drizzle.
-  trail_section: Trail section from Carlo Col Shelter to The Cabin (Andover, ME).
+  trail_section: 'New Hampshire north to Mahoosuc (AT miles 1898–1912): Northern NH
+    and the Mahoosuc Notch — the slowest mile on the AT — lead into Maine. Brutal
+    boulder caves in Mahoosuc; knee-wrecking; then big Maine woods and first 100-mile
+    wilderness approach. Landmarks in this corridor include Mahoosuc Notch, Gorham
+    NH, Speck Pond.'
   town_events: Appalachian Trail Conservancy's 100th Anniversary To Be ...
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://andovermanews.com/appalachian-trail-conservancys-100th-anniversary-to-be-celebrated-in-andover/
+  segment: New Hampshire north to Mahoosuc
+  at_mile_start: 1897.9
+  at_mile_end: 1912.0
+  region: New Hampshire / Maine
 ---
 # Monday, June 07, 2010 — The Cabin (Andover, ME)
 **Start Location:** Carlo Col Shelter
@@ -5380,10 +6484,20 @@ miles_today: 29.1
 trip_miles: 1941.1
 facts:
   weather: High 56°F, low 44°F. Light drizzle.
-  trail_section: Trail section from The Cabin (Andover, ME) to Bemis Mountain Lean-to.
-  confidence: medium
+  trail_section: 'New Hampshire north to Mahoosuc (AT miles 1912–1941): Northern NH
+    and the Mahoosuc Notch — the slowest mile on the AT — lead into Maine. Brutal
+    boulder caves in Mahoosuc; knee-wrecking; then big Maine woods and first 100-mile
+    wilderness approach. Landmarks in this corridor include Mahoosuc Notch, Gorham
+    NH, Speck Pond.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: New Hampshire north to Mahoosuc
+  at_mile_start: 1912.0
+  at_mile_end: 1941.1
+  region: New Hampshire / Maine
 ---
 # Tuesday, June 08, 2010 — Bemis Mountain Lean-to
 **Start Location:** The Cabin (Andover, ME)
@@ -5405,13 +6519,22 @@ miles_today: 17.7
 trip_miles: 1958.8
 facts:
   weather: High 58°F, low 40°F. Overcast.
-  trail_section: Trail section from Bemis Mountain Lean-to to Bob's Hostel (Rangely,
-    ME).
+  trail_section: 'New Hampshire north to Mahoosuc (AT miles 1941–1959): Northern NH
+    and the Mahoosuc Notch — the slowest mile on the AT — lead into Maine. Brutal
+    boulder caves in Mahoosuc; knee-wrecking; then big Maine woods and first 100-mile
+    wilderness approach. Landmarks in this corridor include Mahoosuc Notch, Gorham
+    NH, Speck Pond.'
   town_events: Rangeley Trail Town Festival
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/event/rangeley-trail-town-festival/
+  segment: New Hampshire north to Mahoosuc
+  at_mile_start: 1941.1
+  at_mile_end: 1958.8
+  region: New Hampshire / Maine
 ---
 # Wednesday, June 09, 2010 — Bob's Hostel (Rangely, ME)
 **Start Location:** Bemis Mountain Lean-to
@@ -5432,13 +6555,22 @@ miles_today: 10.7
 trip_miles: 1969.5
 facts:
   weather: High 52°F, low 42°F. Moderate drizzle.
-  trail_section: Trail section from Bob's Hostel (Rangely, ME) to Spaulding Mountain
-    Lean-to.
+  trail_section: 'New Hampshire north to Mahoosuc (AT miles 1959–1970): Northern NH
+    and the Mahoosuc Notch — the slowest mile on the AT — lead into Maine. Brutal
+    boulder caves in Mahoosuc; knee-wrecking; then big Maine woods and first 100-mile
+    wilderness approach. Landmarks in this corridor include Mahoosuc Notch, Gorham
+    NH, Speck Pond.'
   town_events: Rangeley Trail Town Festival - Appalachian Trail Conservancy
-  confidence: medium
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
   - https://appalachiantrail.org/event/rangeley-trail-town-festival/
+  segment: New Hampshire north to Mahoosuc
+  at_mile_start: 1958.8
+  at_mile_end: 1969.5
+  region: New Hampshire / Maine
 ---
 # Thursday, June 10, 2010 — Spaulding Mountain Lean-to
 **Start Location:** Bob's Hostel (Rangely, ME)
@@ -5637,10 +6769,20 @@ miles_today: 27.0
 trip_miles: 1996.5
 facts:
   weather: High 64°F, low 43°F. Overcast.
-  trail_section: Trail section from Spaulding Mountain Lean-to to Horns Pond Lean-to.
-  confidence: medium
+  trail_section: 'New Hampshire north to Mahoosuc (AT miles 1970–1996): Northern NH
+    and the Mahoosuc Notch — the slowest mile on the AT — lead into Maine. Brutal
+    boulder caves in Mahoosuc; knee-wrecking; then big Maine woods and first 100-mile
+    wilderness approach. Landmarks in this corridor include Mahoosuc Notch, Gorham
+    NH, Speck Pond.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: New Hampshire north to Mahoosuc
+  at_mile_start: 1969.5
+  at_mile_end: 1996.5
+  region: New Hampshire / Maine
 ---
 # Friday, June 11, 2010 — Horns Pond Lean-to
 **Start Location:** Spaulding Mountain Lean-to
@@ -5659,11 +6801,20 @@ miles_today: 25.0
 trip_miles: 2021.5
 facts:
   weather: High 61°F, low 44°F. Light drizzle.
-  trail_section: Trail section from Horns Pond Lean-to to A swamp near Pierce Pond
-    Lean-to.
-  confidence: medium
+  trail_section: 'New Hampshire north to Mahoosuc (AT miles 1996–2022): Northern NH
+    and the Mahoosuc Notch — the slowest mile on the AT — lead into Maine. Brutal
+    boulder caves in Mahoosuc; knee-wrecking; then big Maine woods and first 100-mile
+    wilderness approach. Landmarks in this corridor include Mahoosuc Notch, Gorham
+    NH, Speck Pond.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: New Hampshire north to Mahoosuc
+  at_mile_start: 1996.5
+  at_mile_end: 2021.5
+  region: New Hampshire / Maine
 ---
 # Saturday, June 12, 2010 — A swamp near Pierce Pond Lean-to
 **Start Location:** Horns Pond Lean-to
@@ -5861,9 +7012,18 @@ destination: Shaw's Boarding House
 miles_today: 40.0
 trip_miles: 2061.5
 facts:
-  trail_section: Trail section from A swamp near Pierce Pond Lean-to to Shaw's Boarding
-    House.
+  trail_section: '100 Mile Wilderness (AT miles 2022–2062): Maine''s legendary 100
+    Mile Wilderness: remote lakes, ford crossings, and no resupply for over a week.
+    Root ladders, river fords, black flies in June, and profound remoteness; carry
+    enough food or you suffer. Landmarks in this corridor include Monson ME, Shaw''s
+    Boarding House, Barren-Chairlift Lean-tos.'
   confidence: low
+  sources:
+  - AT segment guide
+  segment: 100 Mile Wilderness
+  at_mile_start: 2021.5
+  at_mile_end: 2061.5
+  region: Maine
 ---
 # Sunday, June 13, 2010 — Shaw's Boarding House
 **Start Location:** A swamp near Pierce Pond Lean-to
@@ -5888,8 +7048,19 @@ destination: Shaw's Boarding House
 miles_today: 0.0
 trip_miles: 2061.5
 facts:
-  trail_section: Trail section from Shaw's Boarding House to Shaw's Boarding House.
+  trail_section: '100 Mile Wilderness (AT miles 2060–2062): Maine''s legendary 100
+    Mile Wilderness: remote lakes, ford crossings, and no resupply for over a week.
+    Root ladders, river fords, black flies in June, and profound remoteness; carry
+    enough food or you suffer. Landmarks in this corridor include Monson ME, Shaw''s
+    Boarding House, Barren-Chairlift Lean-tos.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: 100 Mile Wilderness
+  at_mile_start: 2060.5
+  at_mile_end: 2061.5
+  region: Maine
 ---
 # Monday, June 14, 2010 — Shaw's Boarding House
 **Start Location:** Shaw's Boarding House
@@ -6088,10 +7259,20 @@ miles_today: 13.7
 trip_miles: 2075.2
 facts:
   weather: High 66°F, low 50°F. Clear sky.
-  trail_section: Trail section from Shaw's Boarding House to Wilson Valley Lean-to.
-  confidence: medium
+  trail_section: '100 Mile Wilderness (AT miles 2062–2075): Maine''s legendary 100
+    Mile Wilderness: remote lakes, ford crossings, and no resupply for over a week.
+    Root ladders, river fords, black flies in June, and profound remoteness; carry
+    enough food or you suffer. Landmarks in this corridor include Monson ME, Shaw''s
+    Boarding House, Barren-Chairlift Lean-tos.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: 100 Mile Wilderness
+  at_mile_start: 2061.5
+  at_mile_end: 2075.2
+  region: Maine
 ---
 # Tuesday, June 15, 2010 — Wilson Valley Lean-to
 **Start Location:** Shaw's Boarding House
@@ -6290,10 +7471,20 @@ miles_today: 15.6
 trip_miles: 2090.8
 facts:
   weather: High 69°F, low 47°F. Overcast.
-  trail_section: Trail section from Wilson Valley Lean-to to Chairback Gap Lean-to.
-  confidence: medium
+  trail_section: '100 Mile Wilderness (AT miles 2075–2091): Maine''s legendary 100
+    Mile Wilderness: remote lakes, ford crossings, and no resupply for over a week.
+    Root ladders, river fords, black flies in June, and profound remoteness; carry
+    enough food or you suffer. Landmarks in this corridor include Monson ME, Shaw''s
+    Boarding House, Barren-Chairlift Lean-tos.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: 100 Mile Wilderness
+  at_mile_start: 2075.2
+  at_mile_end: 2090.8
+  region: Maine
 ---
 # Wednesday, June 16, 2010 — Chairback Gap Lean-to
 **Start Location:** Wilson Valley Lean-to
@@ -6492,10 +7683,20 @@ miles_today: 29.0
 trip_miles: 2119.8
 facts:
   weather: High 67°F, low 49°F. Slight rain.
-  trail_section: Trail section from Chairback Gap Lean-to to Cooper Brook Falls Lean-to.
-  confidence: medium
+  trail_section: '100 Mile Wilderness (AT miles 2091–2120): Maine''s legendary 100
+    Mile Wilderness: remote lakes, ford crossings, and no resupply for over a week.
+    Root ladders, river fords, black flies in June, and profound remoteness; carry
+    enough food or you suffer. Landmarks in this corridor include Monson ME, Shaw''s
+    Boarding House, Barren-Chairlift Lean-tos.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: 100 Mile Wilderness
+  at_mile_start: 2090.8
+  at_mile_end: 2119.8
+  region: Maine
 ---
 # Thursday, June 17, 2010 — Cooper Brook Falls Lean-to
 **Start Location:** Chairback Gap Lean-to
@@ -6694,11 +7895,20 @@ miles_today: 21.5
 trip_miles: 2141.3
 facts:
   weather: High 79°F, low 58°F. Overcast.
-  trail_section: Trail section from Cooper Brook Falls Lean-to to Wadleigh Stream
-    Lean-to.
-  confidence: medium
+  trail_section: '100 Mile Wilderness (AT miles 2120–2141): Maine''s legendary 100
+    Mile Wilderness: remote lakes, ford crossings, and no resupply for over a week.
+    Root ladders, river fords, black flies in June, and profound remoteness; carry
+    enough food or you suffer. Landmarks in this corridor include Monson ME, Shaw''s
+    Boarding House, Barren-Chairlift Lean-tos.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: 100 Mile Wilderness
+  at_mile_start: 2119.8
+  at_mile_end: 2141.3
+  region: Maine
 ---
 # Friday, June 18, 2010 — Wadleigh Stream Lean-to
 **Start Location:** Cooper Brook Falls Lean-to
@@ -6897,10 +8107,20 @@ miles_today: 33.0
 trip_miles: 2174.3
 facts:
   weather: High 84°F, low 60°F. Overcast.
-  trail_section: Trail section from Wadleigh Stream Lean-to to The Birches Lean-tos.
-  confidence: medium
+  trail_section: 'Baxter State Park — Katahdin (AT miles 2141–2174): The final miles
+    in Baxter State Park climb Katahdin via the Hunt Trail — knife-edge exposure and
+    the northern terminus. Alpine boulder scramble on the Hunt Trail; weather windows
+    are short; summit fog is common in June. Landmarks in this corridor include The
+    Birches, Baxter Peak, Katahdin sign.'
+  confidence: high
   sources:
+  - AT segment guide
+  - AT location database
   - Open-Meteo archive
+  segment: Baxter State Park — Katahdin
+  at_mile_start: 2141.3
+  at_mile_end: 2174.3
+  region: Maine
 ---
 # Saturday, June 19, 2010 — The Birches Lean-tos
 **Start Location:** Wadleigh Stream Lean-to
@@ -7098,9 +8318,20 @@ destination: Baxter Peak, Mount Katahdin
 miles_today: 5.2
 trip_miles: 2179.5
 facts:
-  trail_section: Mount Katahdin (5,267 ft) in Baxter State Park, Maine, is the northern
-    terminus of the Appalachian Trail.
+  trail_section: 'Baxter State Park — Katahdin (AT miles 2174–2180): The final miles
+    in Baxter State Park climb Katahdin via the Hunt Trail — knife-edge exposure and
+    the northern terminus. Alpine boulder scramble on the Hunt Trail; weather windows
+    are short; summit fog is common in June. Landmarks in this corridor include The
+    Birches, Baxter Peak, Katahdin sign. Mount Katahdin (5,267 ft) in Baxter State
+    Park, Maine, is the northern terminus of the Appalachian Trail.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Baxter State Park — Katahdin
+  at_mile_start: 2174.3
+  at_mile_end: 2179.5
+  region: Maine
 ---
 # Sunday, June 20, 2010 — Baxter Peak, Mount Katahdin
 **Start Location:** The Birches Lean-tos
@@ -7120,9 +8351,20 @@ destination: HOME
 miles_today: 0.0
 trip_miles: 2179.5
 facts:
-  trail_section: Mount Katahdin (5,267 ft) in Baxter State Park, Maine, is the northern
-    terminus of the Appalachian Trail.
+  trail_section: 'Baxter State Park — Katahdin (AT miles 2178–2180): The final miles
+    in Baxter State Park climb Katahdin via the Hunt Trail — knife-edge exposure and
+    the northern terminus. Alpine boulder scramble on the Hunt Trail; weather windows
+    are short; summit fog is common in June. Landmarks in this corridor include The
+    Birches, Baxter Peak, Katahdin sign. Mount Katahdin (5,267 ft) in Baxter State
+    Park, Maine, is the northern terminus of the Appalachian Trail.'
   confidence: low
+  sources:
+  - AT segment guide
+  - firecrawl web search
+  segment: Baxter State Park — Katahdin
+  at_mile_start: 2178.5
+  at_mile_end: 2179.5
+  region: Maine
 ---
 # Monday, June 21, 2010 — HOME
 **Start Location:** Baxter Peak, Mount Katahdin

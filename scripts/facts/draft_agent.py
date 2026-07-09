@@ -308,12 +308,15 @@ def _match_location(normalized: str):
 def draft_section_facts(metadata) -> DraftFacts:
     """Generate rule-based draft facts for an AT journal entry.
 
-    Works entirely from the static knowledge base; no network calls required.
+    Combines endpoint landmark knowledge with mile-range segment guides.
     """
     from scripts.facts.location_resolver import normalize_name
+    from scripts.facts.segment_guide import build_segment_description
 
     start = _get_attr(metadata, "start_location", "")
     dest = _get_attr(metadata, "destination", "")
+    miles_hiked = float(_get_attr(metadata, "miles_hiked") or 0)
+    trip_miles = float(_get_attr(metadata, "total_miles") or 0)
 
     start_norm = normalize_name(start) if start else ""
     dest_norm = normalize_name(dest) if dest else ""
@@ -324,6 +327,8 @@ def draft_section_facts(metadata) -> DraftFacts:
     at_mile_end: Optional[float] = None
     state: Optional[str] = None
     nearest_town: Optional[str] = None
+    segment_name: Optional[str] = None
+    region: Optional[str] = None
 
     for norm, is_start in [(start_norm, True), (dest_norm, False)]:
         entry = _match_location(norm)
@@ -339,6 +344,23 @@ def draft_section_facts(metadata) -> DraftFacts:
                     at_mile_start = entry["at_mile"]
                 else:
                     at_mile_end = entry["at_mile"]
+
+    # Mile-range segment guide (primary narrative for the day's hike)
+    seg_summary, seg_claims, seg_meta = build_segment_description(
+        start, dest, miles_hiked, trip_miles
+    )
+    if seg_summary:
+        summaries.insert(0, seg_summary)
+        collected_claims = seg_claims + collected_claims
+    if seg_meta:
+        segment_name = seg_meta.get("segment_name") or segment_name
+        region = seg_meta.get("region") or region
+        if seg_meta.get("at_mile_start") is not None:
+            at_mile_start = seg_meta["at_mile_start"]
+        if seg_meta.get("at_mile_end") is not None:
+            at_mile_end = seg_meta["at_mile_end"]
+        if region and not state:
+            state = region.split("/")[0].strip() if "/" in region else region
 
     # Add state terrain context when identified
     if state and state in _STATE_TERRAIN:
@@ -363,4 +385,6 @@ def draft_section_facts(metadata) -> DraftFacts:
         at_mile_end=at_mile_end,
         state=state,
         nearest_town=nearest_town,
+        segment_name=segment_name,
+        region=region,
     )

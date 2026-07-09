@@ -51,6 +51,11 @@ def main() -> int:
         help="Enable firecrawl for town event searches on town days",
     )
     parser.add_argument(
+        "--refresh-trail",
+        action="store_true",
+        help="Recompute trail section facts only (keep weather/town cache)",
+    )
+    parser.add_argument(
         "--skip-firecrawl",
         action="store_true",
         help="Deprecated: firecrawl is off by default; use --use-firecrawl to enable",

@@ -1,0 +1,245 @@
+[
+  {
+    "mile_start": -10,
+    "mile_end": 8,
+    "region": "Georgia",
+    "name": "Springer Mountain approach",
+    "summary": "The southernmost AT miles climb from Amicalola Falls through the Approach Trail to Springer Mountain, often in late-winter snow and ice.",
+    "terrain": "Steep approach-trail climbing, icy hardwood forest, and the emotional start of a northbound thru-hike.",
+    "notable": ["Amicalola Falls", "Springer Mountain", "Hawk Mountain Shelter"]
+  },
+  {
+    "mile_start": 8,
+    "mile_end": 32,
+    "region": "Georgia",
+    "name": "Georgia Blue Ridge — early ridges",
+    "summary": "Rolling Blue Ridge ridgelines with frequent shelters, creek crossings, and the first sustained mountain walking of the hike.",
+    "terrain": "Rocky tread, rhododendron tunnels, and climbs toward Blood Mountain — Georgia's highest AT peak.",
+    "notable": ["Gooch Mountain", "Woody Gap", "Blood Mountain", "Neels Gap"]
+  },
+  {
+    "mile_start": 32,
+    "mile_end": 78,
+    "region": "Georgia",
+    "name": "Georgia — Blood Mountain to Bly Gap",
+    "summary": "Classic Georgia AT: long climbs, mountain laurel, and trail-town access near Helen and Hiawassee before the NC border.",
+    "terrain": "Sustained ups and downs along the Blue Ridge; often muddy in spring; famous steep pitches leaving NOC later.",
+    "notable": ["Neels Gap", "Unicoi Gap", "Tray Mountain", "Bly Gap"]
+  },
+  {
+    "mile_start": 78,
+    "mile_end": 137,
+    "region": "North Carolina",
+    "name": "Southern North Carolina high country",
+    "summary": "High southern Appalachians with Standing Indian, Franklin resupply, and the long climb toward the Nantahala gorge.",
+    "terrain": "Big elevation change, open balds, and remote ridge walking south of the Smokies.",
+    "notable": ["Standing Indian", "Franklin", "Wayah Bald", "Nantahala Outdoor Center"]
+  },
+  {
+    "mile_start": 137,
+    "mile_end": 170,
+    "region": "North Carolina",
+    "name": "Nantahala gorge to Fontana Dam",
+    "summary": "One of the steepest climbs on the entire trail leaves the NOC river gorge; hikers then traverse the Smokies approach to Fontana.",
+    "terrain": "Brutal climb out of the gorge (3,000+ ft), then ridge walking toward the 'Fontana Hilton' shelter at the dam.",
+    "notable": ["NOC", "Fontana Dam", "Fontana Dam Shelter"]
+  },
+  {
+    "mile_start": 170,
+    "mile_end": 210,
+    "region": "Tennessee / Great Smoky Mountains",
+    "name": "Great Smoky Mountains National Park (south)",
+    "summary": "Inside GSMNP: sustained climbing, crowded shelters, bear cables, and mandatory backcountry permits define this iconic section.",
+    "terrain": "Dense spruce-fir near treeline, icy spring conditions, and some of the highest elevations on the entire AT.",
+    "notable": ["Clingmans Dome", "Mollies Ridge", "Icewater Spring"]
+  },
+  {
+    "mile_start": 210,
+    "mile_end": 275,
+    "region": "Tennessee / North Carolina",
+    "name": "Smokies exit to Hot Springs",
+    "summary": "Northbound hikers leave the Smokies at Davenport Gap and cross into the balds-and-river country around Hot Springs.",
+    "terrain": "Post-Smokies fatigue is common; Max Patch bald offers huge views; trail softens into pastoral TN/NC border country.",
+    "notable": ["Davenport Gap", "Max Patch", "Hot Springs"]
+  },
+  {
+    "mile_start": 275,
+    "mile_end": 350,
+    "region": "North Carolina / Tennessee",
+    "name": "Cherokee National Forest balds",
+    "summary": "Ridge walking through grassy balds and forested gaps between Hot Springs and the Roan Highlands approach.",
+    "terrain": "Exposed ridges, spring snow squalls, and increasing trail community as hikers settle into mileage.",
+    "notable": ["Roaring Fork", "Groundhog Creek", "Big Bald"]
+  },
+  {
+    "mile_start": 350,
+    "mile_end": 420,
+    "region": "Tennessee / North Carolina",
+    "name": "Roan Highlands",
+    "summary": "The Roan Highlands feature treeless 6,000-foot balds, rhododendron gardens, and some of the most scenic ridge walking on the AT.",
+    "terrain": "Wide-open balds with punishing winds; spectacular views when clouds lift; very exposed in storms.",
+    "notable": ["Roan High Knob", "Carvers Gap", "Overmountain Shelter"]
+  },
+  {
+    "mile_start": 420,
+    "mile_end": 470,
+    "region": "Tennessee / Virginia",
+    "name": "TN–VA high country to Damascus",
+    "summary": "Crossing into Virginia, hikers descend toward the Holston River and the legendary trail town of Damascus.",
+    "terrain": "Long ridge traverses giving way to river valleys; spring green tunnels and increasing horse/equestrian trail overlap in places.",
+    "notable": ["Damascus", "The Place", "Kincora Hostel"]
+  },
+  {
+    "mile_start": 470,
+    "mile_end": 550,
+    "region": "Virginia",
+    "name": "Southwest Virginia — Grayson Highlands",
+    "summary": "Virginia's high country: wild ponies at Grayson Highlands, open balds, and the rhythm of 20-mile days many hikers adopt.",
+    "terrain": "Frequent 4,000-foot knobs, meadow walking, and reliable spring water; notorious spring mud in gaps.",
+    "notable": ["Grayson Highlands", "Mount Rogers", "Partnership Shelter"]
+  },
+  {
+    "mile_start": 550,
+    "mile_end": 650,
+    "region": "Virginia",
+    "name": "Central Virginia Blue Ridge",
+    "summary": "The long Virginia grind begins in earnest — hundreds of miles of Blue Ridge walking with road crossings and small towns.",
+    "terrain": "Pine forest, PUDs (pointless ups and downs), and creek valleys; psychologically challenging monotony.",
+    "notable": ["Pearisburg", "Dragon's Tooth", "McAfee Knob"]
+  },
+  {
+    "mile_start": 650,
+    "mile_end": 750,
+    "region": "Virginia",
+    "name": "Central Virginia — McAfee Knob and Tye River",
+    "summary": "Home to McAfee Knob and Dragon's Tooth — two of the most iconic photo ops on the entire trail.",
+    "terrain": "Rocky scrambles, knife-edge overlooks, and steep descents into the James River gorge.",
+    "notable": ["McAfee Knob", "Dragon's Tooth", "James River Foot Bridge"]
+  },
+  {
+    "mile_start": 750,
+    "mile_end": 850,
+    "region": "Virginia",
+    "name": "Virginia — Blue Ridge to Shenandoah approach",
+    "summary": "Approaching Shenandoah National Park through rolling Blue Ridge country and Civil War-era landscape.",
+    "terrain": "Gradual climbs, horse trails, and increasing signs of proximity to the DC metro exurbs.",
+    "notable": ["Blacksburg area", "Bluff City", "Shenandoah south entrance"]
+  },
+  {
+    "mile_start": 850,
+    "mile_end": 1010,
+    "region": "Virginia",
+    "name": "Shenandoah National Park",
+    "summary": "Shenandoah offers relatively gentle graded walking, black bears, waysides with pie, and Skyline Drive crossings.",
+    "terrain": "Broad, well-maintained trail on ridgecrest; frequent deer; summer heat and crowded park traffic.",
+    "notable": ["Skyline Drive", "Big Meadows", "Bearfence Mountain"]
+  },
+  {
+    "mile_start": 1010,
+    "mile_end": 1100,
+    "region": "Virginia / West Virginia / Maryland",
+    "name": "Harpers Ferry to Maryland",
+    "summary": "The psychological midpoint at Harpers Ferry leads through the historic Potomac and into rocky Maryland.",
+    "terrain": "River corridors, towpath connectors, and the first northern rockiness in Maryland's roller-coaster ridges.",
+    "notable": ["Harpers Ferry", "ATC Headquarters", "Annapolis Rocks"]
+  },
+  {
+    "mile_start": 1100,
+    "mile_end": 1200,
+    "region": "Maryland / Pennsylvania",
+    "name": "Maryland and Pennsylvania south",
+    "summary": "Short but rocky Maryland yields to Pennsylvania's infamous jagged quartzite and long farm-country walking.",
+    "terrain": "Ankle-rolling rocks become the dominant story; boots begin failing; town stops every few days.",
+    "notable": ["Pen Mar Park", "Pine Grove Furnace", "Appalachian Trail Museum"]
+  },
+  {
+    "mile_start": 1200,
+    "mile_end": 1300,
+    "region": "Pennsylvania",
+    "name": "Pennsylvania rocks — mid state",
+    "summary": "Pennsylvania's endless talus fields and flat-topped ridges test ankles and patience through the long middle of the state.",
+    "terrain": "Sharp rocks, little elevation change but exhausting footing; spring can be very wet.",
+    "notable": ["Boiling Springs", "Duncannon", "Palmerton"]
+  },
+  {
+    "mile_start": 1300,
+    "mile_end": 1400,
+    "region": "Pennsylvania / New Jersey / New York",
+    "name": "PA to Delaware Water Gap",
+    "summary": "Hikers cross into New Jersey's surprisingly rugged ridges and approach the Delaware Water Gap.",
+    "terrain": "Boardwalks, bogs, and sudden steep climbs; increasing proximity to New York City exurbs.",
+    "notable": ["Delaware Water Gap", "Kirkridge", "Pochuck Boardwalk"]
+  },
+  {
+    "mile_start": 1400,
+    "mile_end": 1500,
+    "region": "New York / Connecticut",
+    "name": "Hudson Highlands and southern New England approach",
+    "summary": "Spectacular Hudson River views, steep scrambles, and the transition into New England footpath culture.",
+    "terrain": "Steep pinewoods, rock scrambles, and suburban trail crossings; black bears common.",
+    "notable": ["Bear Mountain", "West Point views", "Kent CT"]
+  },
+  {
+    "mile_start": 1500,
+    "mile_end": 1600,
+    "region": "Connecticut / Massachusetts",
+    "name": "Southern New England",
+    "summary": "Rolling New England ridgelines through Connecticut and the Berkshires of western Massachusetts.",
+    "terrain": "Muddy spring tread, stone walls, and frequent town access; trail clubs maintain steep, rocky paths.",
+    "notable": ["Sages Ravine", "Mount Greylock", "Dalton MA"]
+  },
+  {
+    "mile_start": 1600,
+    "mile_end": 1700,
+    "region": "Massachusetts / Vermont",
+    "name": "Berkshires to southern Vermont",
+    "summary": "The AT crosses Massachusetts into Vermont's Green Mountains — mud season and maple country.",
+    "terrain": "Rooty, muddy tread; long climbs; increasing alpine feel heading toward Killington and beyond.",
+    "notable": ["Killington Peak", "Manchester Center", "Stratton Mountain"]
+  },
+  {
+    "mile_start": 1700,
+    "mile_end": 1800,
+    "region": "Vermont / New Hampshire",
+    "name": "Vermont to White Mountains approach",
+    "summary": "Vermont's Green Mountains yield to the serious alpine country of the White Mountains in New Hampshire.",
+    "terrain": "Mud, moose, and then sudden exposure above treeline; weather becomes a primary hazard.",
+    "notable": ["Hanover NH", "Dartmouth", "Mount Moosilauke"]
+  },
+  {
+    "mile_start": 1800,
+    "mile_end": 1900,
+    "region": "New Hampshire",
+    "name": "White Mountains",
+    "summary": "The White Mountains are the AT's alpine crucible: above-treeline exposure, hut system, and killer ascents.",
+    "terrain": "Boulder scrambles, ferocious winds, and mandatory careful weather timing; falls can be fatal.",
+    "notable": ["Franconia Ridge", "Presidential Range", "Lakes of the Clouds Hut"]
+  },
+  {
+    "mile_start": 1900,
+    "mile_end": 2010,
+    "region": "New Hampshire / Maine",
+    "name": "New Hampshire north to Mahoosuc",
+    "summary": "Northern NH and the Mahoosuc Notch — the slowest mile on the AT — lead into Maine.",
+    "terrain": "Brutal boulder caves in Mahoosuc; knee-wrecking; then big Maine woods and first 100-mile wilderness approach.",
+    "notable": ["Mahoosuc Notch", "Gorham NH", "Speck Pond"]
+  },
+  {
+    "mile_start": 2010,
+    "mile_end": 2150,
+    "region": "Maine",
+    "name": "100 Mile Wilderness",
+    "summary": "Maine's legendary 100 Mile Wilderness: remote lakes, ford crossings, and no resupply for over a week.",
+    "terrain": "Root ladders, river fords, black flies in June, and profound remoteness; carry enough food or you suffer.",
+    "notable": ["Monson ME", "Shaw's Boarding House", "Barren-Chairlift Lean-tos"]
+  },
+  {
+    "mile_start": 2150,
+    "mile_end": 2195,
+    "region": "Maine",
+    "name": "Baxter State Park — Katahdin",
+    "summary": "The final miles in Baxter State Park climb Katahdin via the Hunt Trail — knife-edge exposure and the northern terminus.",
+    "terrain": "Alpine boulder scramble on the Hunt Trail; weather windows are short; summit fog is common in June.",
+    "notable": ["The Birches", "Baxter Peak", "Katahdin sign"]
+  }
+]

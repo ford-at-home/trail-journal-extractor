@@ -109,8 +109,15 @@ def _trail_section_text(compiled: CompiledFacts) -> Optional[str]:
     ts = compiled.trail_section
     if not ts:
         return None
+    # Prefer the composed segment summary over a flat claim dump
+    if ts.trail_section_summary and "AT miles" in ts.trail_section_summary:
+        return ts.trail_section_summary
     if ts.claims:
-        return " ".join(c.text for c in ts.claims)
+        segment_bits = [c.text for c in ts.claims if c.type == "segment"]
+        other_bits = [c.text for c in ts.claims if c.type != "segment"][:2]
+        combined = segment_bits + other_bits
+        if combined:
+            return " ".join(combined)
     return ts.trail_section_summary or None
 
 
@@ -130,19 +137,32 @@ def build_frontmatter(metadata, compiled: CompiledFacts) -> str:
     if compiled.town_events and compiled.town_events.event:
         town_events = compiled.town_events.event
 
+    facts_block = {
+        "weather": weather_summary,
+        "trail_section": trail_section,
+        "town_events": town_events,
+        "confidence": _confidence_label(compiled.confidence),
+        "sources": compiled.sources or None,
+    }
+
+    ts = compiled.trail_section
+    if ts:
+        if ts.segment_name:
+            facts_block["segment"] = ts.segment_name
+        if ts.at_mile_start is not None:
+            facts_block["at_mile_start"] = ts.at_mile_start
+        if ts.at_mile_end is not None:
+            facts_block["at_mile_end"] = ts.at_mile_end
+        if ts.region:
+            facts_block["region"] = ts.region
+
     data_dict = {
         "date": date,
         "start": start_location,
         "destination": destination,
         "miles_today": miles_hiked,
         "trip_miles": total_miles,
-        "facts": {
-            "weather": weather_summary,
-            "trail_section": trail_section,
-            "town_events": town_events,
-            "confidence": _confidence_label(compiled.confidence),
-            "sources": compiled.sources or None,
-        },
+        "facts": facts_block,
     }
 
     # Drop empty facts keys

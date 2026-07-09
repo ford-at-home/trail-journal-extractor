@@ -58,6 +58,9 @@ def _endpoint_confidence(start_resolved: bool, dest_resolved: bool) -> float:
     return 0.0
 
 
+_SEGMENT_SOURCE = "AT segment guide"
+
+
 def validate_claims(metadata, draft: DraftFacts) -> ValidationResult:
     """
     Validate draft claims against the AT location database.
@@ -81,6 +84,12 @@ def validate_claims(metadata, draft: DraftFacts) -> ValidationResult:
     corrections: list = []
 
     for claim in draft.claims:
+        # Segment-guide claims are verified when mile range is known
+        if claim.type == "segment":
+            verified.append(
+                VerifiedClaim(claim=claim, source=_SEGMENT_SOURCE, confidence=0.85)
+            )
+            continue
         if base_confidence > 0:
             verified.append(
                 VerifiedClaim(

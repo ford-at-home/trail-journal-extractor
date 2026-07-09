@@ -74,6 +74,8 @@ def _deserialise_draft(d: dict) -> DraftFacts:
         at_mile_end=d.get("at_mile_end"),
         state=d.get("state"),
         nearest_town=d.get("nearest_town"),
+        segment_name=d.get("segment_name"),
+        region=d.get("region"),
     )
 
 

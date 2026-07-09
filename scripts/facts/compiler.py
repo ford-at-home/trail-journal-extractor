@@ -110,6 +110,8 @@ def compile_facts(
             at_mile_end=draft.at_mile_end,
             state=draft.state,
             nearest_town=draft.nearest_town,
+            segment_name=draft.segment_name,
+            region=draft.region,
         )
     elif validation.verified:
         # Reconstruct minimal DraftFacts from verified claims alone

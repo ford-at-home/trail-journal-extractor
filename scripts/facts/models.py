@@ -25,6 +25,8 @@ class DraftFacts:
     at_mile_end: Optional[float]
     state: Optional[str]
     nearest_town: Optional[str]
+    segment_name: Optional[str] = None
+    region: Optional[str] = None
 
 
 @dataclass
