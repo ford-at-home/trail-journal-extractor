@@ -1,0 +1,1226 @@
+[
+  {
+    "name": "Amicalola Falls State Park",
+    "lat": 34.5583,
+    "lon": -84.2285,
+    "state": "GA",
+    "at_mile": -8.8,
+    "is_town": false
+  },
+  {
+    "name": "Hike Inn",
+    "lat": 34.5759,
+    "lon": -84.2178,
+    "state": "GA",
+    "at_mile": -5.0,
+    "is_town": false
+  },
+  {
+    "name": "Springer Mountain",
+    "lat": 34.6272,
+    "lon": -84.193,
+    "state": "GA",
+    "at_mile": 0.0,
+    "is_town": false
+  },
+  {
+    "name": "Springer Mountain Shelter",
+    "lat": 34.6278,
+    "lon": -84.1955,
+    "state": "GA",
+    "at_mile": 0.2,
+    "is_town": false
+  },
+  {
+    "name": "Stover Creek Shelter",
+    "lat": 34.6556,
+    "lon": -84.1797,
+    "state": "GA",
+    "at_mile": 2.9,
+    "is_town": false
+  },
+  {
+    "name": "Three Forks",
+    "lat": 34.65,
+    "lon": -84.1772,
+    "state": "GA",
+    "at_mile": 2.6,
+    "is_town": false
+  },
+  {
+    "name": "Hawk Mountain Shelter",
+    "lat": 34.6899,
+    "lon": -84.154,
+    "state": "GA",
+    "at_mile": 8.1,
+    "is_town": false
+  },
+  {
+    "name": "Cooper Gap",
+    "lat": 34.7088,
+    "lon": -84.1586,
+    "state": "GA",
+    "at_mile": 11.5,
+    "is_town": false
+  },
+  {
+    "name": "Gooch Mountain Shelter",
+    "lat": 34.7399,
+    "lon": -84.1547,
+    "state": "GA",
+    "at_mile": 15.8,
+    "is_town": false
+  },
+  {
+    "name": "Woody Gap",
+    "lat": 34.7572,
+    "lon": -84.1048,
+    "state": "GA",
+    "at_mile": 19.7,
+    "is_town": false
+  },
+  {
+    "name": "Lance Creek Campsite",
+    "lat": 34.7693,
+    "lon": -84.064,
+    "state": "GA",
+    "at_mile": 23.5,
+    "is_town": false
+  },
+  {
+    "name": "Blood Mountain Shelter",
+    "lat": 34.7983,
+    "lon": -84.0007,
+    "state": "GA",
+    "at_mile": 30.7,
+    "is_town": false
+  },
+  {
+    "name": "Neel Gap",
+    "lat": 34.7416,
+    "lon": -83.9297,
+    "state": "GA",
+    "at_mile": 31.7,
+    "is_town": false
+  },
+  {
+    "name": "Neel Gap Hostel",
+    "lat": 34.7416,
+    "lon": -83.9297,
+    "state": "GA",
+    "at_mile": 31.7,
+    "is_town": false
+  },
+  {
+    "name": "Walasi-Yi Center",
+    "lat": 34.7416,
+    "lon": -83.9297,
+    "state": "GA",
+    "at_mile": 31.7,
+    "is_town": false
+  },
+  {
+    "name": "Whitley Gap Shelter",
+    "lat": 34.796,
+    "lon": -83.9296,
+    "state": "GA",
+    "at_mile": 35.4,
+    "is_town": false
+  },
+  {
+    "name": "Low Gap Shelter",
+    "lat": 34.8345,
+    "lon": -83.905,
+    "state": "GA",
+    "at_mile": 38.5,
+    "is_town": false
+  },
+  {
+    "name": "Unicoi Gap",
+    "lat": 34.8401,
+    "lon": -83.743,
+    "state": "GA",
+    "at_mile": 46.4,
+    "is_town": false
+  },
+  {
+    "name": "Blue Mountain Shelter",
+    "lat": 34.8501,
+    "lon": -83.6985,
+    "state": "GA",
+    "at_mile": 49.1,
+    "is_town": false
+  },
+  {
+    "name": "Tray Mountain Shelter",
+    "lat": 34.8618,
+    "lon": -83.6551,
+    "state": "GA",
+    "at_mile": 54.5,
+    "is_town": false
+  },
+  {
+    "name": "Dicks Creek Gap",
+    "lat": 34.8879,
+    "lon": -83.5906,
+    "state": "GA",
+    "at_mile": 59.5,
+    "is_town": false
+  },
+  {
+    "name": "Helen GA",
+    "lat": 34.7005,
+    "lon": -83.73,
+    "state": "GA",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Hiawassee GA",
+    "lat": 34.951,
+    "lon": -83.7565,
+    "state": "GA",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Deep Gap Shelter",
+    "lat": 34.9333,
+    "lon": -83.5547,
+    "state": "GA",
+    "at_mile": 61.8,
+    "is_town": false
+  },
+  {
+    "name": "Bly Gap",
+    "lat": 34.9771,
+    "lon": -83.505,
+    "state": "GA",
+    "at_mile": 68.1,
+    "is_town": false
+  },
+  {
+    "name": "Standing Indian Shelter",
+    "lat": 35.037,
+    "lon": -83.5279,
+    "state": "NC",
+    "at_mile": 70.2,
+    "is_town": false
+  },
+  {
+    "name": "Carter Gap Shelter",
+    "lat": 35.0683,
+    "lon": -83.5104,
+    "state": "NC",
+    "at_mile": 75.2,
+    "is_town": false
+  },
+  {
+    "name": "Rock Gap Shelter",
+    "lat": 35.0836,
+    "lon": -83.5065,
+    "state": "NC",
+    "at_mile": 79.5,
+    "is_town": false
+  },
+  {
+    "name": "Winding Stair Gap",
+    "lat": 35.1562,
+    "lon": -83.3812,
+    "state": "NC",
+    "at_mile": 84.1,
+    "is_town": false
+  },
+  {
+    "name": "Franklin NC",
+    "lat": 35.1832,
+    "lon": -83.3813,
+    "state": "NC",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Cold Spring Shelter",
+    "lat": 35.2112,
+    "lon": -83.3237,
+    "state": "NC",
+    "at_mile": 88.4,
+    "is_town": false
+  },
+  {
+    "name": "Wayah Bald Shelter",
+    "lat": 35.1919,
+    "lon": -83.2882,
+    "state": "NC",
+    "at_mile": 91.6,
+    "is_town": false
+  },
+  {
+    "name": "Siler Bald Shelter",
+    "lat": 35.2225,
+    "lon": -83.2387,
+    "state": "NC",
+    "at_mile": 98.6,
+    "is_town": false
+  },
+  {
+    "name": "Wesser NOC",
+    "lat": 35.3152,
+    "lon": -83.5768,
+    "state": "NC",
+    "at_mile": 137.1,
+    "is_town": false
+  },
+  {
+    "name": "Nantahala Outdoor Center",
+    "lat": 35.3152,
+    "lon": -83.5768,
+    "state": "NC",
+    "at_mile": 137.1,
+    "is_town": false
+  },
+  {
+    "name": "** A cabin (Hot Springs, NC)",
+    "lat": 35.8873086,
+    "lon": -82.8325637,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** A cabin (NOC)",
+    "lat": 35.3320031,
+    "lon": -83.5927636,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** A cabin (Pearisburg, VA)",
+    "lat": 37.3328976,
+    "lon": -80.7578723,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** A pavillion (Lee, MA)",
+    "lat": 42.3193008,
+    "lon": -73.1653942,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Augusta's Appalachian Inn (Damascus, VA)",
+    "lat": 36.6344797,
+    "lon": -81.7917876,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Back Home Again Hostel (Rutland, VT)",
+    "lat": 43.6181003,
+    "lon": -72.8204645,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Bailey Gap Shelter",
+    "lat": 37.4008725,
+    "lon": -80.577011,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Bemis Mountain Lean-to",
+    "lat": 44.810181,
+    "lon": -70.7559071,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Blackburn Trail Center",
+    "lat": 39.1875578,
+    "lon": -77.7980399,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Bob Boon's Home (Hanover, NH)",
+    "lat": 43.704847,
+    "lon": -72.2296981,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Brown Fork Gap Shelter",
+    "lat": 35.3743019,
+    "lon": -83.7339199,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Campbell Shelter",
+    "lat": 37.3908393,
+    "lon": -80.0292308,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Chairback Gap Lean-to",
+    "lat": 45.4531531,
+    "lon": -69.2623006,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Church of the Mountain Hostel (Delaware-Water Gap)",
+    "lat": 40.9499331,
+    "lon": -75.1502172,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Clyde Smith Shelter",
+    "lat": 36.1484857,
+    "lon": -82.1611563,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Cooper Brook Falls Lean-to",
+    "lat": 45.6404021,
+    "lon": -69.0873765,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Cosby Knob Shelter",
+    "lat": 35.7282786,
+    "lon": -83.1820772,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Cove Mountain Shelter",
+    "lat": 37.5117097,
+    "lon": -79.6507825,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Curley Maple Gap Shelter",
+    "lat": 36.1043382,
+    "lon": -82.3968108,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Deer Park Shelter",
+    "lat": 35.8759904,
+    "lon": -82.861288,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Derrick Knob Shelter",
+    "lat": 35.5665514,
+    "lon": -83.641946,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Double Spring Shelter",
+    "lat": 35.5652675,
+    "lon": -83.5426357,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Fontana Dam Shelter",
+    "lat": 35.4485442,
+    "lon": -83.7939517,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Fullhardt Knob Shelter",
+    "lat": 37.3985665,
+    "lon": -79.8536873,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Goddard Shelter",
+    "lat": 42.9741481,
+    "lon": -73.0722474,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Hikers Paradise Hostel (Gorham, NH)",
+    "lat": 44.4579636,
+    "lon": -71.0844318,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Horns Pond Lean-to",
+    "lat": 45.1441538,
+    "lon": -70.3301055,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Icewater Spring Shelter",
+    "lat": 35.6298206,
+    "lon": -83.3863279,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Jenkins Shelter",
+    "lat": 37.0934084,
+    "lon": -81.2475848,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Jerry Cabin Shelter",
+    "lat": 36.0565109,
+    "lon": -82.6571879,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Linden Motel pool house (Greenwood Lake, NY)",
+    "lat": 41.271927,
+    "lon": -74.1673711,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Minerva-Hinchey Shelter",
+    "lat": 43.4876924,
+    "lon": -72.9245154,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Muskrat Creek Shelter",
+    "lat": 35.0206085,
+    "lon": -83.5814845,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Next to VT Route 11 (Manchester Center, VT)",
+    "lat": 43.1525516,
+    "lon": -73.0072313,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Next to a road (Pomfret, VT)",
+    "lat": 43.6810828,
+    "lon": -72.5137229,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Niday Shelter",
+    "lat": 37.3876901,
+    "lon": -80.264074,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** No Business Knob Shelter",
+    "lat": 36.0666228,
+    "lon": -82.4336836,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** On the side of the road (U.S. 442)",
+    "lat": 29.8433725,
+    "lon": -98.1001069,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Peters Mountain Shelter",
+    "lat": 40.4257174,
+    "lon": -76.8793809,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Rausch Gap Shelter",
+    "lat": 40.4986596,
+    "lon": -76.6002427,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Rendezevous Motel (Pearisburg, VA)",
+    "lat": 37.3328976,
+    "lon": -80.7578723,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Roaring Fork Shelter",
+    "lat": 35.804968,
+    "lon": -82.9499168,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Sapphire Inn (Franklin, NC)",
+    "lat": 44.7686524,
+    "lon": -70.7691791,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Spaulding Mountain Lean-to",
+    "lat": 44.9957605,
+    "lon": -70.3414303,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Spring Mountain Shelter",
+    "lat": 35.9518292,
+    "lon": -82.7901239,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Stewart Hollow Brook Lean-to",
+    "lat": 41.779304,
+    "lon": -73.4185583,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Stony Brook Shelter",
+    "lat": 43.6916885,
+    "lon": -72.7301035,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** The Cabin (Andover, ME)",
+    "lat": 44.642151,
+    "lon": -70.889237,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** The Pavilion (Port Clinton, PA)",
+    "lat": 40.5762228,
+    "lon": -76.0232955,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** The Place (Damascus, VA)",
+    "lat": 36.6344797,
+    "lon": -81.7917876,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Tom Levardi's home (Dalton, MA)",
+    "lat": 42.4596422,
+    "lon": -73.1646145,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Tom's Run Shelters",
+    "lat": 40.0341226,
+    "lon": -77.3566789,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Travelodge Motel (Daleville, VA)",
+    "lat": 37.3898461,
+    "lon": -79.9154658,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Tumbling Run Shelters",
+    "lat": 39.8049651,
+    "lon": -77.4779216,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** U.S. 58",
+    "lat": 41.9822553,
+    "lon": -73.4068538,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Wadleigh Stream Lean-to",
+    "lat": 45.747145,
+    "lon": -69.1446592,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Wesley's frat house (Charlottesville, VA)",
+    "lat": 38.066845,
+    "lon": -78.7984475,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "** Wilson Valley Lean-to",
+    "lat": 45.3978342,
+    "lon": -69.4595003,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "** Wise Shelter",
+    "lat": 36.6539509,
+    "lon": -81.4983811,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "A cabin (Hot Springs, NC)",
+    "lat": 35.8873086,
+    "lon": -82.8325637,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "A cabin (NOC)",
+    "lat": 35.3320031,
+    "lon": -83.5927636,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "A cabin (Pearisburg, VA)",
+    "lat": 37.3328976,
+    "lon": -80.7578723,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "A pavillion (Lee, MA)",
+    "lat": 42.3193008,
+    "lon": -73.1653942,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Augusta's Appalachian Inn (Damascus, VA)",
+    "lat": 36.6344797,
+    "lon": -81.7917876,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Back Home Again Hostel (Rutland, VT)",
+    "lat": 43.6181003,
+    "lon": -72.8204645,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Bailey Gap Shelter",
+    "lat": 37.4008725,
+    "lon": -80.577011,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Bemis Mountain Lean-to",
+    "lat": 44.810181,
+    "lon": -70.7559071,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Blackburn Trail Center",
+    "lat": 39.1875578,
+    "lon": -77.7980399,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Bob Boon's Home (Hanover, NH)",
+    "lat": 43.704847,
+    "lon": -72.2296981,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Brown Fork Gap Shelter",
+    "lat": 35.3743019,
+    "lon": -83.7339199,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Campbell Shelter",
+    "lat": 37.3908393,
+    "lon": -80.0292308,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Chairback Gap Lean-to",
+    "lat": 45.4531531,
+    "lon": -69.2623006,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Church of the Mountain Hostel (Delaware-Water Gap)",
+    "lat": 40.9499331,
+    "lon": -75.1502172,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Clyde Smith Shelter",
+    "lat": 36.1484857,
+    "lon": -82.1611563,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Cooper Brook Falls Lean-to",
+    "lat": 45.6404021,
+    "lon": -69.0873765,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Cosby Knob Shelter",
+    "lat": 35.7282786,
+    "lon": -83.1820772,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Cove Mountain Shelter",
+    "lat": 37.5117097,
+    "lon": -79.6507825,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Curley Maple Gap Shelter",
+    "lat": 36.1043382,
+    "lon": -82.3968108,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Deer Park Shelter",
+    "lat": 35.8759904,
+    "lon": -82.861288,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Derrick Knob Shelter",
+    "lat": 35.5665514,
+    "lon": -83.641946,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Doc's front porch (Gorham, NH)",
+    "lat": 44.4579636,
+    "lon": -71.0844318,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Fontana Dam Shelter",
+    "lat": 35.4485442,
+    "lon": -83.7939517,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Fullhardt Knob Shelter",
+    "lat": 37.3985665,
+    "lon": -79.8536873,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Goddard Shelter",
+    "lat": 42.9741481,
+    "lon": -73.0722474,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Hikers Paradise Hostel (Gorham, NH)",
+    "lat": 44.4579636,
+    "lon": -71.0844318,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Horns Pond Lean-to",
+    "lat": 45.1441538,
+    "lon": -70.3301055,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Icewater Spring Shelter",
+    "lat": 35.6298206,
+    "lon": -83.3863279,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Jenkins Shelter",
+    "lat": 37.0934084,
+    "lon": -81.2475848,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Jerry Cabin Shelter",
+    "lat": 36.0565109,
+    "lon": -82.6571879,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Linden Motel pool house (Greenwood Lake, NY)",
+    "lat": 41.271927,
+    "lon": -74.1673711,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Minerva-Hinchey Shelter",
+    "lat": 43.4876924,
+    "lon": -72.9245154,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Moreland Gap Shelter",
+    "lat": 36.2201619,
+    "lon": -82.0883344,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Muskrat Creek Shelter",
+    "lat": 35.0206085,
+    "lon": -83.5814845,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Next to VT Route 11 (Manchester Center, VT)",
+    "lat": 43.1525516,
+    "lon": -73.0072313,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Next to a road (Pomfret, VT)",
+    "lat": 43.6810828,
+    "lon": -72.5137229,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Niday Shelter",
+    "lat": 37.3876901,
+    "lon": -80.264074,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "No Business Knob Shelter",
+    "lat": 36.0666228,
+    "lon": -82.4336836,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "On the side of the road (U.S. 442)",
+    "lat": 29.8433725,
+    "lon": -98.1001069,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Peters Mountain Shelter",
+    "lat": 40.4257174,
+    "lon": -76.8793809,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Rausch Gap Shelter",
+    "lat": 40.4986596,
+    "lon": -76.6002427,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Rendezevous Motel (Pearisburg, VA)",
+    "lat": 37.3328976,
+    "lon": -80.7578723,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Roaring Fork Shelter",
+    "lat": 35.804968,
+    "lon": -82.9499168,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Sapphire Inn (Franklin, NC)",
+    "lat": 44.7686524,
+    "lon": -70.7691791,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Spaulding Mountain Lean-to",
+    "lat": 44.9957605,
+    "lon": -70.3414303,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Spring Mountain Shelter",
+    "lat": 35.9518292,
+    "lon": -82.7901239,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Stewart Hollow Brook Lean-to",
+    "lat": 41.779304,
+    "lon": -73.4185583,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Stony Brook Shelter",
+    "lat": 43.6916885,
+    "lon": -72.7301035,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "The Cabin (Andover, ME)",
+    "lat": 44.642151,
+    "lon": -70.889237,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "The Pavilion (Port Clinton, PA)",
+    "lat": 40.5762228,
+    "lon": -76.0232955,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "The Place (Damascus, VA)",
+    "lat": 36.6344797,
+    "lon": -81.7917876,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Tom Levardi's home (Dalton, MA)",
+    "lat": 42.4596422,
+    "lon": -73.1646145,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Tom's Run Shelters",
+    "lat": 40.0341226,
+    "lon": -77.3566789,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Travelodge Motel (Daleville, VA)",
+    "lat": 37.3898461,
+    "lon": -79.9154658,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Tumbling Run Shelters",
+    "lat": 39.8049651,
+    "lon": -77.4779216,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Wadleigh Stream Lean-to",
+    "lat": 45.747145,
+    "lon": -69.1446592,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Wesley's frat house (Charlottesville, VA)",
+    "lat": 38.066845,
+    "lon": -78.7984475,
+    "state": "US",
+    "at_mile": null,
+    "is_town": true
+  },
+  {
+    "name": "Wilson Valley Lean-to",
+    "lat": 45.3978342,
+    "lon": -69.4595003,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  },
+  {
+    "name": "Wise Shelter",
+    "lat": 36.6539509,
+    "lon": -81.4983811,
+    "state": "US",
+    "at_mile": null,
+    "is_town": false
+  }
+]

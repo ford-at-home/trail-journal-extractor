@@ -1,0 +1,16 @@
+{
+  "journal_id": 10467,
+  "trail_name": "Uncle Frank",
+  "author": "Ford Prior",
+  "trail": "Appalachian Trail",
+  "direction": "northbound",
+  "year": 2010,
+  "start_date": "2010-01-21",
+  "finish_date": "2010-06-21",
+  "summit": "Baxter Peak, Mount Katahdin",
+  "source_url": "https://www.trailjournals.com/journal/10467",
+  "entry_count": 133,
+  "locations_in_database": 153,
+  "enriched_at": "2026-07-09",
+  "description": "2010 AT thru-hike journal with YAML frontmatter facts (weather, trail section, town events)."
+}
